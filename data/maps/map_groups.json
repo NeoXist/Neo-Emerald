@@ -33,7 +33,8 @@
     "gMapGroup_IndoorRoute113",
     "gMapGroup_IndoorRoute123",
     "gMapGroup_IndoorRoute119",
-    "gMapGroup_IndoorRoute124"
+    "gMapGroup_IndoorRoute124",
+    "gMapGroup_Scrapped"
   ],
   "gMapGroup_TownsAndRoutes": [
     "PetalburgCity",
@@ -93,9 +94,7 @@
     "Underwater_Route129",
     "Underwater_Route105",
     "Underwater_Route125",
-    "CustomMaps",
     "TropicalPond",
-    "Scrapped_Routes",
     "NivaForest"
   ],
   "gMapGroup_IndoorLittleroot": [
@@ -625,5 +624,9 @@
   ],
   "gMapGroup_IndoorRoute124": [
     "Route124_DivingTreasureHuntersHouse"
+  ],
+  "gMapGroup_Scrapped": [
+    "Scrapped_Routes",
+    "CustomMaps"
   ]
 }
