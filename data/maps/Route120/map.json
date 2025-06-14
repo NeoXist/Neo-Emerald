@@ -20,7 +20,7 @@
     },
     {
       "map": "MAP_ROUTE121",
-      "offset": 80,
+      "offset": 70,
       "direction": "right"
     }
   ],
@@ -768,27 +768,6 @@
     },
     {
       "type": "secret_base",
-      "x": 28,
-      "y": 62,
-      "elevation": 0,
-      "secret_base_id": "SECRET_BASE_BLUE_CAVE3_1"
-    },
-    {
-      "type": "secret_base",
-      "x": 30,
-      "y": 62,
-      "elevation": 0,
-      "secret_base_id": "SECRET_BASE_BLUE_CAVE4_1"
-    },
-    {
-      "type": "secret_base",
-      "x": 26,
-      "y": 10,
-      "elevation": 0,
-      "secret_base_id": "SECRET_BASE_SHRUB3_2"
-    },
-    {
-      "type": "secret_base",
       "x": 29,
       "y": 85,
       "elevation": 5,
@@ -807,13 +786,6 @@
       "y": 54,
       "elevation": 0,
       "secret_base_id": "SECRET_BASE_SHRUB1_3"
-    },
-    {
-      "type": "secret_base",
-      "x": 31,
-      "y": 23,
-      "elevation": 0,
-      "secret_base_id": "SECRET_BASE_SHRUB2_3"
     },
     {
       "type": "hidden_item",
@@ -853,6 +825,20 @@
       "y": 76,
       "elevation": 0,
       "secret_base_id": "SECRET_BASE_SHRUB1_4"
+    },
+    {
+      "type": "secret_base",
+      "x": 26,
+      "y": 10,
+      "elevation": 0,
+      "secret_base_id": "SECRET_BASE_SHRUB3_2"
+    },
+    {
+      "type": "secret_base",
+      "x": 31,
+      "y": 23,
+      "elevation": 0,
+      "secret_base_id": "SECRET_BASE_SHRUB2_3"
     }
   ]
 }

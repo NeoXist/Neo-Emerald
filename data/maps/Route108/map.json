@@ -20,7 +20,7 @@
     },
     {
       "map": "MAP_ROUTE109",
-      "offset": -40,
+      "offset": -10,
       "direction": "right"
     }
   ],
@@ -119,14 +119,16 @@
   ],
   "warp_events": [
     {
-      "x": 29,
+      "x": 15,
       "y": 6,
       "elevation": 3,
       "dest_map": "MAP_ABANDONED_SHIP_DECK",
       "dest_warp_id": "0"
     }
   ],
-  "coord_events": [],
+  "coord_events": [
+
+  ],
   "bg_events": [
     {
       "type": "hidden_item",

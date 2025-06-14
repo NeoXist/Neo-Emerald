@@ -22,6 +22,11 @@
       "map": "MAP_ROUTE120",
       "offset": 0,
       "direction": "right"
+    },
+    {
+      "map": "MAP_TROPICAL_POND",
+      "offset": 4,
+      "direction": "up"
     }
   ],
   "object_events": [
@@ -105,8 +110,8 @@
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_KECLEON",
-      "x": 25,
-      "y": 8,
+      "x": 15,
+      "y": 25,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_INVISIBLE",
       "movement_range_x": 1,
@@ -168,21 +173,23 @@
       "dest_warp_id": "0"
     },
     {
-      "x": 12,
+      "x": 24,
       "y": 13,
       "elevation": 0,
       "dest_map": "MAP_FORTREE_CITY_HOUSE5",
       "dest_warp_id": "0"
     },
     {
-      "x": 37,
+      "x": 12,
       "y": 13,
       "elevation": 0,
       "dest_map": "MAP_FORTREE_CITY_DECORATION_SHOP",
       "dest_warp_id": "0"
     }
   ],
-  "coord_events": [],
+  "coord_events": [
+
+  ],
   "bg_events": [
     {
       "type": "sign",

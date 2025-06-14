@@ -430,8 +430,8 @@
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_ITEM_BALL",
-      "x": 27,
-      "y": 18,
+      "x": 82,
+      "y": 13,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_LOOK_AROUND",
       "movement_range_x": 1,
@@ -443,8 +443,8 @@
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_ITEM_BALL",
-      "x": 75,
-      "y": 9,
+      "x": 49,
+      "y": 4,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_LOOK_AROUND",
       "movement_range_x": 1,
@@ -760,20 +760,6 @@
       "script": "Route123_EventScript_RouteSignMtPyre"
     },
     {
-      "type": "secret_base",
-      "x": 47,
-      "y": 3,
-      "elevation": 0,
-      "secret_base_id": "SECRET_BASE_BLUE_CAVE1_2"
-    },
-    {
-      "type": "secret_base",
-      "x": 49,
-      "y": 3,
-      "elevation": 0,
-      "secret_base_id": "SECRET_BASE_BLUE_CAVE2_2"
-    },
-    {
       "type": "sign",
       "x": 10,
       "y": 12,
@@ -796,13 +782,6 @@
       "elevation": 3,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
       "script": "Route123_EventScript_BerryMastersHouseSign"
-    },
-    {
-      "type": "secret_base",
-      "x": 57,
-      "y": 5,
-      "elevation": 0,
-      "secret_base_id": "SECRET_BASE_BLUE_CAVE1_3"
     },
     {
       "type": "hidden_item",

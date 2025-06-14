@@ -207,3 +207,12 @@ const u16 gMetatileAttributes_MysteryEventsHouse[] = INCBIN_U16("data/tilesets/s
 
 const u16 gMetatiles_UnionRoom[] = INCBIN_U16("data/tilesets/secondary/union_room/metatiles.bin");
 const u16 gMetatileAttributes_UnionRoom[] = INCBIN_U16("data/tilesets/secondary/union_room/metatile_attributes.bin");
+
+const u16 gMetatiles_gTileset_Petalburg2[] = INCBIN_U16("data/tilesets/secondary/petalburg_2/metatiles.bin");
+const u16 gMetatileAttributes_gTileset_Petalburg2[] = INCBIN_U16("data/tilesets/secondary/petalburg_2/metatile_attributes.bin");
+
+const u16 gMetatiles_CustomPrimaryTileset1[] = INCBIN_U16("data/tilesets/primary/custom_primary_tileset_1/metatiles.bin");
+const u16 gMetatileAttributes_CustomPrimaryTileset1[] = INCBIN_U16("data/tilesets/primary/custom_primary_tileset_1/metatile_attributes.bin");
+
+const u16 gMetatiles_NivaForest[] = INCBIN_U16("data/tilesets/secondary/niva_forest/metatiles.bin");
+const u16 gMetatileAttributes_NivaForest[] = INCBIN_U16("data/tilesets/secondary/niva_forest/metatile_attributes.bin");
