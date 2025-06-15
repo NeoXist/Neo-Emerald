@@ -15,7 +15,7 @@
       "id": "LAYOUT_SLATEPORT_CITY",
       "name": "SlateportCity_Layout",
       "width": 70,
-      "height": 60,
+      "height": 62,
       "primary_tileset": "gTileset_General",
       "secondary_tileset": "gTileset_Slateport",
       "border_filepath": "data/layouts/SlateportCity/border.bin",
