@@ -15,7 +15,7 @@
   "connections": [
     {
       "map": "MAP_FORTREE_CITY",
-      "offset": -4,
+      "offset": -1,
       "direction": "down"
     }
   ],

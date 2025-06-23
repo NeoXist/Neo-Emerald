@@ -1615,7 +1615,7 @@
       "id": "LAYOUT_CAVE_OF_ORIGIN_B1F",
       "name": "CaveOfOrigin_B1F_Layout",
       "width": 19,
-      "height": 19,
+      "height": 20,
       "primary_tileset": "gTileset_General",
       "secondary_tileset": "gTileset_Cave",
       "border_filepath": "data/layouts/CaveOfOrigin_B1F/border.bin",
@@ -3104,10 +3104,10 @@
     {
       "id": "LAYOUT_SCORCHED_SLAB",
       "name": "ScorchedSlab_Layout",
-      "width": 15,
-      "height": 20,
+      "width": 43,
+      "height": 100,
       "primary_tileset": "gTileset_General",
-      "secondary_tileset": "gTileset_Cave",
+      "secondary_tileset": "gTileset_Lavaridge",
       "border_filepath": "data/layouts/ScorchedSlab/border.bin",
       "blockdata_filepath": "data/layouts/ScorchedSlab/map.bin"
     },
@@ -4424,8 +4424,8 @@
     {
       "id": "LAYOUT_TROPICAL_POND",
       "name": "TropicalPond_Layout",
-      "width": 35,
-      "height": 35,
+      "width": 41,
+      "height": 40,
       "primary_tileset": "gTileset_General",
       "secondary_tileset": "gTileset_Fortree",
       "border_filepath": "data/layouts/TropicalPond/border.bin",
