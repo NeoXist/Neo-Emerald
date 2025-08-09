@@ -1100,12 +1100,12 @@
               {
                 "min_level": 15,
                 "max_level": 18,
-                "species": "SPECIES_ARROKUDA"
+                "species": "SPECIES_TYNAMO"
               },
               {
                 "min_level": 15,
                 "max_level": 18,
-                "species": "SPECIES_TYNAMO"
+                "species": "SPECIES_LUVDISC"
               }
             ]
           }
@@ -2507,7 +2507,7 @@
               {
                 "min_level": 10,
                 "max_level": 12,
-                "species": "SPECIES_CARVANHA"
+                "species": "SPECIES_CLAMPERL"
               },
               {
                 "min_level": 10,
@@ -2631,7 +2631,7 @@
               {
                 "min_level": 10,
                 "max_level": 12,
-                "species": "SPECIES_WAILMER"
+                "species": "SPECIES_CLAMPERL"
               },
               {
                 "min_level": 10,
@@ -3205,7 +3205,7 @@
               {
                 "min_level": 32,
                 "max_level": 35,
-                "species": "SPECIES_SNIVY"
+                "species": "SPECIES_SERVINE"
               }
             ]
           },
@@ -4336,7 +4336,7 @@
               {
                 "min_level": 40,
                 "max_level": 45,
-                "species": "SPECIES_VICTREEBEL"
+                "species": "SPECIES_MALAMAR"
               },
               {
                 "min_level": 40,
@@ -7524,12 +7524,12 @@
               {
                 "min_level": 10,
                 "max_level": 12,
-                "species": "SPECIES_ARROKUDA"
+                "species": "SPECIES_CARVANHA"
               },
               {
                 "min_level": 10,
                 "max_level": 12,
-                "species": "SPECIES_LUVDISC"
+                "species": "SPECIES_CLAMPERL"
               },
               {
                 "min_level": 10,
