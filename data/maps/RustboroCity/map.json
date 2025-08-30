@@ -15,7 +15,7 @@
   "connections": [
     {
       "map": "MAP_ROUTE115",
-      "offset": 0,
+      "offset": 4,
       "direction": "up"
     },
     {
@@ -25,15 +25,15 @@
     },
     {
       "map": "MAP_ROUTE116",
-      "offset": 0,
+      "offset": -4,
       "direction": "right"
     }
   ],
   "object_events": [
     {
       "graphics_id": "OBJ_EVENT_GFX_WOMAN_5",
-      "x": 21,
-      "y": 35,
+      "x": 25,
+      "y": 41,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_WANDER_UP_AND_DOWN",
       "movement_range_x": 0,
@@ -45,8 +45,8 @@
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_FAT_MAN",
-      "x": 20,
-      "y": 11,
+      "x": 24,
+      "y": 9,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_LOOK_AROUND",
       "movement_range_x": 1,
@@ -71,8 +71,8 @@
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_TWIN",
-      "x": 19,
-      "y": 56,
+      "x": 21,
+      "y": 62,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_WANDER_UP_AND_DOWN",
       "movement_range_x": 0,
@@ -84,8 +84,8 @@
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_BOY_2",
-      "x": 14,
-      "y": 47,
+      "x": 18,
+      "y": 52,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_LOOK_AROUND",
       "movement_range_x": 0,
@@ -97,7 +97,7 @@
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_MAN_3",
-      "x": 26,
+      "x": 33,
       "y": 22,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_LOOK_AROUND",
@@ -111,8 +111,8 @@
     {
       "local_id": "LOCALID_RUSTBORO_LITTLE_BOY",
       "graphics_id": "OBJ_EVENT_GFX_LITTLE_BOY",
-      "x": 24,
-      "y": 48,
+      "x": 30,
+      "y": 54,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_FACE_RIGHT",
       "movement_range_x": 0,
@@ -125,8 +125,8 @@
     {
       "local_id": "LOCALID_RUSTBORO_LITTLE_GIRL",
       "graphics_id": "OBJ_EVENT_GFX_LITTLE_GIRL",
-      "x": 25,
-      "y": 48,
+      "x": 31,
+      "y": 54,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_FACE_LEFT",
       "movement_range_x": 0,
@@ -139,8 +139,8 @@
     {
       "local_id": "LOCALID_RUSTBORO_DEVON_EMPLOYEE",
       "graphics_id": "OBJ_EVENT_GFX_MAN_2",
-      "x": 30,
-      "y": 10,
+      "x": 44,
+      "y": 9,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_FACE_RIGHT",
       "movement_range_x": 1,
@@ -153,7 +153,7 @@
     {
       "local_id": "LOCALID_RUSTBORO_GRUNT",
       "graphics_id": "OBJ_EVENT_GFX_AQUA_MEMBER_M",
-      "x": 13,
+      "x": 17,
       "y": 21,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_FACE_RIGHT",
@@ -166,8 +166,8 @@
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_DEVON_EMPLOYEE",
-      "x": 13,
-      "y": 34,
+      "x": 24,
+      "y": 35,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_WANDER_AROUND",
       "movement_range_x": 1,
@@ -179,8 +179,8 @@
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_ITEM_BALL",
-      "x": 32,
-      "y": 53,
+      "x": 46,
+      "y": 62,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_LOOK_AROUND",
       "movement_range_x": 0,
@@ -192,8 +192,8 @@
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_MAN_4",
-      "x": 20,
-      "y": 27,
+      "x": 24,
+      "y": 25,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
       "movement_range_x": 0,
@@ -206,8 +206,8 @@
     {
       "local_id": "LOCALID_RUSTBORO_RIVAL",
       "graphics_id": "OBJ_EVENT_GFX_VAR_0",
-      "x": 16,
-      "y": 50,
+      "x": 23,
+      "y": 53,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_LOOK_AROUND",
       "movement_range_x": 1,
@@ -234,7 +234,7 @@
     {
       "graphics_id": "OBJ_EVENT_GFX_BOY_1",
       "x": 29,
-      "y": 30,
+      "y": 28,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_LOOK_AROUND",
       "movement_range_x": 0,
@@ -247,36 +247,36 @@
   ],
   "warp_events": [
     {
-      "x": 29,
+      "x": 33,
       "y": 16,
       "elevation": 0,
       "dest_map": "MAP_RUSTBORO_CITY_GYM",
       "dest_warp_id": "0"
     },
     {
-      "x": 36,
-      "y": 37,
+      "x": 40,
+      "y": 41,
       "elevation": 0,
       "dest_map": "MAP_RUSTBORO_CITY_FLAT1_1F",
       "dest_warp_id": "0"
     },
     {
-      "x": 38,
+      "x": 42,
       "y": 16,
       "elevation": 0,
       "dest_map": "MAP_RUSTBORO_CITY_MART",
       "dest_warp_id": "0"
     },
     {
-      "x": 29,
+      "x": 33,
       "y": 27,
       "elevation": 0,
       "dest_map": "MAP_RUSTBORO_CITY_POKEMON_CENTER_1F",
       "dest_warp_id": "0"
     },
     {
-      "x": 26,
-      "y": 36,
+      "x": 30,
+      "y": 40,
       "elevation": 0,
       "dest_map": "MAP_RUSTBORO_CITY_POKEMON_SCHOOL",
       "dest_warp_id": "0"
@@ -296,35 +296,35 @@
       "dest_warp_id": "1"
     },
     {
-      "x": 8,
-      "y": 57,
+      "x": 16,
+      "y": 29,
       "elevation": 0,
       "dest_map": "MAP_RUSTBORO_CITY_HOUSE1",
       "dest_warp_id": "0"
     },
     {
-      "x": 16,
-      "y": 38,
+      "x": 38,
+      "y": 53,
       "elevation": 0,
       "dest_map": "MAP_RUSTBORO_CITY_CUTTERS_HOUSE",
       "dest_warp_id": "0"
     },
     {
-      "x": 26,
-      "y": 45,
+      "x": 29,
+      "y": 52,
       "elevation": 0,
       "dest_map": "MAP_RUSTBORO_CITY_HOUSE2",
       "dest_warp_id": "0"
     },
     {
-      "x": 7,
-      "y": 50,
+      "x": 11,
+      "y": 55,
       "elevation": 0,
       "dest_map": "MAP_RUSTBORO_CITY_FLAT2_1F",
       "dest_warp_id": "0"
     },
     {
-      "x": 38,
+      "x": 42,
       "y": 26,
       "elevation": 0,
       "dest_map": "MAP_RUSTBORO_CITY_HOUSE3",
@@ -334,7 +334,7 @@
   "coord_events": [
     {
       "type": "trigger",
-      "x": 23,
+      "x": 27,
       "y": 20,
       "elevation": 3,
       "var": "VAR_RUSTBORO_CITY_STATE",
@@ -343,7 +343,7 @@
     },
     {
       "type": "trigger",
-      "x": 23,
+      "x": 27,
       "y": 21,
       "elevation": 3,
       "var": "VAR_RUSTBORO_CITY_STATE",
@@ -352,7 +352,7 @@
     },
     {
       "type": "trigger",
-      "x": 23,
+      "x": 27,
       "y": 22,
       "elevation": 3,
       "var": "VAR_RUSTBORO_CITY_STATE",
@@ -361,7 +361,7 @@
     },
     {
       "type": "trigger",
-      "x": 23,
+      "x": 27,
       "y": 23,
       "elevation": 3,
       "var": "VAR_RUSTBORO_CITY_STATE",
@@ -370,7 +370,7 @@
     },
     {
       "type": "trigger",
-      "x": 23,
+      "x": 27,
       "y": 24,
       "elevation": 3,
       "var": "VAR_RUSTBORO_CITY_STATE",
@@ -379,7 +379,7 @@
     },
     {
       "type": "trigger",
-      "x": 30,
+      "x": 43,
       "y": 9,
       "elevation": 3,
       "var": "VAR_RUSTBORO_CITY_STATE",
@@ -388,8 +388,8 @@
     },
     {
       "type": "trigger",
-      "x": 29,
-      "y": 10,
+      "x": 43,
+      "y": 9,
       "elevation": 3,
       "var": "VAR_RUSTBORO_CITY_STATE",
       "var_value": "2",
@@ -397,8 +397,8 @@
     },
     {
       "type": "trigger",
-      "x": 30,
-      "y": 11,
+      "x": 44,
+      "y": 10,
       "elevation": 3,
       "var": "VAR_RUSTBORO_CITY_STATE",
       "var_value": "2",
@@ -406,8 +406,8 @@
     },
     {
       "type": "trigger",
-      "x": 30,
-      "y": 12,
+      "x": 44,
+      "y": 11,
       "elevation": 3,
       "var": "VAR_RUSTBORO_CITY_STATE",
       "var_value": "2",
@@ -415,8 +415,8 @@
     },
     {
       "type": "trigger",
-      "x": 30,
-      "y": 9,
+      "x": 44,
+      "y": 8,
       "elevation": 3,
       "var": "VAR_RUSTBORO_CITY_STATE",
       "var_value": "4",
@@ -424,8 +424,8 @@
     },
     {
       "type": "trigger",
-      "x": 31,
-      "y": 10,
+      "x": 45,
+      "y": 9,
       "elevation": 3,
       "var": "VAR_RUSTBORO_CITY_STATE",
       "var_value": "4",
@@ -433,8 +433,8 @@
     },
     {
       "type": "trigger",
-      "x": 30,
-      "y": 11,
+      "x": 44,
+      "y": 10,
       "elevation": 3,
       "var": "VAR_RUSTBORO_CITY_STATE",
       "var_value": "4",
@@ -442,8 +442,8 @@
     },
     {
       "type": "trigger",
-      "x": 30,
-      "y": 12,
+      "x": 44,
+      "y": 11,
       "elevation": 3,
       "var": "VAR_RUSTBORO_CITY_STATE",
       "var_value": "4",
@@ -451,8 +451,8 @@
     },
     {
       "type": "trigger",
-      "x": 12,
-      "y": 53,
+      "x": 15,
+      "y": 66,
       "elevation": 3,
       "var": "VAR_RUSTBORO_CITY_STATE",
       "var_value": "7",
@@ -460,8 +460,8 @@
     },
     {
       "type": "trigger",
-      "x": 13,
-      "y": 53,
+      "x": 16,
+      "y": 66,
       "elevation": 3,
       "var": "VAR_RUSTBORO_CITY_STATE",
       "var_value": "7",
@@ -469,8 +469,8 @@
     },
     {
       "type": "trigger",
-      "x": 14,
-      "y": 53,
+      "x": 17,
+      "y": 66,
       "elevation": 3,
       "var": "VAR_RUSTBORO_CITY_STATE",
       "var_value": "7",
@@ -478,8 +478,8 @@
     },
     {
       "type": "trigger",
-      "x": 15,
-      "y": 53,
+      "x": 18,
+      "y": 66,
       "elevation": 3,
       "var": "VAR_RUSTBORO_CITY_STATE",
       "var_value": "7",
@@ -487,8 +487,8 @@
     },
     {
       "type": "trigger",
-      "x": 16,
-      "y": 53,
+      "x": 19,
+      "y": 66,
       "elevation": 3,
       "var": "VAR_RUSTBORO_CITY_STATE",
       "var_value": "7",
@@ -496,8 +496,8 @@
     },
     {
       "type": "trigger",
-      "x": 17,
-      "y": 53,
+      "x": 20,
+      "y": 66,
       "elevation": 3,
       "var": "VAR_RUSTBORO_CITY_STATE",
       "var_value": "7",
@@ -505,8 +505,8 @@
     },
     {
       "type": "trigger",
-      "x": 18,
-      "y": 53,
+      "x": 21,
+      "y": 66,
       "elevation": 3,
       "var": "VAR_RUSTBORO_CITY_STATE",
       "var_value": "7",
@@ -514,8 +514,8 @@
     },
     {
       "type": "trigger",
-      "x": 19,
-      "y": 53,
+      "x": 22,
+      "y": 66,
       "elevation": 3,
       "var": "VAR_RUSTBORO_CITY_STATE",
       "var_value": "7",
@@ -523,8 +523,8 @@
     },
     {
       "type": "trigger",
-      "x": 21,
-      "y": 53,
+      "x": 24,
+      "y": 66,
       "elevation": 3,
       "var": "VAR_RUSTBORO_CITY_STATE",
       "var_value": "7",
@@ -532,8 +532,8 @@
     },
     {
       "type": "trigger",
-      "x": 20,
-      "y": 53,
+      "x": 23,
+      "y": 66,
       "elevation": 3,
       "var": "VAR_RUSTBORO_CITY_STATE",
       "var_value": "7",
@@ -543,7 +543,7 @@
   "bg_events": [
     {
       "type": "sign",
-      "x": 27,
+      "x": 31,
       "y": 18,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
@@ -551,15 +551,15 @@
     },
     {
       "type": "sign",
-      "x": 24,
-      "y": 37,
+      "x": 28,
+      "y": 41,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
       "script": "RustboroCity_EventScript_TrainersSchoolSign"
     },
     {
       "type": "sign",
-      "x": 39,
+      "x": 43,
       "y": 16,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_NORTH",
@@ -567,7 +567,7 @@
     },
     {
       "type": "sign",
-      "x": 31,
+      "x": 35,
       "y": 27,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_NORTH",
@@ -575,15 +575,15 @@
     },
     {
       "type": "sign",
-      "x": 14,
-      "y": 57,
+      "x": 18,
+      "y": 64,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
       "script": "RustboroCity_EventScript_CitySign"
     },
     {
       "type": "sign",
-      "x": 40,
+      "x": 44,
       "y": 16,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_NORTH",
@@ -591,7 +591,7 @@
     },
     {
       "type": "sign",
-      "x": 30,
+      "x": 34,
       "y": 27,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_NORTH",
@@ -599,7 +599,7 @@
     },
     {
       "type": "sign",
-      "x": 17,
+      "x": 21,
       "y": 20,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
@@ -607,7 +607,7 @@
     },
     {
       "type": "sign",
-      "x": 30,
+      "x": 34,
       "y": 8,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
@@ -615,8 +615,8 @@
     },
     {
       "type": "sign",
-      "x": 19,
-      "y": 38,
+      "x": 35,
+      "y": 53,
       "elevation": 3,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
       "script": "RustboroCity_EventScript_CuttersHouseSign"

@@ -15,12 +15,12 @@
   "connections": [
     {
       "map": "MAP_ROUTE116",
-      "offset": -70,
+      "offset": -64,
       "direction": "up"
     },
     {
       "map": "MAP_ROUTE117",
-      "offset": 0,
+      "offset": -7,
       "direction": "right"
     }
   ],
@@ -81,8 +81,8 @@
   ],
   "warp_events": [
     {
-      "x": 8,
-      "y": 7,
+      "x": 20,
+      "y": 13,
       "elevation": 0,
       "dest_map": "MAP_VERDANTURF_TOWN_BATTLE_TENT_LOBBY",
       "dest_warp_id": "0"
@@ -95,8 +95,8 @@
       "dest_warp_id": "0"
     },
     {
-      "x": 20,
-      "y": 14,
+      "x": 25,
+      "y": 6,
       "elevation": 0,
       "dest_map": "MAP_VERDANTURF_TOWN_POKEMON_CENTER_1F",
       "dest_warp_id": "0"
@@ -116,14 +116,14 @@
       "dest_warp_id": "1"
     },
     {
-      "x": 25,
+      "x": 8,
       "y": 5,
       "elevation": 0,
       "dest_map": "MAP_VERDANTURF_TOWN_FRIENDSHIP_RATERS_HOUSE",
       "dest_warp_id": "0"
     },
     {
-      "x": 11,
+      "x": 12,
       "y": 14,
       "elevation": 0,
       "dest_map": "MAP_VERDANTURF_TOWN_HOUSE",
@@ -142,16 +142,16 @@
     },
     {
       "type": "sign",
-      "x": 28,
-      "y": 13,
+      "x": 37,
+      "y": 12,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
       "script": "VerdanturfTown_EventScript_TownSign"
     },
     {
       "type": "sign",
-      "x": 21,
-      "y": 14,
+      "x": 26,
+      "y": 6,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_NORTH",
       "script": "Common_EventScript_ShowPokemonCenterSign"
@@ -174,16 +174,16 @@
     },
     {
       "type": "sign",
-      "x": 22,
-      "y": 14,
+      "x": 27,
+      "y": 6,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_NORTH",
       "script": "Common_EventScript_ShowPokemonCenterSign"
     },
     {
       "type": "sign",
-      "x": 6,
-      "y": 8,
+      "x": 23,
+      "y": 13,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
       "script": "VerdanturfTown_EventScript_BattleTentSign"

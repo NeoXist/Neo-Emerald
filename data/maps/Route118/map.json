@@ -14,18 +14,13 @@
   "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
   "connections": [
     {
-      "map": "MAP_ROUTE119",
-      "offset": 40,
-      "direction": "up"
-    },
-    {
       "map": "MAP_MAUVILLE_CITY",
       "offset": -15,
       "direction": "left"
     },
     {
       "map": "MAP_ROUTE123",
-      "offset": 0,
+      "offset": -6,
       "direction": "right"
     }
   ],
@@ -72,7 +67,7 @@
     {
       "graphics_id": "OBJ_EVENT_GFX_MAN_5",
       "x": 64,
-      "y": 10,
+      "y": 9,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
       "movement_range_x": 0,
@@ -233,8 +228,8 @@
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_MAN_5",
-      "x": 56,
-      "y": 7,
+      "x": 57,
+      "y": 8,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_FACE_UP_AND_RIGHT",
       "movement_range_x": 0,
@@ -286,8 +281,8 @@
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_ITEM_BALL",
-      "x": 69,
-      "y": 7,
+      "x": 46,
+      "y": 6,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_LOOK_AROUND",
       "movement_range_x": 1,

@@ -1691,3 +1691,22 @@ const u16 gTilesetPalettes_NivaForest[][16] =
 };
 
 const u32 gTilesetTiles_NivaForest[] = INCBIN_U32("data/tilesets/secondary/niva_forest/tiles.4bpp.lz");
+
+const u16 gTilesetPalettes_Verandurf[][16] =
+{
+    INCBIN_U16("data/tilesets/secondary/verandurf/palettes/00.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/verandurf/palettes/01.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/verandurf/palettes/02.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/verandurf/palettes/03.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/verandurf/palettes/04.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/verandurf/palettes/05.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/verandurf/palettes/06.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/verandurf/palettes/07.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/verandurf/palettes/08.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/verandurf/palettes/09.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/verandurf/palettes/10.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/verandurf/palettes/11.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/verandurf/palettes/12.gbapal"),
+};
+
+const u32 gTilesetTiles_Verandurf[] = INCBIN_U32("data/tilesets/secondary/verandurf/tiles.4bpp.lz");

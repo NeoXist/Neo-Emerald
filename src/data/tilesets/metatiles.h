@@ -216,3 +216,6 @@ const u16 gMetatileAttributes_CustomPrimaryTileset1[] = INCBIN_U16("data/tileset
 
 const u16 gMetatiles_NivaForest[] = INCBIN_U16("data/tilesets/secondary/niva_forest/metatiles.bin");
 const u16 gMetatileAttributes_NivaForest[] = INCBIN_U16("data/tilesets/secondary/niva_forest/metatile_attributes.bin");
+
+const u16 gMetatiles_Verandurf[] = INCBIN_U16("data/tilesets/secondary/verandurf/metatiles.bin");
+const u16 gMetatileAttributes_Verandurf[] = INCBIN_U16("data/tilesets/secondary/verandurf/metatile_attributes.bin");

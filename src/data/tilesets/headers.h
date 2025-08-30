@@ -863,3 +863,14 @@ const struct Tileset gTileset_NivaForest =
     .metatileAttributes = gMetatileAttributes_NivaForest,
     .callback = NULL,
 };
+
+const struct Tileset gTileset_Verandurf =
+{
+    .isCompressed = TRUE,
+    .isSecondary = TRUE,
+    .tiles = gTilesetTiles_Verandurf,
+    .palettes = gTilesetPalettes_Verandurf,
+    .metatiles = gMetatiles_Verandurf,
+    .metatileAttributes = gMetatileAttributes_Verandurf,
+    .callback = NULL,
+};
