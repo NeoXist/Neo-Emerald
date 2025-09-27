@@ -137,8 +137,8 @@
   ],
   "warp_events": [
     {
-      "x": 9,
-      "y": 20,
+      "x": 11,
+      "y": 68,
       "elevation": 0,
       "dest_map": "MAP_ISLAND_CAVE",
       "dest_warp_id": "0"
@@ -148,8 +148,8 @@
   "bg_events": [
     {
       "type": "hidden_item",
-      "x": 15,
-      "y": 68,
+      "x": 16,
+      "y": 54,
       "elevation": 3,
       "item": "ITEM_HEART_SCALE",
       "flag": "FLAG_HIDDEN_ITEM_ROUTE_105_HEART_SCALE"

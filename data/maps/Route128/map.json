@@ -19,11 +19,6 @@
       "direction": "up"
     },
     {
-      "map": "MAP_ROUTE129",
-      "offset": 0,
-      "direction": "down"
-    },
-    {
       "map": "MAP_EVER_GRANDE_CITY",
       "offset": -40,
       "direction": "right"
