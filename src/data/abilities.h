@@ -165,7 +165,7 @@ const struct Ability gAbilitiesInfo[ABILITIES_COUNT] =
     [ABILITY_SUCTION_CUPS] =
     {
         .name = _("Suction Cups"),
-        .description = COMPOUND_STRING("Firmly anchors the body."),
+        .description = COMPOUND_STRING("Firmly anchors the body. Boosts binding moves."),
         .aiRating = 2,
         .breakable = TRUE,
     },
@@ -270,7 +270,7 @@ const struct Ability gAbilitiesInfo[ABILITIES_COUNT] =
     [ABILITY_ILLUMINATE] =
     {
         .name = _("Illuminate"),
-        .description = COMPOUND_STRING("Encounter rate increases."),
+        .description = COMPOUND_STRING("Boosts beam moves' power."),
         .aiRating = 0,
         .breakable = TRUE,
     },
@@ -291,10 +291,10 @@ const struct Ability gAbilitiesInfo[ABILITIES_COUNT] =
         .aiRating = 10,
     },
 
-    [ABILITY_POISON_POINT] =
+    [ABILITY_NOXIOUS] =
     {
-        .name = _("Poison Point"),
-        .description = COMPOUND_STRING("Poisons foe on contact."),
+        .name = _("NOXIOUS"),
+        .description = COMPOUND_STRING("Poisons foe on contact. Powers up Poison-type attacks."),
         .aiRating = 4,
     },
 
@@ -1071,10 +1071,10 @@ const struct Ability gAbilitiesInfo[ABILITIES_COUNT] =
         .breakable = TRUE,
     },
 
-    [ABILITY_POISON_TOUCH] =
+    [ABILITY_SCARECROW] =
     {
-        .name = _("Poison Touch"),
-        .description = COMPOUND_STRING("Poisons foe on contact."),
+        .name = _("Scarecrow"),
+        .description = COMPOUND_STRING("Lowers foe's accuracy."),
         .aiRating = 4,
     },
 
@@ -1103,8 +1103,8 @@ const struct Ability gAbilitiesInfo[ABILITIES_COUNT] =
     [ABILITY_WONDER_SKIN] =
     {
         .name = _("Wonder Skin"),
-        .description = COMPOUND_STRING("May avoid status problems."),
-        .aiRating = 4,
+        .description = COMPOUND_STRING("Prevents status problems."),
+        .aiRating = 6,
         .breakable = TRUE,
     },
 
@@ -1460,7 +1460,7 @@ const struct Ability gAbilitiesInfo[ABILITIES_COUNT] =
     [ABILITY_WATER_COMPACTION] =
     {
         .name = _("Water Compaction"),
-        .description = COMPOUND_STRING("Water boosts Defense."),
+        .description = COMPOUND_STRING("Water boosts Defense. Reduces Water damage."),
         .aiRating = 4,
     },
 
@@ -1848,9 +1848,9 @@ const struct Ability gAbilitiesInfo[ABILITIES_COUNT] =
         .aiRating = 3,
     },
 
-    [ABILITY_PUNK_ROCK] =
+    [ABILITY_OVERDRIVE] =
     {
-        .name = _("Punk Rock"),
+        .name = _("Overdrive"),
         .description = COMPOUND_STRING("Ups and resists sound."),
         .aiRating = 2,
         .breakable = TRUE,
@@ -1934,9 +1934,9 @@ const struct Ability gAbilitiesInfo[ABILITIES_COUNT] =
         .aiRating = 2,
     },
 
-    [ABILITY_GORILLA_TACTICS] =
+    [ABILITY_RAGING_FRENZY] =
     {
-        .name = _("Gorilla Tactics"),
+        .name = _("Raging Frenzy"),
         .description = COMPOUND_STRING("Ups Attack and locks move."),
         .aiRating = 4,
     },
@@ -2092,7 +2092,7 @@ const struct Ability gAbilitiesInfo[ABILITIES_COUNT] =
     [ABILITY_WIND_RIDER] =
     {
         .name = _("Wind Rider"),
-        .description = COMPOUND_STRING("Ups Attack if hit by wind."),
+        .description = COMPOUND_STRING("Ups Attack if hit by wind. Boosts wind moves."),
         .aiRating = 4,
         .breakable = TRUE,
     },
@@ -2115,7 +2115,7 @@ const struct Ability gAbilitiesInfo[ABILITIES_COUNT] =
     [ABILITY_WIND_POWER] =
     {
         .name = _("Wind Power"),
-        .description = COMPOUND_STRING("Gets charged by wind."),
+        .description = COMPOUND_STRING("Boosts wind moves' power."),
         .aiRating = 4,
     },
 
@@ -2408,4 +2408,89 @@ const struct Ability gAbilitiesInfo[ABILITIES_COUNT] =
         .cantBeSwapped = TRUE,
         .cantBeTraced = TRUE,
     },
+       
+    [ABILITY_SONGBIRD] =
+    {
+        .name = _("Songbird"),
+        .description = COMPOUND_STRING("Powers up sound & wing moves."),
+        .aiRating = 5,
+    },
+       
+    [ABILITY_TEMPEST] =
+    {
+        .name = _("Tempest"),
+        .description = COMPOUND_STRING("Powers up wing, wind & air moves."),
+        .aiRating = 5,
+    },
+
+    [ABILITY_DIGGER] =
+    {
+        .name = _("Digger"),
+        .description = COMPOUND_STRING("Doubles the power of Dig."),
+        .aiRating = 4,
+    },
+       
+    [ABILITY_MAJESTIC] =
+    {
+        .name = _("Majestic"),
+        .description = COMPOUND_STRING("Lowers the foe's Special Attack."),
+        .aiRating = 5,
+    },
+       
+    [ABILITY_RESOLVE] =
+    {
+        .name = _("Resolve"),
+        .description = COMPOUND_STRING("Ups Special Attack if suffering."),
+        .aiRating = 5,
+    },
+       
+    [ABILITY_PROWESS] =
+    {
+        .name = _("Prowess"),
+        .description = COMPOUND_STRING("KOs raise Special Attack."),
+        .aiRating = 5,
+    },
+       
+    [ABILITY_SNOW_FORCE] =
+    {
+        .name = _("Snow Force"),
+        .description = COMPOUND_STRING("Powers up in snow."),
+        .aiRating = 5,
+    },
+       
+    [ABILITY_STRIKER] =
+    {
+        .name = _("Striker"),
+        .description = COMPOUND_STRING("Powers up kicking moves."),
+        .aiRating = 5,
+    },
+       
+    [ABILITY_DIGGER] =
+    {
+        .name = _("Digger"),
+        .description = COMPOUND_STRING("Powers up Dig."),
+        .aiRating = 5,
+    },
+       
+    [ABILITY_SPIRIT_POWER] =
+    {
+        .name = _("Spirit Power"),
+        .description = COMPOUND_STRING("Raises Special Attack."),
+        .aiRating = 5,  
+    },
+       
+    [ABILITY_SHARP_TAIL] =
+    {
+        .name = _("Sharp Tail"),
+        .description = COMPOUND_STRING("Powers up tail moves."),
+        .aiRating = 5, 
+     },
+       
+    [ABILITY_RAM_HEAD] =
+    {
+        .name = _("Ram Head"),
+        .description = COMPOUND_STRING("Powers up ramming moves."),
+        .aiRating = 5,   
+        
+        
 };

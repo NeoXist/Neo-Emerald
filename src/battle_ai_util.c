@@ -2837,6 +2837,10 @@ static u32 GetTrapDamage(u32 battlerId)
         else
             damage = GetNonDynamaxMaxHP(battlerId) / (B_BINDING_DAMAGE >= GEN_6 ? 8 : 16);
 
+        // Suction Cups boost: increase binding damage by 25%
+        if (gAiLogicData->abilities[gBattleStruct->wrappedBy[battlerId]] == ABILITY_SUCTION_CUPS)
+            damage = (damage * 5) / 4;
+
         if (damage == 0)
             damage = 1;
     }
@@ -3257,6 +3261,7 @@ static inline bool32 DoesBattlerBenefitFromAllVolatileStatus(u32 battler, u32 ab
      || ability == ABILITY_QUICK_FEET
      || ability == ABILITY_MAGIC_GUARD
      || (ability == ABILITY_GUTS && HasMoveWithCategory(battler, DAMAGE_CATEGORY_PHYSICAL))
+     || (ability == ABILITY_RESOLVE && HasMoveWithCategory(battler, DAMAGE_CATEGORY_SPECIAL))
      || HasMoveWithEffect(battler, EFFECT_FACADE)
      || HasMoveWithEffect(battler, EFFECT_PSYCHO_SHIFT))
         return TRUE;
@@ -3477,7 +3482,7 @@ bool32 ShouldTrap(u32 battlerAtk, u32 battlerDef, u32 move)
 bool32 ShouldFakeOut(u32 battlerAtk, u32 battlerDef, u32 move)
 {
     if ((!gDisableStructs[battlerAtk].isFirstTurn && MoveHasAdditionalEffectWithChance(move, MOVE_EFFECT_FLINCH, 100))
-    || gAiLogicData->abilities[battlerAtk] == ABILITY_GORILLA_TACTICS
+    || gAiLogicData->abilities[battlerAtk] == ABILITY_RAGING_FRENZY
     || gAiLogicData->holdEffects[battlerAtk] == HOLD_EFFECT_CHOICE_BAND
     || gAiLogicData->holdEffects[battlerDef] == HOLD_EFFECT_COVERT_CLOAK
     || DoesSubstituteBlockMove(battlerAtk, battlerDef, move)
@@ -4680,6 +4685,7 @@ bool32 IsMoxieTypeAbility(u32 ability)
     case ABILITY_BEAST_BOOST:
     case ABILITY_CHILLING_NEIGH:
     case ABILITY_AS_ONE_ICE_RIDER:
+    case ABILITY_PROWESS:
     case ABILITY_GRIM_NEIGH:
     case ABILITY_AS_ONE_SHADOW_RIDER:
         return TRUE;
@@ -4708,6 +4714,7 @@ bool32 ShouldTriggerAbility(u32 battler, u32 ability)
             return (BattlerStatCanRise(battler, ability, STAT_ATK) && HasMoveWithCategory(battler, DAMAGE_CATEGORY_PHYSICAL));
 
         case ABILITY_COMPETITIVE:
+        case ABILITY_PROWESS:
             return (BattlerStatCanRise(battler, ability, STAT_SPATK) && HasMoveWithCategory(battler, DAMAGE_CATEGORY_SPECIAL));
 
         case ABILITY_CONTRARY:

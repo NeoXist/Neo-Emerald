@@ -654,7 +654,7 @@ static bool8 WildEncounterCheck(u32 encounterRate, bool8 ignoreAbility)
         else if (ability == ABILITY_STENCH)
             encounterRate /= 2;
         else if (ability == ABILITY_ILLUMINATE)
-            encounterRate *= 2;
+            ; // reworked: no longer affects encounter rate
         else if (ability == ABILITY_WHITE_SMOKE)
             encounterRate /= 2;
         else if (ability == ABILITY_ARENA_TRAP)

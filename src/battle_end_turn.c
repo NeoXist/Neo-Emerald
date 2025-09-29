@@ -670,7 +670,8 @@ static bool32 HandleEndTurnBurn(u32 battler)
 
     if (gBattleMons[battler].status1 & STATUS1_BURN
      && IsBattlerAlive(battler)
-     && !IsBattlerProtectedByMagicGuard(battler, ability))
+     && !IsBattlerProtectedByMagicGuard(battler, ability)
+     && ability != ABILITY_FLARE_BOOST)
     {
         gBattleStruct->moveDamage[battler] = GetNonDynamaxMaxHP(battler) / (B_BURN_DAMAGE >= GEN_7 ? 16 : 8);
         if (ability == ABILITY_HEATPROOF)
@@ -776,6 +777,10 @@ static bool32 HandleEndTurnWrap(u32 battler)
                 gBattleStruct->moveDamage[battler] = GetNonDynamaxMaxHP(battler) / (B_BINDING_DAMAGE >= GEN_6 ? 6 : 8);
             else
                 gBattleStruct->moveDamage[battler] = GetNonDynamaxMaxHP(battler) / (B_BINDING_DAMAGE >= GEN_6 ? 8 : 16);
+
+            // Suction Cups boost: increase binding damage by 25%
+            if (GetBattlerAbility(gBattleStruct->wrappedBy[battler]) == ABILITY_SUCTION_CUPS)
+                gBattleStruct->moveDamage[battler] = (gBattleStruct->moveDamage[battler] * 5) / 4;
 
             if (gBattleStruct->moveDamage[battler] == 0)
                 gBattleStruct->moveDamage[battler] = 1;

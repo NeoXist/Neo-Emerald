@@ -1,4 +1,4 @@
 #include "global.h"
 #include "test/battle.h"
 
-TO_DO_BATTLE_TEST("TODO: Write Gorilla Tactics (Ability) test titles")
+TO_DO_BATTLE_TEST("TODO: Write Raging Frenzy (Ability) test titles")

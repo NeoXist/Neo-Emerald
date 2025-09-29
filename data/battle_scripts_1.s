@@ -2684,7 +2684,6 @@ BattleScript_TryTailwindAbilitiesLoop:
 BattleScript_TryTailwindAbilitiesLoop_Iter:
 	trywindriderpower BS_TARGET, BattleScript_TryTailwindAbilitiesLoop_Increment
 	jumpifability BS_TARGET, ABILITY_WIND_RIDER, BattleScript_TryTailwindAbilitiesLoop_WindRider
-	jumpifability BS_TARGET, ABILITY_WIND_POWER, BattleScript_TryTailwindAbilitiesLoop_WindPower
 BattleScript_TryTailwindAbilitiesLoop_Increment:
 	addbyte gBattlerTarget, 0x1
 	jumpifbytenotequal gBattlerTarget, gBattlersCount, BattleScript_TryTailwindAbilitiesLoop_Iter
@@ -7688,6 +7687,128 @@ BattleScript_IntimidateInReverse::
 	call BattleScript_TryIntimidateHoldEffects
 	goto BattleScript_IntimidateLoopIncrement
 
+BattleScript_MajesticActivates::
+	savetarget
+.if B_ABILITY_POP_UP == TRUE
+	showabilitypopup BS_ATTACKER
+	pause B_WAIT_TIME_LONG
+	destroyabilitypopup
+.endif
+	setbyte gBattlerTarget, 0
+BattleScript_MajesticLoop:
+	jumpifbyteequal gBattlerTarget, gBattlerAttacker, BattleScript_MajesticLoopIncrement
+	jumpiftargetally BattleScript_MajesticLoopIncrement
+	jumpifabsent BS_TARGET, BattleScript_MajesticLoopIncrement
+	jumpifstatus2 BS_TARGET, STATUS2_SUBSTITUTE, BattleScript_MajesticLoopIncrement
+	jumpifintimidateabilityprevented
+BattleScript_MajesticEffect:
+	copybyte sBATTLER, gBattlerAttacker
+	setstatchanger STAT_SPATK, 1, TRUE
+	statbuffchange STAT_CHANGE_NOT_PROTECT_AFFECTED | STAT_CHANGE_ALLOW_PTR, BattleScript_MajesticLoopIncrement
+	setgraphicalstatchangevalues
+	jumpifability BS_TARGET, ABILITY_CONTRARY, BattleScript_MajesticContrary
+	jumpifbyte CMP_EQUAL, cMULTISTRING_CHOOSER, B_MSG_STAT_WONT_DECREASE, BattleScript_MajesticWontDecrease
+	playanimation BS_TARGET, B_ANIM_STATS_CHANGE, sB_ANIM_ARG1
+	printstring STRINGID_PKMNCUTSSPECIALATTACKWITH
+BattleScript_MajesticEffect_WaitString:
+	waitmessage B_WAIT_TIME_LONG
+	saveattacker
+	savetarget
+	copybyte sBATTLER, gBattlerTarget
+	call BattleScript_TryIntimidateHoldEffects
+	restoreattacker
+	restoretarget
+BattleScript_MajesticLoopIncrement:
+	addbyte gBattlerTarget, 1
+	jumpifbytenotequal gBattlerTarget, gBattlersCount, BattleScript_MajesticLoop
+	copybyte sBATTLER, gBattlerAttacker
+	destroyabilitypopup
+	restoretarget
+	pause B_WAIT_TIME_MED
+	tryintimidateejectpack
+	end3
+
+BattleScript_MajesticPrevented::
+	copybyte sBATTLER, gBattlerTarget
+	call BattleScript_AbilityPopUp
+	printstring STRINGID_PKMNPREVENTSSTATLOSSWITH
+	goto BattleScript_MajesticEffect_WaitString
+
+BattleScript_MajesticWontDecrease:
+	printstring STRINGID_STATSWONTDECREASE
+	goto BattleScript_MajesticEffect_WaitString
+
+BattleScript_MajesticContrary:
+	call BattleScript_AbilityPopUpTarget
+	jumpifbyte CMP_EQUAL, cMULTISTRING_CHOOSER, B_MSG_STAT_WONT_INCREASE, BattleScript_MajesticContrary_WontIncrease
+	playanimation BS_TARGET, B_ANIM_STATS_CHANGE, sB_ANIM_ARG1
+	printfromtable gStatUpStringIds
+	goto BattleScript_MajesticEffect_WaitString
+BattleScript_MajesticContrary_WontIncrease:
+	printstring STRINGID_TARGETSTATWONTGOHIGHER
+	goto BattleScript_MajesticEffect_WaitString
+
+BattleScript_ScarecrowActivates::
+	savetarget
+.if B_ABILITY_POP_UP == TRUE
+	showabilitypopup BS_ATTACKER
+	pause B_WAIT_TIME_LONG
+	destroyabilitypopup
+.endif
+	setbyte gBattlerTarget, 0
+BattleScript_ScarecrowLoop:
+	jumpifbyteequal gBattlerTarget, gBattlerAttacker, BattleScript_ScarecrowLoopIncrement
+	jumpiftargetally BattleScript_ScarecrowLoopIncrement
+	jumpifabsent BS_TARGET, BattleScript_ScarecrowLoopIncrement
+	jumpifstatus2 BS_TARGET, STATUS2_SUBSTITUTE, BattleScript_ScarecrowLoopIncrement
+	jumpifintimidateabilityprevented
+BattleScript_ScarecrowEffect:
+	copybyte sBATTLER, gBattlerAttacker
+	setstatchanger STAT_ACC, 1, TRUE
+	statbuffchange STAT_CHANGE_NOT_PROTECT_AFFECTED | STAT_CHANGE_ALLOW_PTR, BattleScript_ScarecrowLoopIncrement
+	setgraphicalstatchangevalues
+	jumpifability BS_TARGET, ABILITY_CONTRARY, BattleScript_ScarecrowContrary
+	jumpifbyte CMP_EQUAL, cMULTISTRING_CHOOSER, B_MSG_STAT_WONT_DECREASE, BattleScript_ScarecrowWontDecrease
+	playanimation BS_TARGET, B_ANIM_STATS_CHANGE, sB_ANIM_ARG1
+	printstring STRINGID_PKMNCUTSACCURACYWITH
+BattleScript_ScarecrowEffect_WaitString:
+	waitmessage B_WAIT_TIME_LONG
+	saveattacker
+	savetarget
+	copybyte sBATTLER, gBattlerTarget
+	call BattleScript_TryIntimidateHoldEffects
+	restoreattacker
+	restoretarget
+BattleScript_ScarecrowLoopIncrement:
+	addbyte gBattlerTarget, 1
+	jumpifbytenotequal gBattlerTarget, gBattlersCount, BattleScript_ScarecrowLoop
+	copybyte sBATTLER, gBattlerAttacker
+	destroyabilitypopup
+	restoretarget
+	pause B_WAIT_TIME_MED
+	tryintimidateejectpack
+	end3
+
+BattleScript_ScarecrowPrevented::
+	copybyte sBATTLER, gBattlerTarget
+	call BattleScript_AbilityPopUp
+	printstring STRINGID_PKMNPREVENTSSTATLOSSWITH
+	goto BattleScript_ScarecrowEffect_WaitString
+
+BattleScript_ScarecrowWontDecrease:
+	printstring STRINGID_STATSWONTDECREASE
+	goto BattleScript_ScarecrowEffect_WaitString
+
+BattleScript_ScarecrowContrary:
+	call BattleScript_AbilityPopUpTarget
+	jumpifbyte CMP_EQUAL, cMULTISTRING_CHOOSER, B_MSG_STAT_WONT_INCREASE, BattleScript_ScarecrowContrary_WontIncrease
+	playanimation BS_TARGET, B_ANIM_STATS_CHANGE, sB_ANIM_ARG1
+	printfromtable gStatUpStringIds
+	goto BattleScript_ScarecrowEffect_WaitString
+BattleScript_ScarecrowContrary_WontIncrease:
+	printstring STRINGID_TARGETSTATWONTGOHIGHER
+	goto BattleScript_ScarecrowEffect_WaitString
+
 BattleScript_SupersweetSyrupActivates::
  	savetarget
 .if B_ABILITY_POP_UP == TRUE
@@ -8821,11 +8942,11 @@ BattleScript_SelectingNotAllowedMoveChoiceItemInPalace::
 	printstring STRINGID_ITEMALLOWSONLYYMOVE
 	goto BattleScript_SelectingUnusableMoveInPalace
 
-BattleScript_SelectingNotAllowedMoveGorillaTactics::
+BattleScript_SelectingNotAllowedMoveRagingFrenzy::
 	printselectionstring STRINGID_ABILITYALLOWSONLYMOVE
 	endselectionscript
 
-BattleScript_SelectingNotAllowedMoveGorillaTacticsInPalace::
+BattleScript_SelectingNotAllowedMoveRagingFrenzyInPalace::
 	printstring STRINGID_ABILITYALLOWSONLYMOVE
 	goto BattleScript_SelectingUnusableMoveInPalace
 
