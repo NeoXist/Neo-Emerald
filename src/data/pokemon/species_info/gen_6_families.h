@@ -231,7 +231,7 @@ const struct SpeciesInfo gSpeciesInfoGen6[] =
         .friendship = STANDARD_FRIENDSHIP,
         .growthRate = GROWTH_MEDIUM_SLOW,
         .eggGroups = MON_EGG_GROUPS(EGG_GROUP_FIELD),
-        .abilities = { ABILITY_BLAZE, ABILITY_NONE, ABILITY_MAGICIAN },
+        .abilities = { ABILITY_BLAZE, ABILITY_MAGIC_GUARD, ABILITY_MAGICIAN },
         .bodyColor = BODY_COLOR_RED,
         .speciesName = _("Fennekin"),
         .cryId = CRY_FENNEKIN,
@@ -304,7 +304,7 @@ const struct SpeciesInfo gSpeciesInfoGen6[] =
         .friendship = STANDARD_FRIENDSHIP,
         .growthRate = GROWTH_MEDIUM_SLOW,
         .eggGroups = MON_EGG_GROUPS(EGG_GROUP_FIELD),
-        .abilities = { ABILITY_BLAZE, ABILITY_NONE, ABILITY_MAGICIAN },
+        .abilities = { ABILITY_BLAZE, ABILITY_MAGIC_GUARD, ABILITY_MAGICIAN },
         .bodyColor = BODY_COLOR_RED,
         .speciesName = _("Braixen"),
         .cryId = CRY_BRAIXEN,
@@ -360,7 +360,7 @@ const struct SpeciesInfo gSpeciesInfoGen6[] =
         .baseHP        = 75,
         .baseAttack    = 69,
         .baseDefense   = 72,
-        .baseSpeed     = 104,
+        .baseSpeed     = 105,
         .baseSpAttack  = 114,
         .baseSpDefense = 100,
         .types = MON_TYPES(TYPE_FIRE, TYPE_PSYCHIC),
@@ -372,7 +372,7 @@ const struct SpeciesInfo gSpeciesInfoGen6[] =
         .friendship = STANDARD_FRIENDSHIP,
         .growthRate = GROWTH_MEDIUM_SLOW,
         .eggGroups = MON_EGG_GROUPS(EGG_GROUP_FIELD),
-        .abilities = { ABILITY_BLAZE, ABILITY_NONE, ABILITY_MAGICIAN },
+        .abilities = { ABILITY_BLAZE, ABILITY_MAGIC_GUARD, ABILITY_MAGICIAN },
         .bodyColor = BODY_COLOR_RED,
         .speciesName = _("Delphox"),
         .cryId = CRY_DELPHOX,
@@ -572,7 +572,7 @@ const struct SpeciesInfo gSpeciesInfoGen6[] =
     {
         .baseHP        = 72,
         .baseAttack    = 95,
-        .baseDefense   = 67,
+        .baseDefense   = 72,
         .baseSpeed     = 122,
         .baseSpAttack  = 103,
         .baseSpDefense = 71,
@@ -1037,7 +1037,7 @@ const struct SpeciesInfo gSpeciesInfoGen6[] =
     [SPECIES_TALONFLAME] =
     {
         .baseHP        = 78,
-        .baseAttack    = 81,
+        .baseAttack    = 96,
         .baseDefense   = 71,
         .baseSpeed     = 126,
         .baseSpAttack  = 74,
@@ -1051,7 +1051,7 @@ const struct SpeciesInfo gSpeciesInfoGen6[] =
         .friendship = STANDARD_FRIENDSHIP,
         .growthRate = GROWTH_MEDIUM_SLOW,
         .eggGroups = MON_EGG_GROUPS(EGG_GROUP_FLYING),
-        .abilities = { ABILITY_FLAME_BODY, ABILITY_NONE, ABILITY_GALE_WINGS },
+        .abilities = { ABILITY_TEMPEST, ABILITY_NONE, ABILITY_GALE_WINGS },
         .bodyColor = BODY_COLOR_RED,
         .speciesName = _("Talonflame"),
         .cryId = CRY_TALONFLAME,
@@ -1530,7 +1530,7 @@ const struct SpeciesInfo gSpeciesInfoGen6[] =
         .friendship = STANDARD_FRIENDSHIP,
         .growthRate = GROWTH_MEDIUM_SLOW,
         .eggGroups = MON_EGG_GROUPS(EGG_GROUP_FIELD),
-        .abilities = { ABILITY_RIVALRY, ABILITY_UNNERVE, ABILITY_MOXIE },
+        .abilities = { ABILITY_RIVALRY, ABILITY_UNNERVE, ABILITY_PROWESS },
         .bodyColor = BODY_COLOR_BROWN,
         .speciesName = _("Litleo"),
         .cryId = CRY_LITLEO,
@@ -1586,9 +1586,9 @@ const struct SpeciesInfo gSpeciesInfoGen6[] =
     {
         .baseHP        = 86,
         .baseAttack    = 68,
-        .baseDefense   = 72,
-        .baseSpeed     = 106,
-        .baseSpAttack  = 109,
+        .baseDefense   = 77,
+        .baseSpeed     = 114,
+        .baseSpAttack  = 114,
         .baseSpDefense = 66,
         .types = MON_TYPES(TYPE_FIRE, TYPE_NORMAL),
         .catchRate = 65,
@@ -1599,7 +1599,7 @@ const struct SpeciesInfo gSpeciesInfoGen6[] =
         .friendship = STANDARD_FRIENDSHIP,
         .growthRate = GROWTH_MEDIUM_SLOW,
         .eggGroups = MON_EGG_GROUPS(EGG_GROUP_FIELD),
-        .abilities = { ABILITY_RIVALRY, ABILITY_UNNERVE, ABILITY_MOXIE },
+        .abilities = { ABILITY_MAJESTIC, ABILITY_UNNERVE, ABILITY_PROWESS },
         .bodyColor = BODY_COLOR_BROWN,
         .speciesName = _("Pyroar"),
         .cryId = CRY_PYROAR,
@@ -2018,7 +2018,7 @@ const struct SpeciesInfo gSpeciesInfoGen6[] =
         .baseSpeed     = 52,
         .baseSpAttack  = 62,
         .baseSpDefense = 57,
-        .types = MON_TYPES(TYPE_GRASS),
+        .types = MON_TYPES(TYPE_GRASS, TYPE_GROUND),
         .catchRate = 200,
         .expYield = 70,
         .evYield_HP = 1,
@@ -2027,7 +2027,7 @@ const struct SpeciesInfo gSpeciesInfoGen6[] =
         .friendship = STANDARD_FRIENDSHIP,
         .growthRate = GROWTH_MEDIUM_FAST,
         .eggGroups = MON_EGG_GROUPS(EGG_GROUP_FIELD),
-        .abilities = { ABILITY_SAP_SIPPER, ABILITY_NONE, ABILITY_GRASS_PELT },
+        .abilities = { ABILITY_SAP_SIPPER, ABILITY_RAM_HEAD, ABILITY_FUR_COAT },
         .bodyColor = BODY_COLOR_BROWN,
         .speciesName = _("Skiddo"),
         .cryId = CRY_SKIDDO,
@@ -2081,12 +2081,12 @@ const struct SpeciesInfo gSpeciesInfoGen6[] =
     [SPECIES_GOGOAT] =
     {
         .baseHP        = 123,
-        .baseAttack    = 100,
+        .baseAttack    = 125,
         .baseDefense   = 62,
-        .baseSpeed     = 68,
-        .baseSpAttack  = 97,
-        .baseSpDefense = 81,
-        .types = MON_TYPES(TYPE_GRASS),
+        .baseSpeed     = 78,
+        .baseSpAttack  = 57,
+        .baseSpDefense = 95,
+        .types = MON_TYPES(TYPE_GRASS, TYPE_GROUND),
         .catchRate = 45,
         .expYield = 186,
         .evYield_HP = 2,
@@ -2095,7 +2095,7 @@ const struct SpeciesInfo gSpeciesInfoGen6[] =
         .friendship = STANDARD_FRIENDSHIP,
         .growthRate = GROWTH_MEDIUM_FAST,
         .eggGroups = MON_EGG_GROUPS(EGG_GROUP_FIELD),
-        .abilities = { ABILITY_SAP_SIPPER, ABILITY_NONE, ABILITY_GRASS_PELT },
+        .abilities = { ABILITY_SAP_SIPPER, ABILITY_RAM_HEAD, ABILITY_FUR_COAT },
         .bodyColor = BODY_COLOR_BROWN,
         .speciesName = _("Gogoat"),
         .cryId = CRY_GOGOAT,
@@ -3220,12 +3220,12 @@ const struct SpeciesInfo gSpeciesInfoGen6[] =
 
     [SPECIES_MALAMAR] =
     {
-        .baseHP        = 86,
+        .baseHP        = 96,
         .baseAttack    = 92,
-        .baseDefense   = 88,
+        .baseDefense   = 98,
         .baseSpeed     = 73,
         .baseSpAttack  = 68,
-        .baseSpDefense = 75,
+        .baseSpDefense = 95,
         .types = MON_TYPES(TYPE_DARK, TYPE_PSYCHIC),
         .catchRate = 80,
         .expYield = 169,
@@ -3446,7 +3446,7 @@ const struct SpeciesInfo gSpeciesInfoGen6[] =
         .friendship = STANDARD_FRIENDSHIP,
         .growthRate = GROWTH_MEDIUM_FAST,
         .eggGroups = MON_EGG_GROUPS(EGG_GROUP_WATER_1, EGG_GROUP_DRAGON),
-        .abilities = { ABILITY_POISON_POINT, ABILITY_POISON_TOUCH, ABILITY_ADAPTABILITY },
+        .abilities = { ABILITY_MERCILESS, ABILITY_NOXIOUS, ABILITY_ADAPTABILITY },
         .bodyColor = BODY_COLOR_BROWN,
         .speciesName = _("Skrelp"),
         .cryId = CRY_SKRELP,
@@ -3505,12 +3505,12 @@ const struct SpeciesInfo gSpeciesInfoGen6[] =
 
     [SPECIES_DRAGALGE] =
     {
-        .baseHP        = 65,
+        .baseHP        = 95,
         .baseAttack    = 75,
         .baseDefense   = 90,
         .baseSpeed     = 44,
         .baseSpAttack  = 97,
-        .baseSpDefense = 123,
+        .baseSpDefense = 133,
         .types = MON_TYPES(TYPE_POISON, TYPE_DRAGON),
         .catchRate = 55,
         .expYield = 173,
@@ -3520,7 +3520,7 @@ const struct SpeciesInfo gSpeciesInfoGen6[] =
         .friendship = STANDARD_FRIENDSHIP,
         .growthRate = GROWTH_MEDIUM_FAST,
         .eggGroups = MON_EGG_GROUPS(EGG_GROUP_WATER_1, EGG_GROUP_DRAGON),
-        .abilities = { ABILITY_POISON_POINT, ABILITY_POISON_TOUCH, ABILITY_ADAPTABILITY },
+        .abilities = { ABILITY_MERCILESS, ABILITY_NOXIOUS, ABILITY_ADAPTABILITY },
         .bodyColor = BODY_COLOR_BROWN,
         .speciesName = _("Dragalge"),
         .cryId = CRY_DRAGALGE,
@@ -3647,13 +3647,13 @@ const struct SpeciesInfo gSpeciesInfoGen6[] =
 
     [SPECIES_CLAWITZER] =
     {
-        .baseHP        = 71,
+        .baseHP        = 91,
         .baseAttack    = 73,
         .baseDefense   = 88,
         .baseSpeed     = 59,
-        .baseSpAttack  = 120,
+        .baseSpAttack  = 125,
         .baseSpDefense = 89,
-        .types = MON_TYPES(TYPE_WATER),
+        .types = MON_TYPES(TYPE_WATER, TYPE_FIRE),
         .catchRate = 55,
         .expYield = 100,
         .evYield_SpAttack = 2,
@@ -3791,11 +3791,11 @@ const struct SpeciesInfo gSpeciesInfoGen6[] =
 
     [SPECIES_HELIOLISK] =
     {
-        .baseHP        = 62,
+        .baseHP        = 82,
         .baseAttack    = 55,
         .baseDefense   = 52,
         .baseSpeed     = 109,
-        .baseSpAttack  = 109,
+        .baseSpAttack  = 124,
         .baseSpDefense = 94,
         .types = MON_TYPES(TYPE_ELECTRIC, TYPE_NORMAL),
         .catchRate = 75,
@@ -3876,7 +3876,7 @@ const struct SpeciesInfo gSpeciesInfoGen6[] =
         .friendship = STANDARD_FRIENDSHIP,
         .growthRate = GROWTH_MEDIUM_FAST,
         .eggGroups = MON_EGG_GROUPS(EGG_GROUP_MONSTER, EGG_GROUP_DRAGON),
-        .abilities = { ABILITY_STRONG_JAW, ABILITY_NONE, ABILITY_STURDY },
+        .abilities = { ABILITY_STRONG_JAW, ABILITY_ROCK_HEAD, ABILITY_SOLID_ROCK },
         .bodyColor = BODY_COLOR_BROWN,
         .speciesName = _("Tyrunt"),
         .cryId = CRY_TYRUNT,
@@ -3935,7 +3935,7 @@ const struct SpeciesInfo gSpeciesInfoGen6[] =
         .baseAttack    = 121,
         .baseDefense   = 119,
         .baseSpeed     = 71,
-        .baseSpAttack  = 69,
+        .baseSpAttack  = 63,
         .baseSpDefense = 59,
         .types = MON_TYPES(TYPE_ROCK, TYPE_DRAGON),
         .catchRate = 45,
@@ -3946,7 +3946,7 @@ const struct SpeciesInfo gSpeciesInfoGen6[] =
         .friendship = STANDARD_FRIENDSHIP,
         .growthRate = GROWTH_MEDIUM_FAST,
         .eggGroups = MON_EGG_GROUPS(EGG_GROUP_MONSTER, EGG_GROUP_DRAGON),
-        .abilities = { ABILITY_STRONG_JAW, ABILITY_NONE, ABILITY_ROCK_HEAD },
+        .abilities = { ABILITY_STRONG_JAW, ABILITY_ROCK_HEAD, ABILITY_SOLID_ROCK },
         .bodyColor = BODY_COLOR_RED,
         .speciesName = _("Tyrantrum"),
         .cryId = CRY_TYRANTRUM,
@@ -4000,11 +4000,11 @@ const struct SpeciesInfo gSpeciesInfoGen6[] =
     [SPECIES_AMAURA] =
     {
         .baseHP        = 77,
-        .baseAttack    = 59,
+        .baseAttack    = 37,
         .baseDefense   = 50,
         .baseSpeed     = 46,
-        .baseSpAttack  = 67,
-        .baseSpDefense = 63,
+        .baseSpAttack  = 79,
+        .baseSpDefense = 73,
         .types = MON_TYPES(TYPE_ROCK, TYPE_ICE),
         .catchRate = 45,
         .expYield = 72,
@@ -4076,10 +4076,10 @@ const struct SpeciesInfo gSpeciesInfoGen6[] =
     [SPECIES_AURORUS] =
     {
         .baseHP        = 123,
-        .baseAttack    = 77,
-        .baseDefense   = 72,
-        .baseSpeed     = 58,
-        .baseSpAttack  = 99,
+        .baseAttack    = 37,
+        .baseDefense   = 62,
+        .baseSpeed     = 92,
+        .baseSpAttack  = 109,
         .baseSpDefense = 92,
         .types = MON_TYPES(TYPE_ROCK, TYPE_ICE),
         .catchRate = 45,
@@ -4145,7 +4145,7 @@ const struct SpeciesInfo gSpeciesInfoGen6[] =
     {
         .baseHP        = 78,
         .baseAttack    = 92,
-        .baseDefense   = 75,
+        .baseDefense   = 85,
         .baseSpeed     = 118,
         .baseSpAttack  = 74,
         .baseSpDefense = 63,
@@ -4289,10 +4289,10 @@ const struct SpeciesInfo gSpeciesInfoGen6[] =
     [SPECIES_CARBINK] =
     {
         .baseHP        = 50,
-        .baseAttack    = 50,
+        .baseAttack    = 25,
         .baseDefense   = 150,
-        .baseSpeed     = 50,
-        .baseSpAttack  = 50,
+        .baseSpeed     = 25,
+        .baseSpAttack  = 25,
         .baseSpDefense = 150,
         .types = MON_TYPES(TYPE_ROCK, TYPE_FAIRY),
         .catchRate = 60,
@@ -4304,7 +4304,7 @@ const struct SpeciesInfo gSpeciesInfoGen6[] =
         .friendship = STANDARD_FRIENDSHIP,
         .growthRate = GROWTH_SLOW,
         .eggGroups = MON_EGG_GROUPS(EGG_GROUP_FAIRY, EGG_GROUP_MINERAL),
-        .abilities = { ABILITY_CLEAR_BODY, ABILITY_NONE, ABILITY_STURDY },
+        .abilities = { ABILITY_CLEAR_BODY, ABILITY_LEVITATE, ABILITY_SOLID_ROCK },
         .bodyColor = BODY_COLOR_GRAY,
         .speciesName = _("Carbink"),
         .cryId = CRY_CARBINK,
@@ -4359,7 +4359,155 @@ const struct SpeciesInfo gSpeciesInfoGen6[] =
         )
         .levelUpLearnset = sCarbinkLevelUpLearnset,
         .teachableLearnset = sCarbinkTeachableLearnset,
+        .evolutions = EVOLUTION({EVO_LEVEL, 40, SPECIES_DIANCIE})
     },
+   
+    [SPECIES_DIANCIE] =
+    {
+        .baseHP        = 75,
+        .baseAttack    = 50,
+        .baseDefense   = 150,
+        .baseSpeed     = 50,
+        .baseSpAttack  = 75,
+        .baseSpDefense = 150,
+        .types = MON_TYPES(TYPE_ROCK, TYPE_FAIRY),
+        .catchRate = 3,
+        .expYield = (P_UPDATED_EXP_YIELDS >= GEN_8) ? 300 : 270,
+        .evYield_Defense = 1,
+        .evYield_SpDefense = 2,
+        .genderRatio = MON_GENDERLESS,
+        .eggCycles = 25,
+        .friendship = STANDARD_FRIENDSHIP,
+        .growthRate = GROWTH_SLOW,
+        .eggGroups = MON_EGG_GROUPS(EGG_GROUP_NO_EGGS_DISCOVERED),
+        .abilities = { ABILITY_CLEAR_BODY, ABILITY_NONE, ABILITY_NONE },
+        .bodyColor = BODY_COLOR_PINK,
+        .speciesName = _("Diancie"),
+        .cryId = CRY_DIANCIE,
+        .natDexNum = NATIONAL_DEX_DIANCIE,
+        .categoryName = _("Jewel"),
+        .height = 7,
+        .weight = 88,
+        .description = COMPOUND_STRING(
+            "A sudden transformation of Carbink,\n"
+            "its pink, glimmering body is said to be\n"
+            "the loveliest sight in the whole world.\n"
+            "It creates diamonds between its hands."),
+        .pokemonScale = 365,
+        .pokemonOffset = 12,
+        .trainerScale = 256,
+        .trainerOffset = 0,
+        .frontPic = gMonFrontPic_Diancie,
+        .frontPicSize = MON_COORDS_SIZE(40, 64),
+        .frontPicYOffset = 1,
+        .frontAnimFrames = ANIM_FRAMES(
+            ANIMCMD_FRAME(0, 20),
+            ANIMCMD_FRAME(1, 10),
+            ANIMCMD_FRAME(0, 10),
+        ),
+        .frontAnimId = ANIM_V_SQUISH_AND_BOUNCE,
+        .backPic = gMonBackPic_Diancie,
+        .backPicSize = MON_COORDS_SIZE(64, 64),
+        .backPicYOffset = 7,
+        .backAnimId = BACK_ANIM_CIRCLE_COUNTERCLOCKWISE,
+        .palette = gMonPalette_Diancie,
+        .shinyPalette = gMonShinyPalette_Diancie,
+        .iconSprite = gMonIcon_Diancie,
+        .iconPalIndex = 1,
+        .pokemonJumpType = PKMN_JUMP_TYPE_NONE,
+        SHADOW(0, 13, SHADOW_SIZE_S)
+        FOOTPRINT(Diancie)
+        OVERWORLD(
+            sPicTable_Diancie,
+            SIZE_32x32,
+            SHADOW_SIZE_M,
+            TRACKS_FOOT,
+            sAnimTable_Following,
+            gOverworldPalette_Diancie,
+            gShinyOverworldPalette_Diancie
+        )
+        .isMythical = TRUE,
+        .isFrontierBanned = TRUE,
+        .perfectIVCount = LEGENDARY_PERFECT_IV_COUNT,
+        .levelUpLearnset = sDiancieLevelUpLearnset,
+        .teachableLearnset = sDiancieTeachableLearnset,
+        .formSpeciesIdTable = sDiancieFormSpeciesIdTable,
+        .formChangeTable = sDiancieFormChangeTable,
+    },
+
+#if P_MEGA_EVOLUTIONS
+    [SPECIES_DIANCIE_MEGA] =
+    {
+        .baseHP        = 75,
+        .baseAttack    = 50,
+        .baseDefense   = 125,
+        .baseSpeed     = 125,
+        .baseSpAttack  = 150,
+        .baseSpDefense = 125,
+        .types = MON_TYPES(TYPE_ROCK, TYPE_FAIRY),
+        .catchRate = 3,
+        .expYield = 315,
+        .evYield_Defense = 1,
+        .evYield_SpDefense = 2,
+        .genderRatio = MON_GENDERLESS,
+        .eggCycles = 25,
+        .friendship = STANDARD_FRIENDSHIP,
+        .growthRate = GROWTH_SLOW,
+        .eggGroups = MON_EGG_GROUPS(EGG_GROUP_NO_EGGS_DISCOVERED),
+        .abilities = { ABILITY_MAGIC_BOUNCE, ABILITY_MAGIC_BOUNCE, ABILITY_MAGIC_BOUNCE },
+        .bodyColor = BODY_COLOR_PINK,
+        .speciesName = _("Diancie"),
+        .cryId = CRY_DIANCIE_MEGA,
+        .natDexNum = NATIONAL_DEX_DIANCIE,
+        .categoryName = _("Jewel"),
+        .height = 11,
+        .weight = 278,
+        .description = COMPOUND_STRING(
+            "The impurities upon its body's surface\n"
+            "have fallen away, sparkling so brilliantly\n"
+            "that cannot be observed directly.\n"
+            "It is known as “the Royal Pink Princess”."),
+        .pokemonScale = 365,
+        .pokemonOffset = 12,
+        .trainerScale = 256,
+        .trainerOffset = 0,
+        .frontPic = gMonFrontPic_DiancieMega,
+        .frontPicSize = MON_COORDS_SIZE(64, 64),
+        .frontPicYOffset = 0,
+        .frontAnimFrames = sAnims_SingleFramePlaceHolder,
+        //.frontAnimId = ANIM_V_SQUISH_AND_BOUNCE,
+        .backPic = gMonBackPic_DiancieMega,
+        .backPicSize = MON_COORDS_SIZE(64, 56),
+        .backPicYOffset = 5,
+        //.backAnimId = BACK_ANIM_NONE,
+        .palette = gMonPalette_DiancieMega,
+        .shinyPalette = gMonShinyPalette_DiancieMega,
+        .iconSprite = gMonIcon_DiancieMega,
+        .iconPalIndex = 0,
+        .pokemonJumpType = PKMN_JUMP_TYPE_NONE,
+        SHADOW(0, 12, SHADOW_SIZE_M)
+        FOOTPRINT(Diancie)
+    #if OW_BATTLE_ONLY_FORMS
+        OVERWORLD(
+            sPicTable_DiancieMega,
+            SIZE_32x32,
+            SHADOW_SIZE_M,
+            TRACKS_FOOT,
+            sAnimTable_Following,
+            gOverworldPalette_DiancieMega,
+            gShinyOverworldPalette_DiancieMega
+        )
+    #endif //OW_BATTLE_ONLY_FORMS
+        .isMythical = TRUE,
+        .isMegaEvolution = TRUE,
+        .isFrontierBanned = TRUE,
+        .perfectIVCount = LEGENDARY_PERFECT_IV_COUNT,
+        .levelUpLearnset = sDiancieLevelUpLearnset,
+        .teachableLearnset = sDiancieTeachableLearnset,
+        .formSpeciesIdTable = sDiancieFormSpeciesIdTable,
+        .formChangeTable = sDiancieFormChangeTable,
+    },
+#endif //P_MEGA_EVOLUTIONS
 #endif //P_FAMILY_CARBINK
 
 #if P_FAMILY_GOOMY
@@ -5484,7 +5632,7 @@ const struct SpeciesInfo gSpeciesInfoGen6[] =
         .friendship = STANDARD_FRIENDSHIP,
         .growthRate = GROWTH_MEDIUM_FAST,
         .eggGroups = BERGMITE_EGG_GROUPS,
-        .abilities = { ABILITY_OWN_TEMPO, ABILITY_ICE_BODY, ABILITY_STURDY },
+        .abilities = { ABILITY_FILTER, ABILITY_ICE_BODY, ABILITY_SNOW_WARNING },
         .bodyColor = BODY_COLOR_BLUE,
         .speciesName = _("Bergmite"),
         .cryId = CRY_BERGMITE,
@@ -5542,11 +5690,11 @@ const struct SpeciesInfo gSpeciesInfoGen6[] =
     [SPECIES_AVALUGG] =
     {
         .baseHP        = 95,
-        .baseAttack    = 117,
-        .baseDefense   = 184,
+        .baseAttack    = 147,
+        .baseDefense   = 154,
         .baseSpeed     = 28,
         .baseSpAttack  = 44,
-        .baseSpDefense = 46,
+        .baseSpDefense = 66,
         .types = MON_TYPES(TYPE_ICE),
         .catchRate = 55,
         .expYield = 180,
@@ -5556,7 +5704,7 @@ const struct SpeciesInfo gSpeciesInfoGen6[] =
         .friendship = STANDARD_FRIENDSHIP,
         .growthRate = GROWTH_MEDIUM_FAST,
         .eggGroups = BERGMITE_EGG_GROUPS,
-        .abilities = { ABILITY_OWN_TEMPO, ABILITY_ICE_BODY, ABILITY_STURDY },
+        .abilities = { ABILITY_FILTER, ABILITY_ICE_BODY, ABILITY_SNOW_WARNING },
         .bodyColor = BODY_COLOR_BLUE,
         .speciesName = _("Avalugg"),
         .cryId = CRY_AVALUGG,
@@ -5697,7 +5845,7 @@ const struct SpeciesInfo gSpeciesInfoGen6[] =
     #else
         .eggGroups = MON_EGG_GROUPS(EGG_GROUP_FLYING),
     #endif
-        .abilities = { ABILITY_FRISK, ABILITY_INFILTRATOR, ABILITY_TELEPATHY },
+        .abilities = { ABILITY_UNBURDEN, ABILITY_INFILTRATOR, ABILITY_OVERDRIVE },
         .bodyColor = BODY_COLOR_PURPLE,
         .speciesName = _("Noibat"),
         .cryId = CRY_NOIBAT,
@@ -5761,7 +5909,7 @@ const struct SpeciesInfo gSpeciesInfoGen6[] =
         .baseAttack    = 70,
         .baseDefense   = 80,
         .baseSpeed     = 123,
-        .baseSpAttack  = 97,
+        .baseSpAttack  = 112,
         .baseSpDefense = 80,
         .types = MON_TYPES(TYPE_FLYING, TYPE_DRAGON),
         .catchRate = 45,
@@ -5776,7 +5924,7 @@ const struct SpeciesInfo gSpeciesInfoGen6[] =
     #else
         .eggGroups = MON_EGG_GROUPS(EGG_GROUP_FLYING),
     #endif
-        .abilities = { ABILITY_FRISK, ABILITY_INFILTRATOR, ABILITY_TELEPATHY },
+        .abilities = { ABILITY_UNBURDEN, ABILITY_INFILTRATOR, ABILITY_OVERDRIVE },
         .bodyColor = BODY_COLOR_PURPLE,
         .speciesName = _("Noivern"),
         .cryId = CRY_NOIVERN,
@@ -6362,155 +6510,6 @@ const struct SpeciesInfo gSpeciesInfoGen6[] =
         .formChangeTable = sZygardeCompleteFormChangeTable,
     },
 #endif //P_FAMILY_ZYGARDE
-
-#if P_FAMILY_DIANCIE
-    [SPECIES_DIANCIE] =
-    {
-        .baseHP        = 50,
-        .baseAttack    = 100,
-        .baseDefense   = 150,
-        .baseSpeed     = 50,
-        .baseSpAttack  = 100,
-        .baseSpDefense = 150,
-        .types = MON_TYPES(TYPE_ROCK, TYPE_FAIRY),
-        .catchRate = 3,
-        .expYield = (P_UPDATED_EXP_YIELDS >= GEN_8) ? 300 : 270,
-        .evYield_Defense = 1,
-        .evYield_SpDefense = 2,
-        .genderRatio = MON_GENDERLESS,
-        .eggCycles = 25,
-        .friendship = STANDARD_FRIENDSHIP,
-        .growthRate = GROWTH_SLOW,
-        .eggGroups = MON_EGG_GROUPS(EGG_GROUP_NO_EGGS_DISCOVERED),
-        .abilities = { ABILITY_CLEAR_BODY, ABILITY_NONE, ABILITY_NONE },
-        .bodyColor = BODY_COLOR_PINK,
-        .speciesName = _("Diancie"),
-        .cryId = CRY_DIANCIE,
-        .natDexNum = NATIONAL_DEX_DIANCIE,
-        .categoryName = _("Jewel"),
-        .height = 7,
-        .weight = 88,
-        .description = COMPOUND_STRING(
-            "A sudden transformation of Carbink,\n"
-            "its pink, glimmering body is said to be\n"
-            "the loveliest sight in the whole world.\n"
-            "It creates diamonds between its hands."),
-        .pokemonScale = 365,
-        .pokemonOffset = 12,
-        .trainerScale = 256,
-        .trainerOffset = 0,
-        .frontPic = gMonFrontPic_Diancie,
-        .frontPicSize = MON_COORDS_SIZE(40, 64),
-        .frontPicYOffset = 1,
-        .frontAnimFrames = ANIM_FRAMES(
-            ANIMCMD_FRAME(0, 20),
-            ANIMCMD_FRAME(1, 10),
-            ANIMCMD_FRAME(0, 10),
-        ),
-        .frontAnimId = ANIM_V_SQUISH_AND_BOUNCE,
-        .backPic = gMonBackPic_Diancie,
-        .backPicSize = MON_COORDS_SIZE(64, 64),
-        .backPicYOffset = 7,
-        .backAnimId = BACK_ANIM_CIRCLE_COUNTERCLOCKWISE,
-        .palette = gMonPalette_Diancie,
-        .shinyPalette = gMonShinyPalette_Diancie,
-        .iconSprite = gMonIcon_Diancie,
-        .iconPalIndex = 1,
-        .pokemonJumpType = PKMN_JUMP_TYPE_NONE,
-        SHADOW(0, 13, SHADOW_SIZE_S)
-        FOOTPRINT(Diancie)
-        OVERWORLD(
-            sPicTable_Diancie,
-            SIZE_32x32,
-            SHADOW_SIZE_M,
-            TRACKS_FOOT,
-            sAnimTable_Following,
-            gOverworldPalette_Diancie,
-            gShinyOverworldPalette_Diancie
-        )
-        .isMythical = TRUE,
-        .isFrontierBanned = TRUE,
-        .perfectIVCount = LEGENDARY_PERFECT_IV_COUNT,
-        .levelUpLearnset = sDiancieLevelUpLearnset,
-        .teachableLearnset = sDiancieTeachableLearnset,
-        .formSpeciesIdTable = sDiancieFormSpeciesIdTable,
-        .formChangeTable = sDiancieFormChangeTable,
-    },
-
-#if P_MEGA_EVOLUTIONS
-    [SPECIES_DIANCIE_MEGA] =
-    {
-        .baseHP        = 50,
-        .baseAttack    = 160,
-        .baseDefense   = 110,
-        .baseSpeed     = 110,
-        .baseSpAttack  = 160,
-        .baseSpDefense = 110,
-        .types = MON_TYPES(TYPE_ROCK, TYPE_FAIRY),
-        .catchRate = 3,
-        .expYield = 315,
-        .evYield_Defense = 1,
-        .evYield_SpDefense = 2,
-        .genderRatio = MON_GENDERLESS,
-        .eggCycles = 25,
-        .friendship = STANDARD_FRIENDSHIP,
-        .growthRate = GROWTH_SLOW,
-        .eggGroups = MON_EGG_GROUPS(EGG_GROUP_NO_EGGS_DISCOVERED),
-        .abilities = { ABILITY_MAGIC_BOUNCE, ABILITY_MAGIC_BOUNCE, ABILITY_MAGIC_BOUNCE },
-        .bodyColor = BODY_COLOR_PINK,
-        .speciesName = _("Diancie"),
-        .cryId = CRY_DIANCIE_MEGA,
-        .natDexNum = NATIONAL_DEX_DIANCIE,
-        .categoryName = _("Jewel"),
-        .height = 11,
-        .weight = 278,
-        .description = COMPOUND_STRING(
-            "The impurities upon its body's surface\n"
-            "have fallen away, sparkling so brilliantly\n"
-            "that cannot be observed directly.\n"
-            "It is known as “the Royal Pink Princess”."),
-        .pokemonScale = 365,
-        .pokemonOffset = 12,
-        .trainerScale = 256,
-        .trainerOffset = 0,
-        .frontPic = gMonFrontPic_DiancieMega,
-        .frontPicSize = MON_COORDS_SIZE(64, 64),
-        .frontPicYOffset = 0,
-        .frontAnimFrames = sAnims_SingleFramePlaceHolder,
-        //.frontAnimId = ANIM_V_SQUISH_AND_BOUNCE,
-        .backPic = gMonBackPic_DiancieMega,
-        .backPicSize = MON_COORDS_SIZE(64, 56),
-        .backPicYOffset = 5,
-        //.backAnimId = BACK_ANIM_NONE,
-        .palette = gMonPalette_DiancieMega,
-        .shinyPalette = gMonShinyPalette_DiancieMega,
-        .iconSprite = gMonIcon_DiancieMega,
-        .iconPalIndex = 0,
-        .pokemonJumpType = PKMN_JUMP_TYPE_NONE,
-        SHADOW(0, 12, SHADOW_SIZE_M)
-        FOOTPRINT(Diancie)
-    #if OW_BATTLE_ONLY_FORMS
-        OVERWORLD(
-            sPicTable_DiancieMega,
-            SIZE_32x32,
-            SHADOW_SIZE_M,
-            TRACKS_FOOT,
-            sAnimTable_Following,
-            gOverworldPalette_DiancieMega,
-            gShinyOverworldPalette_DiancieMega
-        )
-    #endif //OW_BATTLE_ONLY_FORMS
-        .isMythical = TRUE,
-        .isMegaEvolution = TRUE,
-        .isFrontierBanned = TRUE,
-        .perfectIVCount = LEGENDARY_PERFECT_IV_COUNT,
-        .levelUpLearnset = sDiancieLevelUpLearnset,
-        .teachableLearnset = sDiancieTeachableLearnset,
-        .formSpeciesIdTable = sDiancieFormSpeciesIdTable,
-        .formChangeTable = sDiancieFormChangeTable,
-    },
-#endif //P_MEGA_EVOLUTIONS
-#endif //P_FAMILY_DIANCIE
 
 #if P_FAMILY_HOOPA
     [SPECIES_HOOPA_CONFINED] =
