@@ -11,7 +11,7 @@ static const struct CityMapEntry sPokenavCityMaps[NUM_CITY_MAPS] =
         .tilemap = gPokenavCityMap_Oldale_0,
     },
     {
-        .mapSecId = MAPSEC_DEWFORD_TOWN,
+        .mapSecId = MAPSEC_DEWFORD_ISLE,
         .index = 0,
         .tilemap = gPokenavCityMap_Dewford_0,
     },
@@ -31,7 +31,7 @@ static const struct CityMapEntry sPokenavCityMaps[NUM_CITY_MAPS] =
         .tilemap = gPokenavCityMap_Verdanturf_0,
     },
     {
-        .mapSecId = MAPSEC_PACIFIDLOG_TOWN,
+        .mapSecId = MAPSEC_PACIFIDLOG_ISLE,
         .index = 0,
         .tilemap = gPokenavCityMap_Pacifidlog_0,
     },
@@ -86,12 +86,12 @@ static const struct CityMapEntry sPokenavCityMaps[NUM_CITY_MAPS] =
         .tilemap = gPokenavCityMap_Lilycove_1,
     },
     {
-        .mapSecId = MAPSEC_MOSSDEEP_CITY,
+        .mapSecId = MAPSEC_MOSSDEEP_ISLE,
         .index = 0,
         .tilemap = gPokenavCityMap_Mossdeep_0,
     },
     {
-        .mapSecId = MAPSEC_MOSSDEEP_CITY,
+        .mapSecId = MAPSEC_MOSSDEEP_ISLE,
         .index = 1,
         .tilemap = gPokenavCityMap_Mossdeep_1,
     },

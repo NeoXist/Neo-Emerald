@@ -49,8 +49,8 @@
       "y": 15
     },
     {
-      "id": "HEAL_LOCATION_MOSSDEEP_CITY",
-      "map": "MAP_MOSSDEEP_CITY",
+      "id": "HEAL_LOCATION_MOSSDEEP_ISLE",
+      "map": "MAP_MOSSDEEP_ISLE",
       "x": 28,
       "y": 17
     },
@@ -85,8 +85,8 @@
       "y": 17
     },
     {
-      "id": "HEAL_LOCATION_DEWFORD_TOWN",
-      "map": "MAP_DEWFORD_TOWN",
+      "id": "HEAL_LOCATION_DEWFORD_ISLE",
+      "map": "MAP_DEWFORD_ISLE",
       "x": 2,
       "y": 11
     },
@@ -109,8 +109,8 @@
       "y": 4
     },
     {
-      "id": "HEAL_LOCATION_PACIFIDLOG_TOWN",
-      "map": "MAP_PACIFIDLOG_TOWN",
+      "id": "HEAL_LOCATION_PACIFIDLOG_ISLE",
+      "map": "MAP_PACIFIDLOG_ISLE",
       "x": 8,
       "y": 16
     },

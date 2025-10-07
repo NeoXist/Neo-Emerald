@@ -112,16 +112,16 @@ gStdScripts_End::
 	.include "data/maps/RustboroCity/scripts.inc"
 	.include "data/maps/FortreeCity/scripts.inc"
 	.include "data/maps/LilycoveCity/scripts.inc"
-	.include "data/maps/MossdeepCity/scripts.inc"
+	.include "data/maps/MossdeepIsle/scripts.inc"
 	.include "data/maps/SootopolisCity/scripts.inc"
 	.include "data/maps/EverGrandeCity/scripts.inc"
 	.include "data/maps/LittlerootTown/scripts.inc"
 	.include "data/maps/OldaleTown/scripts.inc"
-	.include "data/maps/DewfordTown/scripts.inc"
+	.include "data/maps/DewfordIsle/scripts.inc"
 	.include "data/maps/LavaridgeTown/scripts.inc"
 	.include "data/maps/FallarborTown/scripts.inc"
 	.include "data/maps/VerdanturfTown/scripts.inc"
-	.include "data/maps/PacifidlogTown/scripts.inc"
+	.include "data/maps/PacifidlogIsle/scripts.inc"
 	.include "data/maps/Route101/scripts.inc"
 	.include "data/maps/Route102/scripts.inc"
 	.include "data/maps/Route103/scripts.inc"
@@ -173,12 +173,12 @@ gStdScripts_End::
 	.include "data/maps/OldaleTown_PokemonCenter_1F/scripts.inc"
 	.include "data/maps/OldaleTown_PokemonCenter_2F/scripts.inc"
 	.include "data/maps/OldaleTown_Mart/scripts.inc"
-	.include "data/maps/DewfordTown_House1/scripts.inc"
-	.include "data/maps/DewfordTown_PokemonCenter_1F/scripts.inc"
-	.include "data/maps/DewfordTown_PokemonCenter_2F/scripts.inc"
-	.include "data/maps/DewfordTown_Gym/scripts.inc"
-	.include "data/maps/DewfordTown_Hall/scripts.inc"
-	.include "data/maps/DewfordTown_House2/scripts.inc"
+	.include "data/maps/DewfordIsle_House1/scripts.inc"
+	.include "data/maps/DewfordIsle_PokemonCenter_1F/scripts.inc"
+	.include "data/maps/DewfordIsle_PokemonCenter_2F/scripts.inc"
+	.include "data/maps/DewfordIsle_Gym/scripts.inc"
+	.include "data/maps/DewfordIsle_Hall/scripts.inc"
+	.include "data/maps/DewfordIsle_House2/scripts.inc"
 	.include "data/maps/LavaridgeTown_HerbShop/scripts.inc"
 	.include "data/maps/LavaridgeTown_Gym_1F/scripts.inc"
 	.include "data/maps/LavaridgeTown_Gym_B1F/scripts.inc"
@@ -203,13 +203,13 @@ gStdScripts_End::
 	.include "data/maps/VerdanturfTown_WandasHouse/scripts.inc"
 	.include "data/maps/VerdanturfTown_FriendshipRatersHouse/scripts.inc"
 	.include "data/maps/VerdanturfTown_House/scripts.inc"
-	.include "data/maps/PacifidlogTown_PokemonCenter_1F/scripts.inc"
-	.include "data/maps/PacifidlogTown_PokemonCenter_2F/scripts.inc"
-	.include "data/maps/PacifidlogTown_House1/scripts.inc"
-	.include "data/maps/PacifidlogTown_House2/scripts.inc"
-	.include "data/maps/PacifidlogTown_House3/scripts.inc"
-	.include "data/maps/PacifidlogTown_House4/scripts.inc"
-	.include "data/maps/PacifidlogTown_House5/scripts.inc"
+	.include "data/maps/PacifidlogIsle_PokemonCenter_1F/scripts.inc"
+	.include "data/maps/PacifidlogIsle_PokemonCenter_2F/scripts.inc"
+	.include "data/maps/PacifidlogIsle_House1/scripts.inc"
+	.include "data/maps/PacifidlogIsle_House2/scripts.inc"
+	.include "data/maps/PacifidlogIsle_House3/scripts.inc"
+	.include "data/maps/PacifidlogIsle_House4/scripts.inc"
+	.include "data/maps/PacifidlogIsle_House5/scripts.inc"
 	.include "data/maps/PetalburgCity_WallysHouse/scripts.inc"
 	.include "data/maps/PetalburgCity_Gym/scripts.inc"
 	.include "data/maps/PetalburgCity_House1/scripts.inc"
@@ -289,19 +289,19 @@ gStdScripts_End::
 	.include "data/maps/LilycoveCity_DepartmentStore_5F/scripts.inc"
 	.include "data/maps/LilycoveCity_DepartmentStoreRooftop/scripts.inc"
 	.include "data/maps/LilycoveCity_DepartmentStoreElevator/scripts.inc"
-	.include "data/maps/MossdeepCity_Gym/scripts.inc"
-	.include "data/maps/MossdeepCity_House1/scripts.inc"
-	.include "data/maps/MossdeepCity_House2/scripts.inc"
-	.include "data/maps/MossdeepCity_PokemonCenter_1F/scripts.inc"
-	.include "data/maps/MossdeepCity_PokemonCenter_2F/scripts.inc"
-	.include "data/maps/MossdeepCity_Mart/scripts.inc"
-	.include "data/maps/MossdeepCity_House3/scripts.inc"
-	.include "data/maps/MossdeepCity_StevensHouse/scripts.inc"
-	.include "data/maps/MossdeepCity_House4/scripts.inc"
-	.include "data/maps/MossdeepCity_SpaceCenter_1F/scripts.inc"
-	.include "data/maps/MossdeepCity_SpaceCenter_2F/scripts.inc"
-	.include "data/maps/MossdeepCity_GameCorner_1F/scripts.inc"
-	.include "data/maps/MossdeepCity_GameCorner_B1F/scripts.inc"
+	.include "data/maps/MossdeepIsle_Gym/scripts.inc"
+	.include "data/maps/MossdeepIsle_House1/scripts.inc"
+	.include "data/maps/MossdeepIsle_House2/scripts.inc"
+	.include "data/maps/MossdeepIsle_PokemonCenter_1F/scripts.inc"
+	.include "data/maps/MossdeepIsle_PokemonCenter_2F/scripts.inc"
+	.include "data/maps/MossdeepIsle_Mart/scripts.inc"
+	.include "data/maps/MossdeepIsle_House3/scripts.inc"
+	.include "data/maps/MossdeepIsle_StevensHouse/scripts.inc"
+	.include "data/maps/MossdeepIsle_House4/scripts.inc"
+	.include "data/maps/MossdeepIsle_SpaceCenter_1F/scripts.inc"
+	.include "data/maps/MossdeepIsle_SpaceCenter_2F/scripts.inc"
+	.include "data/maps/MossdeepIsle_GameCorner_1F/scripts.inc"
+	.include "data/maps/MossdeepIsle_GameCorner_B1F/scripts.inc"
 	.include "data/maps/SootopolisCity_Gym_1F/scripts.inc"
 	.include "data/maps/SootopolisCity_Gym_B1F/scripts.inc"
 	.include "data/maps/SootopolisCity_PokemonCenter_1F/scripts.inc"
@@ -627,8 +627,8 @@ EventScript_ResetMrBriney::
 	end
 
 EventScript_MoveMrBrineyToHouse::
-	setflag FLAG_HIDE_MR_BRINEY_DEWFORD_TOWN
-	setflag FLAG_HIDE_MR_BRINEY_BOAT_DEWFORD_TOWN
+	setflag FLAG_HIDE_MR_BRINEY_DEWFORD_ISLE
+	setflag FLAG_HIDE_MR_BRINEY_BOAT_DEWFORD_ISLE
 	setflag FLAG_HIDE_ROUTE_109_MR_BRINEY
 	setflag FLAG_HIDE_ROUTE_109_MR_BRINEY_BOAT
 	clearflag FLAG_HIDE_ROUTE_104_MR_BRINEY_BOAT
@@ -643,8 +643,8 @@ EventScript_MoveMrBrineyToDewford::
 	setflag FLAG_HIDE_ROUTE_104_MR_BRINEY_BOAT
 	setflag FLAG_HIDE_BRINEYS_HOUSE_MR_BRINEY
 	setflag FLAG_HIDE_BRINEYS_HOUSE_PEEKO
-	clearflag FLAG_HIDE_MR_BRINEY_DEWFORD_TOWN
-	clearflag FLAG_HIDE_MR_BRINEY_BOAT_DEWFORD_TOWN
+	clearflag FLAG_HIDE_MR_BRINEY_DEWFORD_ISLE
+	clearflag FLAG_HIDE_MR_BRINEY_BOAT_DEWFORD_ISLE
 	end
 
 EventScript_MoveMrBrineyToRoute109::
@@ -652,8 +652,8 @@ EventScript_MoveMrBrineyToRoute109::
 	setflag FLAG_HIDE_ROUTE_104_MR_BRINEY_BOAT
 	setflag FLAG_HIDE_BRINEYS_HOUSE_MR_BRINEY
 	setflag FLAG_HIDE_BRINEYS_HOUSE_PEEKO
-	setflag FLAG_HIDE_MR_BRINEY_DEWFORD_TOWN
-	setflag FLAG_HIDE_MR_BRINEY_BOAT_DEWFORD_TOWN
+	setflag FLAG_HIDE_MR_BRINEY_DEWFORD_ISLE
+	setflag FLAG_HIDE_MR_BRINEY_BOAT_DEWFORD_ISLE
 	clearflag FLAG_HIDE_ROUTE_109_MR_BRINEY
 	clearflag FLAG_HIDE_ROUTE_109_MR_BRINEY_BOAT
 	end
@@ -670,7 +670,7 @@ Common_EventScript_UpdateBrineyLocation::
 	goto_if_unset FLAG_RECEIVED_POKENAV, Common_EventScript_NopReturn
 	goto_if_set FLAG_DEFEATED_PETALBURG_GYM, Common_EventScript_NopReturn
 	goto_if_unset FLAG_HIDE_ROUTE_104_MR_BRINEY_BOAT, EventScript_SetBrineyLocation_House
-	goto_if_unset FLAG_HIDE_MR_BRINEY_DEWFORD_TOWN, EventScript_SetBrineyLocation_Dewford
+	goto_if_unset FLAG_HIDE_MR_BRINEY_DEWFORD_ISLE, EventScript_SetBrineyLocation_Dewford
 	goto_if_unset FLAG_HIDE_ROUTE_109_MR_BRINEY, EventScript_SetBrineyLocation_Route109
 	return
 
@@ -806,8 +806,8 @@ Movement_FerryDepart:
 	step_end
 
 EventScript_HideMrBriney::
-	setflag FLAG_HIDE_MR_BRINEY_DEWFORD_TOWN
-	setflag FLAG_HIDE_MR_BRINEY_BOAT_DEWFORD_TOWN
+	setflag FLAG_HIDE_MR_BRINEY_DEWFORD_ISLE
+	setflag FLAG_HIDE_MR_BRINEY_BOAT_DEWFORD_ISLE
 	setflag FLAG_HIDE_ROUTE_109_MR_BRINEY
 	setflag FLAG_HIDE_ROUTE_109_MR_BRINEY_BOAT
 	setflag FLAG_HIDE_ROUTE_104_MR_BRINEY

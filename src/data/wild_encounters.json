@@ -520,66 +520,6 @@
         {
           "map": "MAP_ROUTE105",
           "base_label": "gRoute105",
-          "water_mons": {
-            "encounter_rate": 4,
-            "mons": [
-              {
-                "min_level": 28,
-                "max_level": 30,
-                "species": "SPECIES_PELIPPER"
-              },
-              {
-                "min_level": 28,
-                "max_level": 30,
-                "species": "SPECIES_DUCKLETT"
-              },
-              {
-                "min_level": 28,
-                "max_level": 30,
-                "species": "SPECIES_CARVANHA"
-              },
-              {
-                "min_level": 28,
-                "max_level": 30,
-                "species": "SPECIES_WAILMER"
-              },
-              {
-                "min_level": 28,
-                "max_level": 30,
-                "species": "SPECIES_SWELLOW"
-              }
-            ]
-          },
-          "fishing_mons": {
-            "encounter_rate": 50,
-            "mons": [
-              {
-                "min_level": 25,
-                "max_level": 28,
-                "species": "SPECIES_MAREANIE"
-              },
-              {
-                "min_level": 25,
-                "max_level": 28,
-                "species": "SPECIES_SHELLDER"
-              },
-              {
-                "min_level": 25,
-                "max_level": 28,
-                "species": "SPECIES_LUVDISC"
-              },
-              {
-                "min_level": 25,
-                "max_level": 28,
-                "species": "SPECIES_BASCULIN"
-              },
-              {
-                "min_level": 25,
-                "max_level": 28,
-                "species": "SPECIES_WAILMER"
-              }
-            ]
-          },
           "land_mons": {
             "encounter_rate": 10,
             "mons": [
@@ -642,6 +582,66 @@
                 "min_level": 25,
                 "max_level": 28,
                 "species": "SPECIES_HAWLUCHA"
+              }
+            ]
+          },
+          "water_mons": {
+            "encounter_rate": 4,
+            "mons": [
+              {
+                "min_level": 28,
+                "max_level": 30,
+                "species": "SPECIES_PELIPPER"
+              },
+              {
+                "min_level": 28,
+                "max_level": 30,
+                "species": "SPECIES_DUCKLETT"
+              },
+              {
+                "min_level": 28,
+                "max_level": 30,
+                "species": "SPECIES_CARVANHA"
+              },
+              {
+                "min_level": 28,
+                "max_level": 30,
+                "species": "SPECIES_WAILMER"
+              },
+              {
+                "min_level": 28,
+                "max_level": 30,
+                "species": "SPECIES_SWELLOW"
+              }
+            ]
+          },
+          "fishing_mons": {
+            "encounter_rate": 50,
+            "mons": [
+              {
+                "min_level": 25,
+                "max_level": 28,
+                "species": "SPECIES_MAREANIE"
+              },
+              {
+                "min_level": 25,
+                "max_level": 28,
+                "species": "SPECIES_SHELLDER"
+              },
+              {
+                "min_level": 25,
+                "max_level": 28,
+                "species": "SPECIES_LUVDISC"
+              },
+              {
+                "min_level": 25,
+                "max_level": 28,
+                "species": "SPECIES_BASCULIN"
+              },
+              {
+                "min_level": 25,
+                "max_level": 28,
+                "species": "SPECIES_WAILMER"
               }
             ]
           }
@@ -4720,66 +4720,6 @@
         {
           "map": "MAP_ROUTE128",
           "base_label": "gRoute128",
-          "water_mons": {
-            "encounter_rate": 4,
-            "mons": [
-              {
-                "min_level": 45,
-                "max_level": 48,
-                "species": "SPECIES_KILOWATTREL"
-              },
-              {
-                "min_level": 45,
-                "max_level": 48,
-                "species": "SPECIES_HONCHKROW"
-              },
-              {
-                "min_level": 45,
-                "max_level": 48,
-                "species": "SPECIES_GOLISOPOD"
-              },
-              {
-                "min_level": 45,
-                "max_level": 48,
-                "species": "SPECIES_ROTOM"
-              },
-              {
-                "min_level": 45,
-                "max_level": 48,
-                "species": "SPECIES_DRAGALGE"
-              }
-            ]
-          },
-          "fishing_mons": {
-            "encounter_rate": 50,
-            "mons": [
-              {
-                "min_level": 45,
-                "max_level": 48,
-                "species": "SPECIES_CRAWDAUNT"
-              },
-              {
-                "min_level": 45,
-                "max_level": 48,
-                "species": "SPECIES_LUVDISC"
-              },
-              {
-                "min_level": 45,
-                "max_level": 48,
-                "species": "SPECIES_WAILORD"
-              },
-              {
-                "min_level": 45,
-                "max_level": 48,
-                "species": "SPECIES_LUMINEON"
-              },
-              {
-                "min_level": 45,
-                "max_level": 48,
-                "species": "SPECIES_BASCULEGION"
-              }
-            ]
-          },
           "land_mons": {
             "encounter_rate": 10,
             "mons": [
@@ -4842,6 +4782,66 @@
                 "min_level": 40,
                 "max_level": 45,
                 "species": "SPECIES_DREEPY"
+              }
+            ]
+          },
+          "water_mons": {
+            "encounter_rate": 4,
+            "mons": [
+              {
+                "min_level": 45,
+                "max_level": 48,
+                "species": "SPECIES_KILOWATTREL"
+              },
+              {
+                "min_level": 45,
+                "max_level": 48,
+                "species": "SPECIES_HONCHKROW"
+              },
+              {
+                "min_level": 45,
+                "max_level": 48,
+                "species": "SPECIES_GOLISOPOD"
+              },
+              {
+                "min_level": 45,
+                "max_level": 48,
+                "species": "SPECIES_ROTOM"
+              },
+              {
+                "min_level": 45,
+                "max_level": 48,
+                "species": "SPECIES_DRAGALGE"
+              }
+            ]
+          },
+          "fishing_mons": {
+            "encounter_rate": 50,
+            "mons": [
+              {
+                "min_level": 45,
+                "max_level": 48,
+                "species": "SPECIES_CRAWDAUNT"
+              },
+              {
+                "min_level": 45,
+                "max_level": 48,
+                "species": "SPECIES_LUVDISC"
+              },
+              {
+                "min_level": 45,
+                "max_level": 48,
+                "species": "SPECIES_WAILORD"
+              },
+              {
+                "min_level": 45,
+                "max_level": 48,
+                "species": "SPECIES_LUMINEON"
+              },
+              {
+                "min_level": 45,
+                "max_level": 48,
+                "species": "SPECIES_BASCULEGION"
               }
             ]
           }
@@ -7932,7 +7932,7 @@
           }
         },
         {
-          "map": "MAP_DEWFORD_TOWN",
+          "map": "MAP_DEWFORD_ISLE",
           "base_label": "gDewfordTown",
           "land_mons": {
             "encounter_rate": 10,
@@ -8190,7 +8190,7 @@
           }
         },
         {
-          "map": "MAP_MOSSDEEP_CITY",
+          "map": "MAP_MOSSDEEP_ISLE",
           "base_label": "gMossdeepCity",
           "water_mons": {
             "encounter_rate": 4,
@@ -8254,7 +8254,7 @@
           }
         },
         {
-          "map": "MAP_PACIFIDLOG_TOWN",
+          "map": "MAP_PACIFIDLOG_ISLE",
           "base_label": "gPacifidlogTown",
           "water_mons": {
             "encounter_rate": 4,
@@ -8750,66 +8750,6 @@
         {
           "map": "MAP_SOOTOPOLIS_CITY",
           "base_label": "gSootopolisCity",
-          "water_mons": {
-            "encounter_rate": 1,
-            "mons": [
-              {
-                "min_level": 45,
-                "max_level": 48,
-                "species": "SPECIES_SWANNA"
-              },
-              {
-                "min_level": 45,
-                "max_level": 48,
-                "species": "SPECIES_MINIOR_BLUE"
-              },
-              {
-                "min_level": 45,
-                "max_level": 48,
-                "species": "SPECIES_CORVISQUIRE"
-              },
-              {
-                "min_level": 45,
-                "max_level": 48,
-                "species": "SPECIES_ALTARIA"
-              },
-              {
-                "min_level": 45,
-                "max_level": 48,
-                "species": "SPECIES_CHIMECHO"
-              }
-            ]
-          },
-          "fishing_mons": {
-            "encounter_rate": 50,
-            "mons": [
-              {
-                "min_level": 45,
-                "max_level": 48,
-                "species": "SPECIES_CLAMPERL"
-              },
-              {
-                "min_level": 45,
-                "max_level": 48,
-                "species": "SPECIES_VELUZA"
-              },
-              {
-                "min_level": 45,
-                "max_level": 48,
-                "species": "SPECIES_LUVDISC"
-              },
-              {
-                "min_level": 45,
-                "max_level": 48,
-                "species": "SPECIES_WHISCASH"
-              },
-              {
-                "min_level": 45,
-                "max_level": 48,
-                "species": "SPECIES_FEEBAS"
-              }
-            ]
-          },
           "land_mons": {
             "encounter_rate": 10,
             "mons": [
@@ -8872,6 +8812,66 @@
                 "min_level": 40,
                 "max_level": 45,
                 "species": "SPECIES_DREEPY"
+              }
+            ]
+          },
+          "water_mons": {
+            "encounter_rate": 1,
+            "mons": [
+              {
+                "min_level": 45,
+                "max_level": 48,
+                "species": "SPECIES_SWANNA"
+              },
+              {
+                "min_level": 45,
+                "max_level": 48,
+                "species": "SPECIES_MINIOR_BLUE"
+              },
+              {
+                "min_level": 45,
+                "max_level": 48,
+                "species": "SPECIES_CORVISQUIRE"
+              },
+              {
+                "min_level": 45,
+                "max_level": 48,
+                "species": "SPECIES_ALTARIA"
+              },
+              {
+                "min_level": 45,
+                "max_level": 48,
+                "species": "SPECIES_CHIMECHO"
+              }
+            ]
+          },
+          "fishing_mons": {
+            "encounter_rate": 50,
+            "mons": [
+              {
+                "min_level": 45,
+                "max_level": 48,
+                "species": "SPECIES_CLAMPERL"
+              },
+              {
+                "min_level": 45,
+                "max_level": 48,
+                "species": "SPECIES_VELUZA"
+              },
+              {
+                "min_level": 45,
+                "max_level": 48,
+                "species": "SPECIES_LUVDISC"
+              },
+              {
+                "min_level": 45,
+                "max_level": 48,
+                "species": "SPECIES_WHISCASH"
+              },
+              {
+                "min_level": 45,
+                "max_level": 48,
+                "species": "SPECIES_FEEBAS"
               }
             ]
           }

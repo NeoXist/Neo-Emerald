@@ -246,12 +246,12 @@ CableClub_Text_PlayerIsWaiting:
 	.string "right now.\l"
 	.string "Go for it!$"
 
-MossdeepCity_GameCorner_1F_Text_DescribeWhichGame:
+MossdeepIsle_GameCorner_1F_Text_DescribeWhichGame:
 	.string "I can explain game rules to you,\n"
 	.string "if you'd like.\p"
 	.string "Which game should I describe?$"
 
-MossdeepCity_GameCorner_1F_Text_PokemonJumpInfo:
+MossdeepIsle_GameCorner_1F_Text_PokemonJumpInfo:
 	.string "“POKéMON JUMP”\p"
 	.string "Make your POKéMON skip the VINE WHIP\n"
 	.string "rope with the A Button.\p"
@@ -264,7 +264,7 @@ MossdeepCity_GameCorner_1F_Text_PokemonJumpInfo:
 	.string "Good things happen if everyone\n"
 	.string "jumps in time.$"
 
-MossdeepCity_GameCorner_1F_Text_DodrioBerryPickingInfo:
+MossdeepIsle_GameCorner_1F_Text_DodrioBerryPickingInfo:
 	.string "“DODRIO BERRY-PICKING”\p"
 	.string "Command DODRIO's three heads to\n"
 	.string "catch falling BERRIES.\p"
@@ -273,47 +273,47 @@ MossdeepCity_GameCorner_1F_Text_DodrioBerryPickingInfo:
 	.string "To play this game, you must have\n"
 	.string "a DODRIO.$"
 
-MossdeepCity_GameCorner_1F_Text_TalkToOldManToPlay:
+MossdeepIsle_GameCorner_1F_Text_TalkToOldManToPlay:
 	.string "If you want to play a game,\n"
 	.string "please tell the old man beside me.$"
 
-MossdeepCity_GameCorner_1F_Text_WelcomeCanYouWait:
+MossdeepIsle_GameCorner_1F_Text_WelcomeCanYouWait:
 	.string "Hi, welcome!\n"
 	.string "Are you here to play games using\l"
 	.string "Wireless Communication?\p"
 	.string "Can you wait just a little bit?$"
 
-MossdeepCity_GameCorner_1F_Text_ComeAgain:
+MossdeepIsle_GameCorner_1F_Text_ComeAgain:
 	.string "All right, come again!$"
 
-MossdeepCity_GameCorner_1F_Text_AdapterNotConnected:
+MossdeepIsle_GameCorner_1F_Text_AdapterNotConnected:
 	.string "The Wireless Adapter isn't connected.\n"
 	.string "Come back when it's hooked up!$"
 
-MossdeepCity_GameCorner_1F_Text_PlayWhichGame:
+MossdeepIsle_GameCorner_1F_Text_PlayWhichGame:
 	.string "All right, which game did you want\n"
 	.string "to play?$"
 
-MossdeepCity_GameCorner_1F_Text_EnterWhichPokemon:
+MossdeepIsle_GameCorner_1F_Text_EnterWhichPokemon:
 	.string "Which POKéMON would you like to\n"
 	.string "enter?$"
 
-MossdeepCity_GameCorner_1F_Text_AllGoodToGo:
+MossdeepIsle_GameCorner_1F_Text_AllGoodToGo:
 	.string "Okay, you're all good to go.\n"
 	.string "Don't let the others beat you!$"
 
 @ Unused
-MossdeepCity_GameCorner_1F_Text_LeavingDoComeAgain:
+MossdeepIsle_GameCorner_1F_Text_LeavingDoComeAgain:
 	.string "Are you leaving now?\n"
 	.string "Do come again!$"
 
-MossdeepCity_GameCorner_1F_Text_ExplainRequiredMon:
+MossdeepIsle_GameCorner_1F_Text_ExplainRequiredMon:
 	.string "It doesn't look like you have any\n"
 	.string "POKéMON that you can enter…\p"
 	.string "Would you like me to explain what\n"
 	.string "kinds of POKéMON can enter?$"
 
-MossdeepCity_GameCorner_1F_Text_ShortJumpingPokemonAllowed:
+MossdeepIsle_GameCorner_1F_Text_ShortJumpingPokemonAllowed:
 	.string "“POKéMON JUMP” is open to POKéMON\n"
 	.string "around 28 inches or less.\p"
 	.string "What you can't enter are those\n"
@@ -322,12 +322,12 @@ MossdeepCity_GameCorner_1F_Text_ShortJumpingPokemonAllowed:
 	.string "swim, burrow, or fly.\p"
 	.string "That's all you need to know.$"
 
-MossdeepCity_GameCorner_1F_Text_OnlyDodrioAllowed:
+MossdeepIsle_GameCorner_1F_Text_OnlyDodrioAllowed:
 	.string "DODRIO BERRY-PICKING is a game that \n"
 	.string "only DODRIO may enter.$"
 
 @ Unused
-MossdeepCity_GameCorner_1F_Text_RetryPlease:
+MossdeepIsle_GameCorner_1F_Text_RetryPlease:
 	.string "Could you retry this from the start\n"
 	.string "again, please?$"
 

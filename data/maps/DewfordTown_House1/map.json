@@ -1,9 +1,9 @@
 {
-  "id": "MAP_DEWFORD_TOWN_HOUSE1",
-  "name": "DewfordTown_House1",
+  "id": "MAP_DEWFORD_ISLE_HOUSE1",
+  "name": "DewfordIsle_House1",
   "layout": "LAYOUT_HOUSE3",
   "music": "MUS_DEWFORD",
-  "region_map_section": "MAPSEC_DEWFORD_TOWN",
+  "region_map_section": "MAPSEC_DEWFORD_ISLE",
   "requires_flash": false,
   "weather": "WEATHER_NONE",
   "map_type": "MAP_TYPE_INDOOR",
@@ -24,7 +24,7 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "DewfordTown_House1_EventScript_Woman",
+      "script": "DewfordIsle_House1_EventScript_Woman",
       "flag": "0"
     },
     {
@@ -37,7 +37,7 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "DewfordTown_House1_EventScript_Man",
+      "script": "DewfordIsle_House1_EventScript_Man",
       "flag": "0"
     },
     {
@@ -50,7 +50,7 @@
       "movement_range_y": 1,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "DewfordTown_House1_EventScript_Zigzagoon",
+      "script": "DewfordIsle_House1_EventScript_Zigzagoon",
       "flag": "0"
     }
   ],
@@ -59,14 +59,14 @@
       "x": 3,
       "y": 7,
       "elevation": 0,
-      "dest_map": "MAP_DEWFORD_TOWN",
+      "dest_map": "MAP_DEWFORD_ISLE",
       "dest_warp_id": "3"
     },
     {
       "x": 4,
       "y": 7,
       "elevation": 0,
-      "dest_map": "MAP_DEWFORD_TOWN",
+      "dest_map": "MAP_DEWFORD_ISLE",
       "dest_warp_id": "3"
     }
   ],

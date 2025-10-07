@@ -1,9 +1,9 @@
 {
-  "id": "MAP_MOSSDEEP_CITY_HOUSE4",
-  "name": "MossdeepCity_House4",
+  "id": "MAP_MOSSDEEP_ISLE_HOUSE4",
+  "name": "MossdeepIsle_House4",
   "layout": "LAYOUT_HOUSE_WITH_BED",
   "music": "MUS_RUSTBORO",
-  "region_map_section": "MAPSEC_MOSSDEEP_CITY",
+  "region_map_section": "MAPSEC_MOSSDEEP_ISLE",
   "requires_flash": false,
   "weather": "WEATHER_NONE",
   "map_type": "MAP_TYPE_INDOOR",
@@ -24,7 +24,7 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "MossdeepCity_House4_EventScript_Woman",
+      "script": "MossdeepIsle_House4_EventScript_Woman",
       "flag": "0"
     },
     {
@@ -37,7 +37,7 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "MossdeepCity_House4_EventScript_NinjaBoy",
+      "script": "MossdeepIsle_House4_EventScript_NinjaBoy",
       "flag": "0"
     },
     {
@@ -50,7 +50,7 @@
       "movement_range_y": 1,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "MossdeepCity_House4_EventScript_Skitty",
+      "script": "MossdeepIsle_House4_EventScript_Skitty",
       "flag": "0"
     }
   ],
@@ -59,14 +59,14 @@
       "x": 4,
       "y": 7,
       "elevation": 0,
-      "dest_map": "MAP_MOSSDEEP_CITY",
+      "dest_map": "MAP_MOSSDEEP_ISLE",
       "dest_warp_id": "7"
     },
     {
       "x": 3,
       "y": 7,
       "elevation": 0,
-      "dest_map": "MAP_MOSSDEEP_CITY",
+      "dest_map": "MAP_MOSSDEEP_ISLE",
       "dest_warp_id": "7"
     }
   ],

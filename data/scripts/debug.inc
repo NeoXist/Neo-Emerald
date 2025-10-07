@@ -48,18 +48,18 @@ Debug_CheatStart::
 	setflag FLAG_BADGE08_GET
 	setflag FLAG_VISITED_LITTLEROOT_TOWN
 	setflag FLAG_VISITED_OLDALE_TOWN
-	setflag FLAG_VISITED_DEWFORD_TOWN
+	setflag FLAG_VISITED_DEWFORD_ISLE
 	setflag FLAG_VISITED_LAVARIDGE_TOWN
 	setflag FLAG_VISITED_FALLARBOR_TOWN
 	setflag FLAG_VISITED_VERDANTURF_TOWN
-	setflag FLAG_VISITED_PACIFIDLOG_TOWN
+	setflag FLAG_VISITED_PACIFIDLOG_ISLE
 	setflag FLAG_VISITED_PETALBURG_CITY
 	setflag FLAG_VISITED_SLATEPORT_CITY
 	setflag FLAG_VISITED_MAUVILLE_CITY
 	setflag FLAG_VISITED_RUSTBORO_CITY
 	setflag FLAG_VISITED_FORTREE_CITY
 	setflag FLAG_VISITED_LILYCOVE_CITY
-	setflag FLAG_VISITED_MOSSDEEP_CITY
+	setflag FLAG_VISITED_MOSSDEEP_ISLE
 	setflag FLAG_VISITED_SOOTOPOLIS_CITY
 	setflag FLAG_VISITED_EVER_GRANDE_CITY
 	setflag FLAG_LANDMARK_POKEMON_LEAGUE
@@ -271,7 +271,7 @@ Debug_ExpansionVersion:
 	.string "pokeemerald-expansion {STR_VAR_1}$"
 
 Debug_EventScript_Steven_Multi::
-	call MossdeepCity_SpaceCenter_2F_EventScript_ChoosePartyForMultiBattle
+	call MossdeepIsle_SpaceCenter_2F_EventScript_ChoosePartyForMultiBattle
 	release
 	end
 

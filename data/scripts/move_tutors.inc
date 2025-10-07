@@ -180,7 +180,7 @@ MoveTutor_EventScript_SubstituteTaught::
 	release
 	end
 
-MossdeepCity_EventScript_DynamicPunchTutor::
+MossdeepIsle_EventScript_DynamicPunchTutor::
 	lock
 	faceplayer
 	goto_if_set FLAG_MOVE_TUTOR_TAUGHT_DYNAMICPUNCH, MoveTutor_EventScript_DynamicPunchTaught
@@ -232,7 +232,7 @@ MoveTutor_EventScript_DoubleEdgeTaught::
 	release
 	end
 
-PacifidlogTown_PokemonCenter_1F_EventScript_ExplosionTutor::
+PacifidlogIsle_PokemonCenter_1F_EventScript_ExplosionTutor::
 	lock
 	faceplayer
 	goto_if_set FLAG_MOVE_TUTOR_TAUGHT_EXPLOSION, MoveTutor_EventScript_ExplosionTaught

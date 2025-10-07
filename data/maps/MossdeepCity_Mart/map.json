@@ -1,9 +1,9 @@
 {
-  "id": "MAP_MOSSDEEP_CITY_MART",
-  "name": "MossdeepCity_Mart",
+  "id": "MAP_MOSSDEEP_ISLE_MART",
+  "name": "MossdeepIsle_Mart",
   "layout": "LAYOUT_MART",
   "music": "MUS_POKE_MART",
-  "region_map_section": "MAPSEC_MOSSDEEP_CITY",
+  "region_map_section": "MAPSEC_MOSSDEEP_ISLE",
   "requires_flash": false,
   "weather": "WEATHER_NONE",
   "map_type": "MAP_TYPE_INDOOR",
@@ -25,7 +25,7 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "MossdeepCity_Mart_EventScript_Clerk",
+      "script": "MossdeepIsle_Mart_EventScript_Clerk",
       "flag": "0"
     },
     {
@@ -38,7 +38,7 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "MossdeepCity_Mart_EventScript_Woman",
+      "script": "MossdeepIsle_Mart_EventScript_Woman",
       "flag": "0"
     },
     {
@@ -51,7 +51,7 @@
       "movement_range_y": 1,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "MossdeepCity_Mart_EventScript_Boy",
+      "script": "MossdeepIsle_Mart_EventScript_Boy",
       "flag": "0"
     },
     {
@@ -64,7 +64,7 @@
       "movement_range_y": 1,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "MossdeepCity_Mart_EventScript_Sailor",
+      "script": "MossdeepIsle_Mart_EventScript_Sailor",
       "flag": "0"
     }
   ],
@@ -73,14 +73,14 @@
       "x": 3,
       "y": 7,
       "elevation": 0,
-      "dest_map": "MAP_MOSSDEEP_CITY",
+      "dest_map": "MAP_MOSSDEEP_ISLE",
       "dest_warp_id": "4"
     },
     {
       "x": 4,
       "y": 7,
       "elevation": 0,
-      "dest_map": "MAP_MOSSDEEP_CITY",
+      "dest_map": "MAP_MOSSDEEP_ISLE",
       "dest_warp_id": "4"
     }
   ],

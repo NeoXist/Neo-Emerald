@@ -1,44 +1,44 @@
-PacifidlogTown_MapScripts::
-	map_script MAP_SCRIPT_ON_TRANSITION, PacifidlogTown_OnTransition
-	map_script MAP_SCRIPT_ON_RESUME, PacifidlogTown_OnResume
+PacifidlogIsle_MapScripts::
+	map_script MAP_SCRIPT_ON_TRANSITION, PacifidlogIsle_OnTransition
+	map_script MAP_SCRIPT_ON_RESUME, PacifidlogIsle_OnResume
 	.byte 0
 
-PacifidlogTown_OnTransition:
+PacifidlogIsle_OnTransition:
 	setflag FLAG_VISITED_PACIFIDLOG_TOWN
 	end
 
-PacifidlogTown_OnResume:
+PacifidlogIsle_OnResume:
 	setstepcallback STEP_CB_PACIFIDLOG_BRIDGE
 	end
 
-PacifidlogTown_EventScript_NinjaBoy::
-	msgbox PacifidlogTown_Text_NeatHousesOnWater, MSGBOX_NPC
+PacifidlogIsle_EventScript_NinjaBoy::
+	msgbox PacifidlogIsle_Text_NeatHousesOnWater, MSGBOX_NPC
 	end
 
-PacifidlogTown_EventScript_Girl::
-	msgbox PacifidlogTown_Text_FastRunningCurrent, MSGBOX_NPC
+PacifidlogIsle_EventScript_Girl::
+	msgbox PacifidlogIsle_Text_FastRunningCurrent, MSGBOX_NPC
 	end
 
-PacifidlogTown_EventScript_Fisherman::
-	msgbox PacifidlogTown_Text_SkyPillarTooScary, MSGBOX_NPC
+PacifidlogIsle_EventScript_Fisherman::
+	msgbox PacifidlogIsle_Text_SkyPillarTooScary, MSGBOX_NPC
 	end
 
-PacifidlogTown_EventScript_TownSign::
-	msgbox PacifidlogTown_Text_TownSign, MSGBOX_SIGN
+PacifidlogIsle_EventScript_TownSign::
+	msgbox PacifidlogIsle_Text_TownSign, MSGBOX_SIGN
 	end
 
-PacifidlogTown_Text_FastRunningCurrent:
+PacifidlogIsle_Text_FastRunningCurrent:
 	.string "The sea between PACIFIDLOG and\n"
 	.string "SLATEPORT has a fast-running tide.\p"
 	.string "If you decide to SURF, you could end\n"
 	.string "up swept away somewhere else.$"
 
-PacifidlogTown_Text_NeatHousesOnWater:
+PacifidlogIsle_Text_NeatHousesOnWater:
 	.string "See, isn't it neat?\n"
 	.string "These houses are on water!\p"
 	.string "I was born here!$"
 
-PacifidlogTown_Text_SkyPillarTooScary:
+PacifidlogIsle_Text_SkyPillarTooScary:
 	.string "The SKY PILLAR?\p"
 	.string "…Oh, you must mean that tall, tall\n"
 	.string "tower a little further out.\p"
@@ -47,7 +47,7 @@ PacifidlogTown_Text_SkyPillarTooScary:
 	.string "Life at sea level in PACIFIDLOG,\n"
 	.string "that suits me fine.$"
 
-PacifidlogTown_Text_TownSign:
+PacifidlogIsle_Text_TownSign:
 	.string "PACIFIDLOG TOWN\p"
 	.string "“Where the morning sun smiles upon\n"
 	.string "the waters.”$"

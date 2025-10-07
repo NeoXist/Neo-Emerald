@@ -43,16 +43,16 @@
     "RustboroCity",
     "FortreeCity",
     "LilycoveCity",
-    "MossdeepCity",
+    "MossdeepIsle",
     "SootopolisCity",
     "EverGrandeCity",
     "LittlerootTown",
     "OldaleTown",
-    "DewfordTown",
+    "DewfordIsle",
     "LavaridgeTown",
     "FallarborTown",
     "VerdanturfTown",
-    "PacifidlogTown",
+    "PacifidlogIsle",
     "Route101",
     "Route102",
     "Route103",
@@ -112,12 +112,12 @@
     "OldaleTown_Mart"
   ],
   "gMapGroup_IndoorDewford": [
-    "DewfordTown_House1",
-    "DewfordTown_PokemonCenter_1F",
-    "DewfordTown_PokemonCenter_2F",
-    "DewfordTown_Gym",
-    "DewfordTown_Hall",
-    "DewfordTown_House2"
+    "DewfordIsle_House1",
+    "DewfordIsle_PokemonCenter_1F",
+    "DewfordIsle_PokemonCenter_2F",
+    "DewfordIsle_Gym",
+    "DewfordIsle_Hall",
+    "DewfordIsle_House2"
   ],
   "gMapGroup_IndoorLavaridge": [
     "LavaridgeTown_HerbShop",
@@ -150,13 +150,13 @@
     "VerdanturfTown_House"
   ],
   "gMapGroup_IndoorPacifidlog": [
-    "PacifidlogTown_PokemonCenter_1F",
-    "PacifidlogTown_PokemonCenter_2F",
-    "PacifidlogTown_House1",
-    "PacifidlogTown_House2",
-    "PacifidlogTown_House3",
-    "PacifidlogTown_House4",
-    "PacifidlogTown_House5"
+    "PacifidlogIsle_PokemonCenter_1F",
+    "PacifidlogIsle_PokemonCenter_2F",
+    "PacifidlogIsle_House1",
+    "PacifidlogIsle_House2",
+    "PacifidlogIsle_House3",
+    "PacifidlogIsle_House4",
+    "PacifidlogIsle_House5"
   ],
   "gMapGroup_IndoorPetalburg": [
     "PetalburgCity_WallysHouse",
@@ -250,19 +250,19 @@
     "LilycoveCity_DepartmentStoreElevator"
   ],
   "gMapGroup_IndoorMossdeep": [
-    "MossdeepCity_Gym",
-    "MossdeepCity_House1",
-    "MossdeepCity_House2",
-    "MossdeepCity_PokemonCenter_1F",
-    "MossdeepCity_PokemonCenter_2F",
-    "MossdeepCity_Mart",
-    "MossdeepCity_House3",
-    "MossdeepCity_StevensHouse",
-    "MossdeepCity_House4",
-    "MossdeepCity_SpaceCenter_1F",
-    "MossdeepCity_SpaceCenter_2F",
-    "MossdeepCity_GameCorner_1F",
-    "MossdeepCity_GameCorner_B1F"
+    "MossdeepIsle_Gym",
+    "MossdeepIsle_House1",
+    "MossdeepIsle_House2",
+    "MossdeepIsle_PokemonCenter_1F",
+    "MossdeepIsle_PokemonCenter_2F",
+    "MossdeepIsle_Mart",
+    "MossdeepIsle_House3",
+    "MossdeepIsle_StevensHouse",
+    "MossdeepIsle_House4",
+    "MossdeepIsle_SpaceCenter_1F",
+    "MossdeepIsle_SpaceCenter_2F",
+    "MossdeepIsle_GameCorner_1F",
+    "MossdeepIsle_GameCorner_B1F"
   ],
   "gMapGroup_IndoorSootopolis": [
     "SootopolisCity_Gym_1F",

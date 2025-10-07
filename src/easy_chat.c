@@ -5429,7 +5429,7 @@ void BufferDeepLinkPhrase(void)
 /*
     ### Trendy Sayings
 
-    Not to be confused with Dewford Town's "trendy phrase".
+    Not to be confused with Dewford Isle's "trendy phrase".
 
     This is a group of easy chat words (EC_GROUP_TRENDY_SAYING) that are normally inaccessible.
     They can be unlocked either through Mystery Event (where they're referred to as "rare" words)

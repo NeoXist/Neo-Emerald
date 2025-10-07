@@ -1,9 +1,9 @@
 {
-  "id": "MAP_MOSSDEEP_CITY_SPACE_CENTER_2F",
-  "name": "MossdeepCity_SpaceCenter_2F",
-  "layout": "LAYOUT_MOSSDEEP_CITY_SPACE_CENTER_2F",
+  "id": "MAP_MOSSDEEP_ISLE_SPACE_CENTER_2F",
+  "name": "MossdeepIsle_SpaceCenter_2F",
+  "layout": "LAYOUT_MOSSDEEP_ISLE_SPACE_CENTER_2F",
   "music": "MUS_RUSTBORO",
-  "region_map_section": "MAPSEC_MOSSDEEP_CITY",
+  "region_map_section": "MAPSEC_MOSSDEEP_ISLE",
   "requires_flash": false,
   "weather": "WEATHER_NONE",
   "map_type": "MAP_TYPE_INDOOR",
@@ -25,7 +25,7 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "MossdeepCity_SpaceCenter_2F_EventScript_RichBoy",
+      "script": "MossdeepIsle_SpaceCenter_2F_EventScript_RichBoy",
       "flag": "0"
     },
     {
@@ -39,7 +39,7 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "MossdeepCity_SpaceCenter_2F_EventScript_Gentleman",
+      "script": "MossdeepIsle_SpaceCenter_2F_EventScript_Gentleman",
       "flag": "0"
     },
     {
@@ -53,7 +53,7 @@
       "movement_range_y": 1,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "MossdeepCity_SpaceCenter_2F_EventScript_Scientist",
+      "script": "MossdeepIsle_SpaceCenter_2F_EventScript_Scientist",
       "flag": "0"
     },
     {
@@ -67,8 +67,8 @@
       "movement_range_y": 1,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "MossdeepCity_SpaceCenter_2F_EventScript_Steven",
-      "flag": "FLAG_HIDE_MOSSDEEP_CITY_SPACE_CENTER_2F_STEVEN"
+      "script": "MossdeepIsle_SpaceCenter_2F_EventScript_Steven",
+      "flag": "FLAG_HIDE_MOSSDEEP_ISLE_SPACE_CENTER_2F_STEVEN"
     },
     {
       "local_id": "LOCALID_SPACE_CENTER_GRUNT_6",
@@ -81,8 +81,8 @@
       "movement_range_y": 1,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "MossdeepCity_SpaceCenter_2F_EventScript_Grunt6",
-      "flag": "FLAG_HIDE_MOSSDEEP_CITY_SPACE_CENTER_2F_TEAM_MAGMA"
+      "script": "MossdeepIsle_SpaceCenter_2F_EventScript_Grunt6",
+      "flag": "FLAG_HIDE_MOSSDEEP_ISLE_SPACE_CENTER_2F_TEAM_MAGMA"
     },
     {
       "local_id": "LOCALID_SPACE_CENTER_GRUNT_5",
@@ -95,8 +95,8 @@
       "movement_range_y": 1,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "MossdeepCity_SpaceCenter_2F_EventScript_Grunt5",
-      "flag": "FLAG_HIDE_MOSSDEEP_CITY_SPACE_CENTER_2F_TEAM_MAGMA"
+      "script": "MossdeepIsle_SpaceCenter_2F_EventScript_Grunt5",
+      "flag": "FLAG_HIDE_MOSSDEEP_ISLE_SPACE_CENTER_2F_TEAM_MAGMA"
     },
     {
       "local_id": "LOCALID_SPACE_CENTER_GRUNT_7",
@@ -109,8 +109,8 @@
       "movement_range_y": 1,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "MossdeepCity_SpaceCenter_2F_EventScript_Grunt7",
-      "flag": "FLAG_HIDE_MOSSDEEP_CITY_SPACE_CENTER_2F_TEAM_MAGMA"
+      "script": "MossdeepIsle_SpaceCenter_2F_EventScript_Grunt7",
+      "flag": "FLAG_HIDE_MOSSDEEP_ISLE_SPACE_CENTER_2F_TEAM_MAGMA"
     },
     {
       "local_id": "LOCALID_SPACE_CENTER_TABITHA",
@@ -123,8 +123,8 @@
       "movement_range_y": 1,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "MossdeepCity_SpaceCenter_2F_EventScript_Tabitha",
-      "flag": "FLAG_HIDE_MOSSDEEP_CITY_SPACE_CENTER_2F_TEAM_MAGMA"
+      "script": "MossdeepIsle_SpaceCenter_2F_EventScript_Tabitha",
+      "flag": "FLAG_HIDE_MOSSDEEP_ISLE_SPACE_CENTER_2F_TEAM_MAGMA"
     },
     {
       "local_id": "LOCALID_SPACE_CENTER_MAXIE",
@@ -137,8 +137,8 @@
       "movement_range_y": 1,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "MossdeepCity_SpaceCenter_2F_EventScript_Maxie",
-      "flag": "FLAG_HIDE_MOSSDEEP_CITY_SPACE_CENTER_2F_TEAM_MAGMA"
+      "script": "MossdeepIsle_SpaceCenter_2F_EventScript_Maxie",
+      "flag": "FLAG_HIDE_MOSSDEEP_ISLE_SPACE_CENTER_2F_TEAM_MAGMA"
     }
   ],
   "warp_events": [
@@ -146,7 +146,7 @@
       "x": 13,
       "y": 1,
       "elevation": 0,
-      "dest_map": "MAP_MOSSDEEP_CITY_SPACE_CENTER_1F",
+      "dest_map": "MAP_MOSSDEEP_ISLE_SPACE_CENTER_1F",
       "dest_warp_id": "2"
     }
   ],

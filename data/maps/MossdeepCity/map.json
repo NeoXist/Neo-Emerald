@@ -1,9 +1,9 @@
 {
-  "id": "MAP_MOSSDEEP_CITY",
-  "name": "MossdeepCity",
-  "layout": "LAYOUT_MOSSDEEP_CITY",
+  "id": "MAP_MOSSDEEP_ISLE",
+  "name": "MossdeepIsle",
+  "layout": "LAYOUT_MOSSDEEP_ISLE",
   "music": "MUS_RUSTBORO",
-  "region_map_section": "MAPSEC_MOSSDEEP_CITY",
+  "region_map_section": "MAPSEC_MOSSDEEP_ISLE",
   "requires_flash": false,
   "weather": "WEATHER_SUNNY",
   "map_type": "MAP_TYPE_CITY",
@@ -40,7 +40,7 @@
       "movement_range_y": 1,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "MossdeepCity_EventScript_Sailor",
+      "script": "MossdeepIsle_EventScript_Sailor",
       "flag": "0"
     },
     {
@@ -53,7 +53,7 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "MossdeepCity_EventScript_ExpertM",
+      "script": "MossdeepIsle_EventScript_ExpertM",
       "flag": "0"
     },
     {
@@ -66,7 +66,7 @@
       "movement_range_y": 1,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "MossdeepCity_EventScript_PokefanF",
+      "script": "MossdeepIsle_EventScript_PokefanF",
       "flag": "0"
     },
     {
@@ -79,7 +79,7 @@
       "movement_range_y": 1,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "MossdeepCity_EventScript_NinjaBoy",
+      "script": "MossdeepIsle_EventScript_NinjaBoy",
       "flag": "0"
     },
     {
@@ -92,7 +92,7 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "MossdeepCity_EventScript_Girl",
+      "script": "MossdeepIsle_EventScript_Girl",
       "flag": "0"
     },
     {
@@ -106,7 +106,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "ITEM_NET_BALL",
       "script": "Common_EventScript_FindItem",
-      "flag": "FLAG_ITEM_MOSSDEEP_CITY_NET_BALL"
+      "flag": "FLAG_ITEM_MOSSDEEP_ISLE_NET_BALL"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_MAN_1",
@@ -118,7 +118,7 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "MossdeepCity_EventScript_Man",
+      "script": "MossdeepIsle_EventScript_Man",
       "flag": "0"
     },
     {
@@ -131,7 +131,7 @@
       "movement_range_y": 1,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "MossdeepCity_EventScript_Woman",
+      "script": "MossdeepIsle_EventScript_Woman",
       "flag": "0"
     },
     {
@@ -144,7 +144,7 @@
       "movement_range_y": 1,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "MossdeepCity_EventScript_KingsRockBoy",
+      "script": "MossdeepIsle_EventScript_KingsRockBoy",
       "flag": "0"
     },
     {
@@ -159,7 +159,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "0x0",
-      "flag": "FLAG_HIDE_MOSSDEEP_CITY_TEAM_MAGMA"
+      "flag": "FLAG_HIDE_MOSSDEEP_ISLE_TEAM_MAGMA"
     },
     {
       "local_id": "LOCALID_MOSSDEEP_GRUNT_2",
@@ -173,7 +173,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "0x0",
-      "flag": "FLAG_HIDE_MOSSDEEP_CITY_TEAM_MAGMA"
+      "flag": "FLAG_HIDE_MOSSDEEP_ISLE_TEAM_MAGMA"
     },
     {
       "local_id": "LOCALID_MOSSDEEP_GRUNT_3",
@@ -187,7 +187,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "0x0",
-      "flag": "FLAG_HIDE_MOSSDEEP_CITY_TEAM_MAGMA"
+      "flag": "FLAG_HIDE_MOSSDEEP_ISLE_TEAM_MAGMA"
     },
     {
       "local_id": "LOCALID_MOSSDEEP_GRUNT_4",
@@ -201,7 +201,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "0x0",
-      "flag": "FLAG_HIDE_MOSSDEEP_CITY_TEAM_MAGMA"
+      "flag": "FLAG_HIDE_MOSSDEEP_ISLE_TEAM_MAGMA"
     },
     {
       "local_id": "LOCALID_MOSSDEEP_MAXIE",
@@ -215,7 +215,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "0x0",
-      "flag": "FLAG_HIDE_MOSSDEEP_CITY_TEAM_MAGMA"
+      "flag": "FLAG_HIDE_MOSSDEEP_ISLE_TEAM_MAGMA"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_BLACK_BELT",
@@ -227,7 +227,7 @@
       "movement_range_y": 3,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "MossdeepCity_EventScript_DynamicPunchTutor",
+      "script": "MossdeepIsle_EventScript_DynamicPunchTutor",
       "flag": "0"
     },
     {
@@ -241,8 +241,8 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "MossdeepCity_EventScript_Scott",
-      "flag": "FLAG_HIDE_MOSSDEEP_CITY_SCOTT"
+      "script": "MossdeepIsle_EventScript_Scott",
+      "flag": "FLAG_HIDE_MOSSDEEP_ISLE_SCOTT"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_BLACK_BELT",
@@ -254,7 +254,7 @@
       "movement_range_y": 3,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "MossdeepCity_EventScript_BlackBelt",
+      "script": "MossdeepIsle_EventScript_BlackBelt",
       "flag": "0"
     }
   ],
@@ -263,70 +263,70 @@
       "x": 28,
       "y": 8,
       "elevation": 0,
-      "dest_map": "MAP_MOSSDEEP_CITY_HOUSE1",
+      "dest_map": "MAP_MOSSDEEP_ISLE_HOUSE1",
       "dest_warp_id": "0"
     },
     {
       "x": 37,
       "y": 6,
       "elevation": 0,
-      "dest_map": "MAP_MOSSDEEP_CITY_GYM",
+      "dest_map": "MAP_MOSSDEEP_ISLE_GYM",
       "dest_warp_id": "0"
     },
     {
       "x": 25,
       "y": 16,
       "elevation": 0,
-      "dest_map": "MAP_MOSSDEEP_CITY_POKEMON_CENTER_1F",
+      "dest_map": "MAP_MOSSDEEP_ISLE_POKEMON_CENTER_1F",
       "dest_warp_id": "0"
     },
     {
       "x": 67,
       "y": 25,
       "elevation": 0,
-      "dest_map": "MAP_MOSSDEEP_CITY_HOUSE2",
+      "dest_map": "MAP_MOSSDEEP_ISLE_HOUSE2",
       "dest_warp_id": "0"
     },
     {
       "x": 39,
       "y": 14,
       "elevation": 0,
-      "dest_map": "MAP_MOSSDEEP_CITY_MART",
+      "dest_map": "MAP_MOSSDEEP_ISLE_MART",
       "dest_warp_id": "0"
     },
     {
       "x": 49,
       "y": 6,
       "elevation": 0,
-      "dest_map": "MAP_MOSSDEEP_CITY_HOUSE3",
+      "dest_map": "MAP_MOSSDEEP_ISLE_HOUSE3",
       "dest_warp_id": "0"
     },
     {
       "x": 19,
       "y": 10,
       "elevation": 0,
-      "dest_map": "MAP_MOSSDEEP_CITY_STEVENS_HOUSE",
+      "dest_map": "MAP_MOSSDEEP_ISLE_STEVENS_HOUSE",
       "dest_warp_id": "0"
     },
     {
       "x": 18,
       "y": 16,
       "elevation": 0,
-      "dest_map": "MAP_MOSSDEEP_CITY_HOUSE4",
+      "dest_map": "MAP_MOSSDEEP_ISLE_HOUSE4",
       "dest_warp_id": "1"
     },
     {
       "x": 64,
       "y": 15,
       "elevation": 0,
-      "dest_map": "MAP_MOSSDEEP_CITY_SPACE_CENTER_1F",
+      "dest_map": "MAP_MOSSDEEP_ISLE_SPACE_CENTER_1F",
       "dest_warp_id": "0"
     },
     {
       "x": 32,
       "y": 24,
       "elevation": 0,
-      "dest_map": "MAP_MOSSDEEP_CITY_GAME_CORNER_1F",
+      "dest_map": "MAP_MOSSDEEP_ISLE_GAME_CORNER_1F",
       "dest_warp_id": "0"
     }
   ],
@@ -338,7 +338,7 @@
       "elevation": 0,
       "var": "VAR_TEMP_1",
       "var_value": "0",
-      "script": "MossdeepCity_EventScript_VisitedMossdeep"
+      "script": "MossdeepIsle_EventScript_VisitedMossdeep"
     },
     {
       "type": "trigger",
@@ -347,70 +347,70 @@
       "elevation": 0,
       "var": "VAR_TEMP_1",
       "var_value": "0",
-      "script": "MossdeepCity_EventScript_VisitedMossdeep"
+      "script": "MossdeepIsle_EventScript_VisitedMossdeep"
     },
     {
       "type": "trigger",
       "x": 54,
       "y": 20,
       "elevation": 5,
-      "var": "VAR_MOSSDEEP_CITY_STATE",
+      "var": "VAR_MOSSDEEP_ISLE_STATE",
       "var_value": "1",
-      "script": "MossdeepCity_EventScript_TeamMagmaEnterSpaceCenter"
+      "script": "MossdeepIsle_EventScript_TeamMagmaEnterSpaceCenter"
     },
     {
       "type": "trigger",
       "x": 54,
       "y": 21,
       "elevation": 5,
-      "var": "VAR_MOSSDEEP_CITY_STATE",
+      "var": "VAR_MOSSDEEP_ISLE_STATE",
       "var_value": "1",
-      "script": "MossdeepCity_EventScript_TeamMagmaEnterSpaceCenter"
+      "script": "MossdeepIsle_EventScript_TeamMagmaEnterSpaceCenter"
     },
     {
       "type": "trigger",
       "x": 54,
       "y": 22,
       "elevation": 5,
-      "var": "VAR_MOSSDEEP_CITY_STATE",
+      "var": "VAR_MOSSDEEP_ISLE_STATE",
       "var_value": "1",
-      "script": "MossdeepCity_EventScript_TeamMagmaEnterSpaceCenter"
+      "script": "MossdeepIsle_EventScript_TeamMagmaEnterSpaceCenter"
     },
     {
       "type": "trigger",
       "x": 54,
       "y": 23,
       "elevation": 5,
-      "var": "VAR_MOSSDEEP_CITY_STATE",
+      "var": "VAR_MOSSDEEP_ISLE_STATE",
       "var_value": "1",
-      "script": "MossdeepCity_EventScript_TeamMagmaEnterSpaceCenter"
+      "script": "MossdeepIsle_EventScript_TeamMagmaEnterSpaceCenter"
     },
     {
       "type": "trigger",
       "x": 58,
       "y": 29,
       "elevation": 5,
-      "var": "VAR_MOSSDEEP_CITY_STATE",
+      "var": "VAR_MOSSDEEP_ISLE_STATE",
       "var_value": "1",
-      "script": "MossdeepCity_EventScript_TeamMagmaEnterSpaceCenter"
+      "script": "MossdeepIsle_EventScript_TeamMagmaEnterSpaceCenter"
     },
     {
       "type": "trigger",
       "x": 57,
       "y": 29,
       "elevation": 5,
-      "var": "VAR_MOSSDEEP_CITY_STATE",
+      "var": "VAR_MOSSDEEP_ISLE_STATE",
       "var_value": "1",
-      "script": "MossdeepCity_EventScript_TeamMagmaEnterSpaceCenter"
+      "script": "MossdeepIsle_EventScript_TeamMagmaEnterSpaceCenter"
     },
     {
       "type": "trigger",
       "x": 53,
       "y": 24,
       "elevation": 5,
-      "var": "VAR_MOSSDEEP_CITY_STATE",
+      "var": "VAR_MOSSDEEP_ISLE_STATE",
       "var_value": "1",
-      "script": "MossdeepCity_EventScript_TeamMagmaEnterSpaceCenter"
+      "script": "MossdeepIsle_EventScript_TeamMagmaEnterSpaceCenter"
     }
   ],
   "bg_events": [
@@ -420,7 +420,7 @@
       "y": 22,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
-      "script": "MossdeepCity_EventScript_CitySign"
+      "script": "MossdeepIsle_EventScript_CitySign"
     },
     {
       "type": "sign",
@@ -428,7 +428,7 @@
       "y": 6,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
-      "script": "MossdeepCity_EventScript_GymSign"
+      "script": "MossdeepIsle_EventScript_GymSign"
     },
     {
       "type": "sign",
@@ -452,7 +452,7 @@
       "y": 16,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
-      "script": "MossdeepCity_EventScript_SpaceCenterSign"
+      "script": "MossdeepIsle_EventScript_SpaceCenterSign"
     },
     {
       "type": "sign",
@@ -476,7 +476,7 @@
       "y": 21,
       "elevation": 7,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
-      "script": "MossdeepCity_EventScript_WhiteRock"
+      "script": "MossdeepIsle_EventScript_WhiteRock"
     }
   ]
 }

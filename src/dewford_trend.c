@@ -294,7 +294,7 @@ void BufferTrendyPhraseString(void)
 }
 
 // Returns TRUE if the current trendy phrase is "boring", FALSE otherwise
-// This only influences the comment of an NPC inside the Dewford Town Hall
+// This only influences the comment of an NPC inside the Dewford Isle Hall
 void IsTrendyPhraseBoring(void)
 {
     bool16 result = FALSE;

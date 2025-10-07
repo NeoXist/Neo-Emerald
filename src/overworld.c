@@ -1098,7 +1098,7 @@ static bool16 ShouldLegendaryMusicPlayAtLocation(struct WarpData *warp)
         switch (warp->mapNum)
         {
         case MAP_NUM(MAP_LILYCOVE_CITY):
-        case MAP_NUM(MAP_MOSSDEEP_CITY):
+        case MAP_NUM(MAP_MOSSDEEP_ISLE):
         case MAP_NUM(MAP_SOOTOPOLIS_CITY):
         case MAP_NUM(MAP_EVER_GRANDE_CITY):
         case MAP_NUM(MAP_ROUTE124):
@@ -1149,14 +1149,14 @@ static bool16 IsInfiltratedWeatherInstitute(struct WarpData *warp)
 
 static bool16 IsInflitratedSpaceCenter(struct WarpData *warp)
 {
-    if (VarGet(VAR_MOSSDEEP_CITY_STATE) == 0)
+    if (VarGet(VAR_MOSSDEEP_ISLE_STATE) == 0)
         return FALSE;
-    else if (VarGet(VAR_MOSSDEEP_CITY_STATE) > 2)
+    else if (VarGet(VAR_MOSSDEEP_ISLE_STATE) > 2)
         return FALSE;
-    else if (warp->mapGroup != MAP_GROUP(MAP_MOSSDEEP_CITY_SPACE_CENTER_1F))
+    else if (warp->mapGroup != MAP_GROUP(MAP_MOSSDEEP_ISLE_SPACE_CENTER_1F))
         return FALSE;
-    else if (warp->mapNum == MAP_NUM(MAP_MOSSDEEP_CITY_SPACE_CENTER_1F)
-     || warp->mapNum == MAP_NUM(MAP_MOSSDEEP_CITY_SPACE_CENTER_2F))
+    else if (warp->mapNum == MAP_NUM(MAP_MOSSDEEP_ISLE_SPACE_CENTER_1F)
+     || warp->mapNum == MAP_NUM(MAP_MOSSDEEP_ISLE_SPACE_CENTER_2F))
         return TRUE;
     return FALSE;
 }

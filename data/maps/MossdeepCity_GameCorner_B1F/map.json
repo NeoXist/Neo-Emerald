@@ -1,9 +1,9 @@
 {
-  "id": "MAP_MOSSDEEP_CITY_GAME_CORNER_B1F",
-  "name": "MossdeepCity_GameCorner_B1F",
-  "layout": "LAYOUT_MOSSDEEP_CITY_GAME_CORNER_B1F",
+  "id": "MAP_MOSSDEEP_ISLE_GAME_CORNER_B1F",
+  "name": "MossdeepIsle_GameCorner_B1F",
+  "layout": "LAYOUT_MOSSDEEP_ISLE_GAME_CORNER_B1F",
   "music": "MUS_RUSTBORO",
-  "region_map_section": "MAPSEC_MOSSDEEP_CITY",
+  "region_map_section": "MAPSEC_MOSSDEEP_ISLE",
   "requires_flash": false,
   "weather": "WEATHER_NONE",
   "map_type": "MAP_TYPE_INDOOR",
@@ -33,7 +33,7 @@
       "x": 3,
       "y": 1,
       "elevation": 0,
-      "dest_map": "MAP_MOSSDEEP_CITY_GAME_CORNER_1F",
+      "dest_map": "MAP_MOSSDEEP_ISLE_GAME_CORNER_1F",
       "dest_warp_id": "2"
     }
   ],

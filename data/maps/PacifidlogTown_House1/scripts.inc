@@ -1,15 +1,15 @@
-PacifidlogTown_House1_MapScripts::
+PacifidlogIsle_House1_MapScripts::
 	.byte 0
 
-PacifidlogTown_House1_EventScript_Man::
-	msgbox PacifidlogTown_House1_Text_RegiStory, MSGBOX_NPC
+PacifidlogIsle_House1_EventScript_Man::
+	msgbox PacifidlogIsle_House1_Text_RegiStory, MSGBOX_NPC
 	end
 
-PacifidlogTown_House1_EventScript_Woman::
-	msgbox PacifidlogTown_House1_Text_SixDotsOpenThreeDoors, MSGBOX_NPC
+PacifidlogIsle_House1_EventScript_Woman::
+	msgbox PacifidlogIsle_House1_Text_SixDotsOpenThreeDoors, MSGBOX_NPC
 	end
 
-PacifidlogTown_House1_Text_RegiStory:
+PacifidlogIsle_House1_Text_RegiStory:
 	.string "In the HOENN region, there are three\n"
 	.string "POKéMON that represent the power of\l"
 	.string "rock, ice, and steel.\p"
@@ -18,7 +18,7 @@ PacifidlogTown_House1_Text_RegiStory:
 	.string "That's the story I heard when I was\n"
 	.string "just a little kid.$"
 
-PacifidlogTown_House1_Text_SixDotsOpenThreeDoors:
+PacifidlogIsle_House1_Text_SixDotsOpenThreeDoors:
 	.string "“Six dots open three doors.”\p"
 	.string "Grandpa used to say that, but I don't\n"
 	.string "know what he meant.$"
