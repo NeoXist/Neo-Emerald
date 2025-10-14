@@ -383,7 +383,7 @@
 #define MUS_ENCOUNTER_ELITE_FOUR    450 // MUS_SITENNOU
 #define MUS_ENCOUNTER_HIKER         451 // MUS_YAMA_EYE
 #define MUS_CONTEST_LOBBY           452 // MUS_CONLOBBY
-#define MUS_ENCOUNTER_INTERVIEWER   453 // MUS_INTER_V          // Also used during Petalburg City report at the beginning of the game.
+#define MUS_ENCOUNTER_INTERVIEWER   453 // MUS_INTER_V          // Also used during Petalburg Town report at the beginning of the game.
 #define MUS_ENCOUNTER_CHAMPION      454 // MUS_DAIGO
 #define MUS_CREDITS                 455 // MUS_THANKFOR
 #define MUS_END                     456 // MUS_END

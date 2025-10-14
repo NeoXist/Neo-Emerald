@@ -3,13 +3,13 @@
   "layouts": [
     {
       "id": "LAYOUT_PETALBURG_CITY",
-      "name": "PetalburgCity_Layout",
+      "name": "PetalburgTown_Layout",
       "width": 30,
       "height": 51,
       "primary_tileset": "gTileset_General",
       "secondary_tileset": "gTileset_Petalburg",
-      "border_filepath": "data/layouts/PetalburgCity/border.bin",
-      "blockdata_filepath": "data/layouts/PetalburgCity/map.bin"
+      "border_filepath": "data/layouts/PetalburgTown/border.bin",
+      "blockdata_filepath": "data/layouts/PetalburgTown/map.bin"
     },
     {
       "id": "LAYOUT_SLATEPORT_CITY",
@@ -43,13 +43,13 @@
     },
     {
       "id": "LAYOUT_FORTREE_CITY",
-      "name": "FortreeCity_Layout",
+      "name": "FortreeVillage_Layout",
       "width": 40,
       "height": 36,
       "primary_tileset": "gTileset_General",
       "secondary_tileset": "gTileset_Fortree",
-      "border_filepath": "data/layouts/FortreeCity/border.bin",
-      "blockdata_filepath": "data/layouts/FortreeCity/map.bin"
+      "border_filepath": "data/layouts/FortreeVillage/border.bin",
+      "blockdata_filepath": "data/layouts/FortreeVillage/map.bin"
     },
     {
       "id": "LAYOUT_LILYCOVE_CITY",
@@ -83,13 +83,13 @@
     },
     {
       "id": "LAYOUT_EVER_GRANDE_CITY",
-      "name": "EverGrandeCity_Layout",
+      "name": "EverGrandeSummit_Layout",
       "width": 40,
       "height": 80,
       "primary_tileset": "gTileset_General",
       "secondary_tileset": "gTileset_EverGrande",
-      "border_filepath": "data/layouts/EverGrandeCity/border.bin",
-      "blockdata_filepath": "data/layouts/EverGrandeCity/map.bin"
+      "border_filepath": "data/layouts/EverGrandeSummit/border.bin",
+      "blockdata_filepath": "data/layouts/EverGrandeSummit/map.bin"
     },
     {
       "id": "LAYOUT_LITTLEROOT_TOWN",
@@ -783,13 +783,13 @@
     },
     {
       "id": "LAYOUT_PETALBURG_CITY_GYM",
-      "name": "PetalburgCity_Gym_Layout",
+      "name": "PetalburgTown_Gym_Layout",
       "width": 9,
       "height": 112,
       "primary_tileset": "gTileset_Building",
       "secondary_tileset": "gTileset_PetalburgGym",
-      "border_filepath": "data/layouts/PetalburgCity_Gym/border.bin",
-      "blockdata_filepath": "data/layouts/PetalburgCity_Gym/map.bin"
+      "border_filepath": "data/layouts/PetalburgTown_Gym/border.bin",
+      "blockdata_filepath": "data/layouts/PetalburgTown_Gym/map.bin"
     },
     {
       "id": "LAYOUT_HOUSE_WITH_BED",
@@ -983,33 +983,33 @@
     },
     {
       "id": "LAYOUT_FORTREE_CITY_HOUSE1",
-      "name": "FortreeCity_House1_Layout",
+      "name": "FortreeVillage_House1_Layout",
       "width": 8,
       "height": 6,
       "primary_tileset": "gTileset_Building",
       "secondary_tileset": "gTileset_GenericBuilding",
-      "border_filepath": "data/layouts/FortreeCity_House1/border.bin",
-      "blockdata_filepath": "data/layouts/FortreeCity_House1/map.bin"
+      "border_filepath": "data/layouts/FortreeVillage_House1/border.bin",
+      "blockdata_filepath": "data/layouts/FortreeVillage_House1/map.bin"
     },
     {
       "id": "LAYOUT_FORTREE_CITY_GYM",
-      "name": "FortreeCity_Gym_Layout",
+      "name": "FortreeVillage_Gym_Layout",
       "width": 20,
       "height": 25,
       "primary_tileset": "gTileset_Building",
       "secondary_tileset": "gTileset_FortreeGym",
-      "border_filepath": "data/layouts/FortreeCity_Gym/border.bin",
-      "blockdata_filepath": "data/layouts/FortreeCity_Gym/map.bin"
+      "border_filepath": "data/layouts/FortreeVillage_Gym/border.bin",
+      "blockdata_filepath": "data/layouts/FortreeVillage_Gym/map.bin"
     },
     {
       "id": "LAYOUT_FORTREE_CITY_HOUSE2",
-      "name": "FortreeCity_House2_Layout",
+      "name": "FortreeVillage_House2_Layout",
       "width": 8,
       "height": 6,
       "primary_tileset": "gTileset_Building",
       "secondary_tileset": "gTileset_GenericBuilding",
-      "border_filepath": "data/layouts/FortreeCity_House2/border.bin",
-      "blockdata_filepath": "data/layouts/FortreeCity_House2/map.bin"
+      "border_filepath": "data/layouts/FortreeVillage_House2/border.bin",
+      "blockdata_filepath": "data/layouts/FortreeVillage_House2/map.bin"
     },
     {
       "id": "LAYOUT_ROUTE104_MR_BRINEYS_HOUSE",
@@ -1103,63 +1103,63 @@
     },
     {
       "id": "LAYOUT_EVER_GRANDE_CITY_SIDNEYS_ROOM",
-      "name": "EverGrandeCity_SidneysRoom_Layout",
+      "name": "EverGrandeSummit_SidneysRoom_Layout",
       "width": 13,
       "height": 14,
       "primary_tileset": "gTileset_Building",
       "secondary_tileset": "gTileset_EliteFour",
-      "border_filepath": "data/layouts/EverGrandeCity_SidneysRoom/border.bin",
-      "blockdata_filepath": "data/layouts/EverGrandeCity_SidneysRoom/map.bin"
+      "border_filepath": "data/layouts/EverGrandeSummit_SidneysRoom/border.bin",
+      "blockdata_filepath": "data/layouts/EverGrandeSummit_SidneysRoom/map.bin"
     },
     {
       "id": "LAYOUT_EVER_GRANDE_CITY_PHOEBES_ROOM",
-      "name": "EverGrandeCity_PhoebesRoom_Layout",
+      "name": "EverGrandeSummit_PhoebesRoom_Layout",
       "width": 13,
       "height": 14,
       "primary_tileset": "gTileset_Building",
       "secondary_tileset": "gTileset_EliteFour",
-      "border_filepath": "data/layouts/EverGrandeCity_PhoebesRoom/border.bin",
-      "blockdata_filepath": "data/layouts/EverGrandeCity_PhoebesRoom/map.bin"
+      "border_filepath": "data/layouts/EverGrandeSummit_PhoebesRoom/border.bin",
+      "blockdata_filepath": "data/layouts/EverGrandeSummit_PhoebesRoom/map.bin"
     },
     {
       "id": "LAYOUT_EVER_GRANDE_CITY_GLACIAS_ROOM",
-      "name": "EverGrandeCity_GlaciasRoom_Layout",
+      "name": "EverGrandeSummit_GlaciasRoom_Layout",
       "width": 13,
       "height": 14,
       "primary_tileset": "gTileset_Building",
       "secondary_tileset": "gTileset_EliteFour",
-      "border_filepath": "data/layouts/EverGrandeCity_GlaciasRoom/border.bin",
-      "blockdata_filepath": "data/layouts/EverGrandeCity_GlaciasRoom/map.bin"
+      "border_filepath": "data/layouts/EverGrandeSummit_GlaciasRoom/border.bin",
+      "blockdata_filepath": "data/layouts/EverGrandeSummit_GlaciasRoom/map.bin"
     },
     {
       "id": "LAYOUT_EVER_GRANDE_CITY_DRAKES_ROOM",
-      "name": "EverGrandeCity_DrakesRoom_Layout",
+      "name": "EverGrandeSummit_DrakesRoom_Layout",
       "width": 13,
       "height": 14,
       "primary_tileset": "gTileset_Building",
       "secondary_tileset": "gTileset_EliteFour",
-      "border_filepath": "data/layouts/EverGrandeCity_DrakesRoom/border.bin",
-      "blockdata_filepath": "data/layouts/EverGrandeCity_DrakesRoom/map.bin"
+      "border_filepath": "data/layouts/EverGrandeSummit_DrakesRoom/border.bin",
+      "blockdata_filepath": "data/layouts/EverGrandeSummit_DrakesRoom/map.bin"
     },
     {
       "id": "LAYOUT_EVER_GRANDE_CITY_CHAMPIONS_ROOM",
-      "name": "EverGrandeCity_ChampionsRoom_Layout",
+      "name": "EverGrandeSummit_ChampionsRoom_Layout",
       "width": 13,
       "height": 13,
       "primary_tileset": "gTileset_Building",
       "secondary_tileset": "gTileset_EliteFour",
-      "border_filepath": "data/layouts/EverGrandeCity_ChampionsRoom/border.bin",
-      "blockdata_filepath": "data/layouts/EverGrandeCity_ChampionsRoom/map.bin"
+      "border_filepath": "data/layouts/EverGrandeSummit_ChampionsRoom/border.bin",
+      "blockdata_filepath": "data/layouts/EverGrandeSummit_ChampionsRoom/map.bin"
     },
     {
       "id": "LAYOUT_EVER_GRANDE_CITY_SHORT_HALL",
-      "name": "EverGrandeCity_ShortHall_Layout",
+      "name": "EverGrandeSummit_ShortHall_Layout",
       "width": 11,
       "height": 13,
       "primary_tileset": "gTileset_Building",
       "secondary_tileset": "gTileset_EliteFour",
-      "border_filepath": "data/layouts/EverGrandeCity_ShortHall/border.bin",
-      "blockdata_filepath": "data/layouts/EverGrandeCity_ShortHall/map.bin"
+      "border_filepath": "data/layouts/EverGrandeSummit_ShortHall/border.bin",
+      "blockdata_filepath": "data/layouts/EverGrandeSummit_ShortHall/map.bin"
     },
     {
       "id": "LAYOUT_ROUTE104_PRETTY_PETAL_FLOWER_SHOP",
@@ -2543,13 +2543,13 @@
     },
     {
       "id": "LAYOUT_FORTREE_CITY_DECORATION_SHOP",
-      "name": "FortreeCity_DecorationShop_Layout",
+      "name": "FortreeVillage_DecorationShop_Layout",
       "width": 8,
       "height": 6,
       "primary_tileset": "gTileset_Building",
       "secondary_tileset": "gTileset_GenericBuilding",
-      "border_filepath": "data/layouts/FortreeCity_DecorationShop/border.bin",
-      "blockdata_filepath": "data/layouts/FortreeCity_DecorationShop/map.bin"
+      "border_filepath": "data/layouts/FortreeVillage_DecorationShop/border.bin",
+      "blockdata_filepath": "data/layouts/FortreeVillage_DecorationShop/map.bin"
     },
     {
       "id": "LAYOUT_ROUTE110_SEASIDE_CYCLING_ROAD_ENTRANCE",
@@ -2693,13 +2693,13 @@
     },
     {
       "id": "LAYOUT_EVER_GRANDE_CITY_POKEMON_LEAGUE_1F",
-      "name": "EverGrandeCity_PokemonLeague_1F_Layout",
+      "name": "EverGrandeSummit_PokemonLeague_1F_Layout",
       "width": 19,
       "height": 12,
       "primary_tileset": "gTileset_Building",
       "secondary_tileset": "gTileset_PokemonCenter",
-      "border_filepath": "data/layouts/EverGrandeCity_PokemonLeague_1F/border.bin",
-      "blockdata_filepath": "data/layouts/EverGrandeCity_PokemonLeague_1F/map.bin"
+      "border_filepath": "data/layouts/EverGrandeSummit_PokemonLeague_1F/border.bin",
+      "blockdata_filepath": "data/layouts/EverGrandeSummit_PokemonLeague_1F/map.bin"
     },
     {
       "id": "LAYOUT_ROUTE119_WEATHER_INSTITUTE_1F",
@@ -2973,13 +2973,13 @@
     },
     {
       "id": "LAYOUT_EVER_GRANDE_CITY_HALL_OF_FAME",
-      "name": "EverGrandeCity_HallOfFame_Layout",
+      "name": "EverGrandeSummit_HallOfFame_Layout",
       "width": 15,
       "height": 17,
       "primary_tileset": "gTileset_Building",
       "secondary_tileset": "gTileset_CableClub",
-      "border_filepath": "data/layouts/EverGrandeCity_HallOfFame/border.bin",
-      "blockdata_filepath": "data/layouts/EverGrandeCity_HallOfFame/map.bin"
+      "border_filepath": "data/layouts/EverGrandeSummit_HallOfFame/border.bin",
+      "blockdata_filepath": "data/layouts/EverGrandeSummit_HallOfFame/map.bin"
     },
     {
       "id": "LAYOUT_LILYCOVE_CITY_COVE_LILY_MOTEL_1F",
@@ -3143,13 +3143,13 @@
     },
     {
       "id": "LAYOUT_EVER_GRANDE_CITY_HALL4",
-      "name": "EverGrandeCity_Hall4_Layout",
+      "name": "EverGrandeSummit_Hall4_Layout",
       "width": 11,
       "height": 34,
       "primary_tileset": "gTileset_Building",
       "secondary_tileset": "gTileset_EliteFour",
-      "border_filepath": "data/layouts/EverGrandeCity_Hall4/border.bin",
-      "blockdata_filepath": "data/layouts/EverGrandeCity_Hall4/map.bin"
+      "border_filepath": "data/layouts/EverGrandeSummit_Hall4/border.bin",
+      "blockdata_filepath": "data/layouts/EverGrandeSummit_Hall4/map.bin"
     },
     {
       "id": "LAYOUT_AQUA_HIDEOUT_UNUSED_RUBY_MAP1",

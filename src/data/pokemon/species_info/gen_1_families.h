@@ -1367,8 +1367,8 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .formChangeTable = sButterfreeFormChangeTable,
     },
 
-#if P_GIGANTAMAX_FORMS
-    [SPECIES_BUTTERFREE_GMAX] = 
+#if P_MEGA_EVOLUTIONS
+    [SPECIES_BUTTERFREE_MEGA] = 
     {
         .baseHP        = 70,
         .baseAttack    = 25,
@@ -1396,38 +1396,38 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .height = 170,
         .weight = 0,
         .description = COMPOUND_STRING(
-            "Once it has opponents trapped in a\n"
-            "tornado that could blow away a 10-\n"
-            "ton truck, it finishes them off with\n"
-            "its poisonous scales."),
+            "Mega Evolution has enhanced its\n"
+            "psychic powers, creating intense\n"
+            "whirlwinds that can lift opponents\n"
+            "before striking with toxic scales."),
         .pokemonScale = 312,
         .pokemonOffset = 2,
         .trainerScale = 256,
         .trainerOffset = 0,
-        .frontPic = gMonFrontPic_ButterfreeGmax,
+        .frontPic = gMonFrontPic_ButterfreeMega,
         .frontPicSize = MON_COORDS_SIZE(64, 64),
         .frontPicYOffset = 3,
         .frontAnimFrames = sAnims_SingleFramePlaceHolder,
         //.frontAnimId = ANIM_V_SQUISH_AND_BOUNCE,
         .enemyMonElevation = 7,
-        .backPic = gMonBackPic_ButterfreeGmax,
+        .backPic = gMonBackPic_ButterfreeMega,
         .backPicSize = MON_COORDS_SIZE(64, 64),
         .backPicYOffset = 3,
         //.backAnimId = BACK_ANIM_NONE,
-        .palette = gMonPalette_ButterfreeGmax,
-        .shinyPalette = gMonShinyPalette_ButterfreeGmax,
-        .iconSprite = gMonIcon_ButterfreeGmax,
+        .palette = gMonPalette_ButterfreeMega,
+        .shinyPalette = gMonShinyPalette_ButterfreeMega,
+        .iconSprite = gMonIcon_ButterfreeMega,
         .iconPalIndex = 0,
         .pokemonJumpType = PKMN_JUMP_TYPE_NONE,
         SHADOW(-4, 15, SHADOW_SIZE_S)
         FOOTPRINT(Butterfree)
-        .isGigantamax = TRUE,
+        .isMegaEvolution = TRUE,
         .levelUpLearnset = sButterfreeLevelUpLearnset,
         .teachableLearnset = sButterfreeTeachableLearnset,
         .formSpeciesIdTable = sButterfreeFormSpeciesIdTable,
         .formChangeTable = sButterfreeFormChangeTable,
     },
-#endif //P_GIGANTAMAX_FORMS
+#endif //P_MEGA_EVOLUTIONS
 #endif //P_FAMILY_CATERPIE
 
 #if P_FAMILY_WEEDLE

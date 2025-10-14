@@ -40,8 +40,8 @@ PetalburgCity_EventScript_WallyTutorial::
 	special StartWallyTutorialBattle
 	waitstate
 	msgbox Route102_Text_WallyIDidIt, MSGBOX_DEFAULT
-	applymovement LOCALID_PETALBURG_WALLY, Common_Movement_WalkInPlaceFasterLeft, MAP_PETALBURG_CITY
-	waitmovement LOCALID_PETALBURG_WALLY, MAP_PETALBURG_CITY
+	applymovement LOCALID_PETALBURG_WALLY, Common_Movement_WalkInPlaceFasterLeft, MAP_PETALBURG_TOWN
+	waitmovement LOCALID_PETALBURG_WALLY, MAP_PETALBURG_TOWN
 	msgbox Route102_Text_LetsGoBack, MSGBOX_DEFAULT
 	closemessage
 	clearflag FLAG_HIDE_MAP_NAME_POPUP
@@ -50,7 +50,7 @@ PetalburgCity_EventScript_WallyTutorial::
 	clearflag FLAG_DONT_TRANSITION_MUSIC
 	special LoadPlayerParty
 	setvar VAR_PETALBURG_GYM_STATE, 1
-	warp MAP_PETALBURG_CITY_GYM, 4, 108
+	warp MAP_PETALBURG_TOWN_GYM, 4, 108
 	waitstate
 	releaseall
 	end
@@ -69,13 +69,13 @@ PetalburgCity_EventScript_WalkToWallyHouse::
 	applymovement LOCALID_PLAYER, PetalburgCity_Movement_WalkInsideHousePlayer
 	waitmovement 0
 	setflag FLAG_HIDE_PETALBURG_CITY_WALLYS_DAD
-	hideobjectat LOCALID_PLAYER, MAP_PETALBURG_CITY
+	hideobjectat LOCALID_PLAYER, MAP_PETALBURG_TOWN
 	closedoor VAR_0x8004, VAR_0x8005
 	waitdooranim
 	clearflag FLAG_HIDE_MAP_NAME_POPUP
 	fadedefaultbgm
 	clearflag FLAG_DONT_TRANSITION_MUSIC
-	warp MAP_PETALBURG_CITY_WALLYS_HOUSE, 2, 4
+	warp MAP_PETALBURG_TOWN_WALLYS_HOUSE, 2, 4
 	waitstate
 	releaseall
 	end
@@ -712,7 +712,7 @@ PetalburgCity_Text_AreYouRookieTrainer:
 	.string "is in the town.$"
 
 PetalburgCity_Text_ThisIsPetalburgGym:
-	.string "See? This is PETALBURG CITY's GYM.$"
+	.string "See? This is PETALBURG TOWN's GYM.$"
 
 PetalburgCity_Text_ThisIsGymSign:
 	.string "This is the GYM's sign. Look for it\n"
@@ -732,12 +732,12 @@ PetalburgCity_Text_FullPartyExplanation:
 	.string "BOX over a PC connection.$"
 
 PetalburgCity_Text_GymSign:
-	.string "PETALBURG CITY POKéMON GYM\n"
+	.string "PETALBURG TOWN POKéMON GYM\n"
 	.string "LEADER: NORMAN\l"
 	.string "“A man in pursuit of power!”$"
 
 PetalburgCity_Text_CitySign:
-	.string "PETALBURG CITY\n"
+	.string "PETALBURG TOWN\n"
 	.string "“Where people mingle with nature.”$"
 
 PetalburgCity_Text_WallyHouseSign:

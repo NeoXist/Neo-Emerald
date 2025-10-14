@@ -1,5 +1,5 @@
 {
-  "id": "MAP_FORTREE_CITY_POKEMON_CENTER_1F",
+  "id": "MAP_FORTREE_VILLAGE_POKEMON_CENTER_1F",
   "name": "FortreeCity_PokemonCenter_1F",
   "layout": "LAYOUT_POKEMON_CENTER_1F",
   "music": "MUS_POKE_CENTER",
@@ -73,21 +73,21 @@
       "x": 7,
       "y": 8,
       "elevation": 3,
-      "dest_map": "MAP_FORTREE_CITY",
+      "dest_map": "MAP_FORTREE_VILLAGE",
       "dest_warp_id": "0"
     },
     {
       "x": 6,
       "y": 8,
       "elevation": 3,
-      "dest_map": "MAP_FORTREE_CITY",
+      "dest_map": "MAP_FORTREE_VILLAGE",
       "dest_warp_id": "0"
     },
     {
       "x": 1,
       "y": 6,
       "elevation": 4,
-      "dest_map": "MAP_FORTREE_CITY_POKEMON_CENTER_2F",
+      "dest_map": "MAP_FORTREE_VILLAGE_POKEMON_CENTER_2F",
       "dest_warp_id": "0"
     }
   ],

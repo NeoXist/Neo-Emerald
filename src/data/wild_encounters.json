@@ -8318,8 +8318,8 @@
           }
         },
         {
-          "map": "MAP_EVER_GRANDE_CITY",
-          "base_label": "gEverGrandeCity",
+          "map": "MAP_EVER_GRANDE_SUMMIT",
+          "base_label": "gEverGrandeSummit",
           "land_mons": {
             "encounter_rate": 10,
             "mons": [
@@ -8447,8 +8447,8 @@
           }
         },
         {
-          "map": "MAP_PETALBURG_CITY",
-          "base_label": "gPetalburgCity",
+          "map": "MAP_PETALBURG_TOWN",
+          "base_label": "gPetalburgTown",
           "land_mons": {
             "encounter_rate": 10,
             "mons": [
@@ -11561,8 +11561,8 @@
           }
         },
         {
-          "map": "MAP_FORTREE_CITY",
-          "base_label": "gFortreeCity",
+          "map": "MAP_FORTREE_VILLAGE",
+          "base_label": "gFortreeVillage",
           "water_mons": {
             "encounter_rate": 4,
             "mons": [

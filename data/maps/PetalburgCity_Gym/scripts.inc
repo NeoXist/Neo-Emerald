@@ -186,7 +186,7 @@ PetalburgCity_Gym_EventScript_BeginWallyTutorial::
 	clearflag FLAG_HIDE_PETALBURG_GYM_WALLY
 	setflag FLAG_HIDE_LITTLEROOT_TOWN_BIRCHS_LAB_RIVAL
 	special InitBirchState
-	warp MAP_PETALBURG_CITY, 15, 8
+	warp MAP_PETALBURG_TOWN, 15, 8
 	waitstate
 	release
 	end
@@ -447,7 +447,7 @@ PetalburgCity_Gym_EventScript_WallysDadArrives::
 	removeobject LOCALID_PETALBURG_GYM_WALLYS_DAD
 	setvar VAR_PETALBURG_CITY_STATE, 4
 	clearflag FLAG_HIDE_PETALBURG_CITY_WALLYS_DAD
-	warp MAP_PETALBURG_CITY, 15, 8
+	warp MAP_PETALBURG_TOWN, 15, 8
 	waitstate
 	release
 	end
@@ -743,7 +743,7 @@ PetalburgCity_Gym_EventScript_SpeedRoomDoor::
 PetalburgCity_Gym_EventScript_EnterRoom::
 	closemessage
 	delay 30
-	warpdoor MAP_PETALBURG_CITY_GYM, VAR_0x8008, VAR_0x8009
+	warpdoor MAP_PETALBURG_TOWN_GYM, VAR_0x8008, VAR_0x8009
 	waitstate
 	releaseall
 	end
@@ -1433,7 +1433,7 @@ PetalburgCity_Gym_Text_BerkePostBattle:
 
 PetalburgCity_Gym_Text_BerkePostBadge:
 	.string "Since your dad became the LEADER,\n"
-	.string "the TRAINERS of PETALBURG CITY have\l"
+	.string "the TRAINERS of PETALBURG TOWN have\l"
 	.string "become a lot tougher.$"
 
 PetalburgCity_Gym_Text_MaryIntro:
@@ -1545,10 +1545,10 @@ PetalburgCity_Gym_Text_EnterGymLeadersRoom:
 	.string "Do you want to go through?$"
 
 PetalburgCity_Gym_Text_GymStatue:
-	.string "PETALBURG CITY POKéMON GYM$"
+	.string "PETALBURG TOWN POKéMON GYM$"
 
 PetalburgCity_Gym_Text_GymStatueCertified:
-	.string "PETALBURG CITY POKéMON GYM\p"
+	.string "PETALBURG TOWN POKéMON GYM\p"
 	.string "NORMAN'S CERTIFIED TRAINERS:\n"
 	.string "{PLAYER}$"
 

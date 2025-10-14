@@ -57,8 +57,8 @@
       "height": 1
     },
     {
-      "id": "MAPSEC_PETALBURG_CITY",
-      "name": "PETALBURG CITY",
+      "id": "MAPSEC_PETALBURG_TOWN",
+      "name": "PETALBURG TOWN",
       "x": 1,
       "y": 9,
       "width": 1,
@@ -89,8 +89,8 @@
       "height": 2
     },
     {
-      "id": "MAPSEC_FORTREE_CITY",
-      "name": "FORTREE CITY",
+      "id": "MAPSEC_FORTREE_VILLAGE",
+      "name": "FORTREE VILLAGE",
       "x": 12,
       "y": 0,
       "width": 1,
@@ -121,8 +121,8 @@
       "height": 1
     },
     {
-      "id": "MAPSEC_EVER_GRANDE_CITY",
-      "name": "EVER GRANDE CITY",
+      "id": "MAPSEC_EVER_GRANDE_SUMMIT",
+      "name": "EVER GRANDE SUMMIT",
       "x": 27,
       "y": 8,
       "width": 1,

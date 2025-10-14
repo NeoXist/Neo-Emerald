@@ -36,7 +36,7 @@ static const struct CityMapEntry sPokenavCityMaps[NUM_CITY_MAPS] =
         .tilemap = gPokenavCityMap_Pacifidlog_0,
     },
     {
-        .mapSecId = MAPSEC_PETALBURG_CITY,
+        .mapSecId = MAPSEC_PETALBURG_TOWN,
         .index = 0,
         .tilemap = gPokenavCityMap_Petalburg_0,
     },
@@ -71,7 +71,7 @@ static const struct CityMapEntry sPokenavCityMaps[NUM_CITY_MAPS] =
         .tilemap = gPokenavCityMap_Rustboro_1,
     },
     {
-        .mapSecId = MAPSEC_FORTREE_CITY,
+        .mapSecId = MAPSEC_FORTREE_VILLAGE,
         .index = 0,
         .tilemap = gPokenavCityMap_Fortree_0,
     },
@@ -101,12 +101,12 @@ static const struct CityMapEntry sPokenavCityMaps[NUM_CITY_MAPS] =
         .tilemap = gPokenavCityMap_Sootopolis_0,
     },
     {
-        .mapSecId = MAPSEC_EVER_GRANDE_CITY,
+        .mapSecId = MAPSEC_EVER_GRANDE_SUMMIT,
         .index = 0,
         .tilemap = gPokenavCityMap_EverGrande_0,
     },
     {
-        .mapSecId = MAPSEC_EVER_GRANDE_CITY,
+        .mapSecId = MAPSEC_EVER_GRANDE_SUMMIT,
         .index = 1,
         .tilemap = gPokenavCityMap_EverGrande_1,
     },

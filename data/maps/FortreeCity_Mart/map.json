@@ -1,5 +1,5 @@
 {
-  "id": "MAP_FORTREE_CITY_MART",
+  "id": "MAP_FORTREE_VILLAGE_MART",
   "name": "FortreeCity_Mart",
   "layout": "LAYOUT_MART",
   "music": "MUS_POKE_MART",
@@ -73,14 +73,14 @@
       "x": 3,
       "y": 7,
       "elevation": 0,
-      "dest_map": "MAP_FORTREE_CITY",
+      "dest_map": "MAP_FORTREE_VILLAGE",
       "dest_warp_id": "3"
     },
     {
       "x": 4,
       "y": 7,
       "elevation": 0,
-      "dest_map": "MAP_FORTREE_CITY",
+      "dest_map": "MAP_FORTREE_VILLAGE",
       "dest_warp_id": "3"
     }
   ],

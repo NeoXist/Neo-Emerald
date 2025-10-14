@@ -13,8 +13,8 @@
       "y": 2
     },
     {
-      "id": "HEAL_LOCATION_PETALBURG_CITY",
-      "map": "MAP_PETALBURG_CITY",
+      "id": "HEAL_LOCATION_PETALBURG_TOWN",
+      "map": "MAP_PETALBURG_TOWN",
       "x": 20,
       "y": 26
     },
@@ -37,8 +37,8 @@
       "y": 28
     },
     {
-      "id": "HEAL_LOCATION_FORTREE_CITY",
-      "map": "MAP_FORTREE_CITY",
+      "id": "HEAL_LOCATION_FORTREE_VILLAGE",
+      "map": "MAP_FORTREE_VILLAGE",
       "x": 5,
       "y": 7
     },
@@ -61,8 +61,8 @@
       "y": 32
     },
     {
-      "id": "HEAL_LOCATION_EVER_GRANDE_CITY",
-      "map": "MAP_EVER_GRANDE_CITY",
+      "id": "HEAL_LOCATION_EVER_GRANDE_SUMMIT",
+      "map": "MAP_EVER_GRANDE_SUMMIT",
       "x": 27,
       "y": 49
     },
@@ -115,8 +115,8 @@
       "y": 16
     },
     {
-      "id": "HEAL_LOCATION_EVER_GRANDE_CITY_POKEMON_LEAGUE",
-      "map": "MAP_EVER_GRANDE_CITY",
+      "id": "HEAL_LOCATION_EVER_GRANDE_SUMMIT_POKEMON_LEAGUE",
+      "map": "MAP_EVER_GRANDE_SUMMIT",
       "x": 18,
       "y": 6
     },

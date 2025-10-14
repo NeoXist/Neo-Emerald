@@ -37,15 +37,15 @@
     "gMapGroup_Scrapped"
   ],
   "gMapGroup_TownsAndRoutes": [
-    "PetalburgCity",
+    "PetalburgTown",
     "SlateportCity",
     "MauvilleCity",
     "RustboroCity",
-    "FortreeCity",
+    "FortreeVillage",
     "LilycoveCity",
     "MossdeepIsle",
     "SootopolisCity",
-    "EverGrandeCity",
+    "EverGrandeSummit",
     "LittlerootTown",
     "OldaleTown",
     "DewfordIsle",
@@ -159,13 +159,13 @@
     "PacifidlogIsle_House5"
   ],
   "gMapGroup_IndoorPetalburg": [
-    "PetalburgCity_WallysHouse",
-    "PetalburgCity_Gym",
-    "PetalburgCity_House1",
-    "PetalburgCity_House2",
-    "PetalburgCity_PokemonCenter_1F",
-    "PetalburgCity_PokemonCenter_2F",
-    "PetalburgCity_Mart"
+    "PetalburgTown_WallysHouse",
+    "PetalburgTown_Gym",
+    "PetalburgTown_House1",
+    "PetalburgTown_House2",
+    "PetalburgTown_PokemonCenter_1F",
+    "PetalburgTown_PokemonCenter_2F",
+    "PetalburgTown_Mart"
   ],
   "gMapGroup_IndoorSlateport": [
     "SlateportCity_SternsShipyard_1F",
@@ -213,16 +213,16 @@
     "RustboroCity_House3"
   ],
   "gMapGroup_IndoorFortree": [
-    "FortreeCity_House1",
-    "FortreeCity_Gym",
-    "FortreeCity_PokemonCenter_1F",
-    "FortreeCity_PokemonCenter_2F",
-    "FortreeCity_Mart",
-    "FortreeCity_House2",
-    "FortreeCity_House3",
-    "FortreeCity_House4",
-    "FortreeCity_House5",
-    "FortreeCity_DecorationShop"
+    "FortreeVillage_House1",
+    "FortreeVillage_Gym",
+    "FortreeVillage_PokemonCenter_1F",
+    "FortreeVillage_PokemonCenter_2F",
+    "FortreeVillage_Mart",
+    "FortreeVillage_House2",
+    "FortreeVillage_House3",
+    "FortreeVillage_House4",
+    "FortreeVillage_House5",
+    "FortreeVillage_DecorationShop"
   ],
   "gMapGroup_IndoorLilycove": [
     "LilycoveCity_CoveLilyMotel_1F",
@@ -282,21 +282,21 @@
     "SootopolisCity_MysteryEventsHouse_B1F"
   ],
   "gMapGroup_IndoorEverGrande": [
-    "EverGrandeCity_SidneysRoom",
-    "EverGrandeCity_PhoebesRoom",
-    "EverGrandeCity_GlaciasRoom",
-    "EverGrandeCity_DrakesRoom",
-    "EverGrandeCity_ChampionsRoom",
-    "EverGrandeCity_Hall1",
-    "EverGrandeCity_Hall2",
-    "EverGrandeCity_Hall3",
-    "EverGrandeCity_Hall4",
-    "EverGrandeCity_Hall5",
-    "EverGrandeCity_PokemonLeague_1F",
-    "EverGrandeCity_HallOfFame",
-    "EverGrandeCity_PokemonCenter_1F",
-    "EverGrandeCity_PokemonCenter_2F",
-    "EverGrandeCity_PokemonLeague_2F"
+    "EverGrandeSummit_SidneysRoom",
+    "EverGrandeSummit_PhoebesRoom",
+    "EverGrandeSummit_GlaciasRoom",
+    "EverGrandeSummit_DrakesRoom",
+    "EverGrandeSummit_ChampionsRoom",
+    "EverGrandeSummit_Hall1",
+    "EverGrandeSummit_Hall2",
+    "EverGrandeSummit_Hall3",
+    "EverGrandeSummit_Hall4",
+    "EverGrandeSummit_Hall5",
+    "EverGrandeSummit_PokemonLeague_1F",
+    "EverGrandeSummit_HallOfFame",
+    "EverGrandeSummit_PokemonCenter_1F",
+    "EverGrandeSummit_PokemonCenter_2F",
+    "EverGrandeSummit_PokemonLeague_2F"
   ],
   "gMapGroup_IndoorRoute104": [
     "Route104_MrBrineysHouse",

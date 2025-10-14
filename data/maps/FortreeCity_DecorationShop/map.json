@@ -1,5 +1,5 @@
 {
-  "id": "MAP_FORTREE_CITY_DECORATION_SHOP",
+  "id": "MAP_FORTREE_VILLAGE_DECORATION_SHOP",
   "name": "FortreeCity_DecorationShop",
   "layout": "LAYOUT_FORTREE_CITY_DECORATION_SHOP",
   "music": "MUS_FORTREE",
@@ -72,14 +72,14 @@
       "x": 3,
       "y": 5,
       "elevation": 0,
-      "dest_map": "MAP_FORTREE_CITY",
+      "dest_map": "MAP_FORTREE_VILLAGE",
       "dest_warp_id": "8"
     },
     {
       "x": 4,
       "y": 5,
       "elevation": 0,
-      "dest_map": "MAP_FORTREE_CITY",
+      "dest_map": "MAP_FORTREE_VILLAGE",
       "dest_warp_id": "8"
     }
   ],

@@ -1013,7 +1013,7 @@ Route110_TrickHousePuzzle5_Text_Mechadoll5Quiz1:
 
 Route110_TrickHousePuzzle5_Text_Mechadoll5Quiz2:
 	.string "MECHADOLL 5 QUIZ.\p"
-	.string "In FORTREE CITY, how many\n"
+	.string "In FORTREE VILLAGE, how many\n"
 	.string "tree houses were there?$"
 
 Route110_TrickHousePuzzle5_Text_Mechadoll5Quiz3:

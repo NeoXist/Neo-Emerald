@@ -106,15 +106,15 @@ gStdScripts::
 	.4byte Std_MsgboxPokenav           @ MSGBOX_POKENAV
 gStdScripts_End::
 
-	.include "data/maps/PetalburgCity/scripts.inc"
+	.include "data/maps/PetalburgTown/scripts.inc"
 	.include "data/maps/SlateportCity/scripts.inc"
 	.include "data/maps/MauvilleCity/scripts.inc"
 	.include "data/maps/RustboroCity/scripts.inc"
-	.include "data/maps/FortreeCity/scripts.inc"
+	.include "data/maps/FortreeVillage/scripts.inc"
 	.include "data/maps/LilycoveCity/scripts.inc"
 	.include "data/maps/MossdeepIsle/scripts.inc"
 	.include "data/maps/SootopolisCity/scripts.inc"
-	.include "data/maps/EverGrandeCity/scripts.inc"
+	.include "data/maps/EverGrandeSummit/scripts.inc"
 	.include "data/maps/LittlerootTown/scripts.inc"
 	.include "data/maps/OldaleTown/scripts.inc"
 	.include "data/maps/DewfordIsle/scripts.inc"
@@ -210,13 +210,13 @@ gStdScripts_End::
 	.include "data/maps/PacifidlogIsle_House3/scripts.inc"
 	.include "data/maps/PacifidlogIsle_House4/scripts.inc"
 	.include "data/maps/PacifidlogIsle_House5/scripts.inc"
-	.include "data/maps/PetalburgCity_WallysHouse/scripts.inc"
-	.include "data/maps/PetalburgCity_Gym/scripts.inc"
-	.include "data/maps/PetalburgCity_House1/scripts.inc"
-	.include "data/maps/PetalburgCity_House2/scripts.inc"
-	.include "data/maps/PetalburgCity_PokemonCenter_1F/scripts.inc"
-	.include "data/maps/PetalburgCity_PokemonCenter_2F/scripts.inc"
-	.include "data/maps/PetalburgCity_Mart/scripts.inc"
+	.include "data/maps/PetalburgTown_WallysHouse/scripts.inc"
+	.include "data/maps/PetalburgTown_Gym/scripts.inc"
+	.include "data/maps/PetalburgTown_House1/scripts.inc"
+	.include "data/maps/PetalburgTown_House2/scripts.inc"
+	.include "data/maps/PetalburgTown_PokemonCenter_1F/scripts.inc"
+	.include "data/maps/PetalburgTown_PokemonCenter_2F/scripts.inc"
+	.include "data/maps/PetalburgTown_Mart/scripts.inc"
 	.include "data/maps/SlateportCity_SternsShipyard_1F/scripts.inc"
 	.include "data/maps/SlateportCity_SternsShipyard_2F/scripts.inc"
 	.include "data/maps/SlateportCity_BattleTentLobby/scripts.inc"
@@ -256,16 +256,16 @@ gStdScripts_End::
 	.include "data/maps/RustboroCity_Flat2_2F/scripts.inc"
 	.include "data/maps/RustboroCity_Flat2_3F/scripts.inc"
 	.include "data/maps/RustboroCity_House3/scripts.inc"
-	.include "data/maps/FortreeCity_House1/scripts.inc"
-	.include "data/maps/FortreeCity_Gym/scripts.inc"
-	.include "data/maps/FortreeCity_PokemonCenter_1F/scripts.inc"
-	.include "data/maps/FortreeCity_PokemonCenter_2F/scripts.inc"
-	.include "data/maps/FortreeCity_Mart/scripts.inc"
-	.include "data/maps/FortreeCity_House2/scripts.inc"
-	.include "data/maps/FortreeCity_House3/scripts.inc"
-	.include "data/maps/FortreeCity_House4/scripts.inc"
-	.include "data/maps/FortreeCity_House5/scripts.inc"
-	.include "data/maps/FortreeCity_DecorationShop/scripts.inc"
+	.include "data/maps/FortreeVillage_House1/scripts.inc"
+	.include "data/maps/FortreeVillage_Gym/scripts.inc"
+	.include "data/maps/FortreeVillage_PokemonCenter_1F/scripts.inc"
+	.include "data/maps/FortreeVillage_PokemonCenter_2F/scripts.inc"
+	.include "data/maps/FortreeVillage_Mart/scripts.inc"
+	.include "data/maps/FortreeVillage_House2/scripts.inc"
+	.include "data/maps/FortreeVillage_House3/scripts.inc"
+	.include "data/maps/FortreeVillage_House4/scripts.inc"
+	.include "data/maps/FortreeVillage_House5/scripts.inc"
+	.include "data/maps/FortreeVillage_DecorationShop/scripts.inc"
 	.include "data/maps/LilycoveCity_CoveLilyMotel_1F/scripts.inc"
 	.include "data/maps/LilycoveCity_CoveLilyMotel_2F/scripts.inc"
 	.include "data/maps/LilycoveCity_LilycoveMuseum_1F/scripts.inc"
@@ -317,21 +317,21 @@ gStdScripts_End::
 	.include "data/maps/SootopolisCity_LotadAndSeedotHouse/scripts.inc"
 	.include "data/maps/SootopolisCity_MysteryEventsHouse_1F/scripts.inc"
 	.include "data/maps/SootopolisCity_MysteryEventsHouse_B1F/scripts.inc"
-	.include "data/maps/EverGrandeCity_SidneysRoom/scripts.inc"
-	.include "data/maps/EverGrandeCity_PhoebesRoom/scripts.inc"
-	.include "data/maps/EverGrandeCity_GlaciasRoom/scripts.inc"
-	.include "data/maps/EverGrandeCity_DrakesRoom/scripts.inc"
-	.include "data/maps/EverGrandeCity_ChampionsRoom/scripts.inc"
-	.include "data/maps/EverGrandeCity_Hall1/scripts.inc"
-	.include "data/maps/EverGrandeCity_Hall2/scripts.inc"
-	.include "data/maps/EverGrandeCity_Hall3/scripts.inc"
-	.include "data/maps/EverGrandeCity_Hall4/scripts.inc"
-	.include "data/maps/EverGrandeCity_Hall5/scripts.inc"
-	.include "data/maps/EverGrandeCity_PokemonLeague_1F/scripts.inc"
-	.include "data/maps/EverGrandeCity_HallOfFame/scripts.inc"
-	.include "data/maps/EverGrandeCity_PokemonCenter_1F/scripts.inc"
-	.include "data/maps/EverGrandeCity_PokemonCenter_2F/scripts.inc"
-	.include "data/maps/EverGrandeCity_PokemonLeague_2F/scripts.inc"
+	.include "data/maps/EverGrandeSummit_SidneysRoom/scripts.inc"
+	.include "data/maps/EverGrandeSummit_PhoebesRoom/scripts.inc"
+	.include "data/maps/EverGrandeSummit_GlaciasRoom/scripts.inc"
+	.include "data/maps/EverGrandeSummit_DrakesRoom/scripts.inc"
+	.include "data/maps/EverGrandeSummit_ChampionsRoom/scripts.inc"
+	.include "data/maps/EverGrandeSummit_Hall1/scripts.inc"
+	.include "data/maps/EverGrandeSummit_Hall2/scripts.inc"
+	.include "data/maps/EverGrandeSummit_Hall3/scripts.inc"
+	.include "data/maps/EverGrandeSummit_Hall4/scripts.inc"
+	.include "data/maps/EverGrandeSummit_Hall5/scripts.inc"
+	.include "data/maps/EverGrandeSummit_PokemonLeague_1F/scripts.inc"
+	.include "data/maps/EverGrandeSummit_HallOfFame/scripts.inc"
+	.include "data/maps/EverGrandeSummit_PokemonCenter_1F/scripts.inc"
+	.include "data/maps/EverGrandeSummit_PokemonCenter_2F/scripts.inc"
+	.include "data/maps/EverGrandeSummit_PokemonLeague_2F/scripts.inc"
 	.include "data/maps/Route104_MrBrineysHouse/scripts.inc"
 	.include "data/maps/Route104_PrettyPetalFlowerShop/scripts.inc"
 	.include "data/maps/Route111_WinstrateFamilysHouse/scripts.inc"
@@ -585,7 +585,7 @@ gStdScripts_End::
 	.include "data/scripts/debug.inc"
 
 EventScript_WhiteOut::
-	call EverGrandeCity_HallOfFame_EventScript_ResetEliteFour
+	call EverGrandeSummit_HallOfFame_EventScript_ResetEliteFour
 	goto EventScript_ResetMrBriney
 	end
 
@@ -658,7 +658,7 @@ EventScript_MoveMrBrineyToRoute109::
 	clearflag FLAG_HIDE_ROUTE_109_MR_BRINEY_BOAT
 	end
 
-EverGrandeCity_HallOfFame_EventScript_ResetEliteFour::
+EverGrandeSummit_HallOfFame_EventScript_ResetEliteFour::
 	clearflag FLAG_DEFEATED_ELITE_4_SIDNEY
 	clearflag FLAG_DEFEATED_ELITE_4_PHOEBE
 	clearflag FLAG_DEFEATED_ELITE_4_GLACIA

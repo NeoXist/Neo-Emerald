@@ -38,8 +38,8 @@ static const struct FormChange sBlastoiseFormChangeTable[] = {
 #if P_FAMILY_CATERPIE
 static const struct FormChange sButterfreeFormChangeTable[] =
 {
-#if P_GIGANTAMAX_FORMS
-    {FORM_CHANGE_BATTLE_GIGANTAMAX, SPECIES_BUTTERFREE_GMAX},
+#if P_MEGA_EVOLUTIONS
+    {FORM_CHANGE_BATTLE_MEGA_EVOLUTION_ITEM, SPECIES_BUTTERFREE_MEGA, ITEM_BUTTERFREENITE},
 #endif
     {FORM_CHANGE_TERMINATOR},
 };
@@ -722,8 +722,8 @@ static const struct FormChange sDarmanitanGalarFormChangeTable[] = {
 #if P_FAMILY_TRUBBISH
 static const struct FormChange sGarbodorFormChangeTable[] =
 {
-#if P_GIGANTAMAX_FORMS
-    {FORM_CHANGE_BATTLE_GIGANTAMAX, SPECIES_GARBODOR_GMAX},
+#if P_MEGA_EVOLUTIONS
+    {FORM_CHANGE_BATTLE_MEGA_EVOLUTION_ITEM, SPECIES_GARBODOR_MEGA, ITEM_GARBODORITE},
 #endif
     {FORM_CHANGE_TERMINATOR},
 };
@@ -1038,8 +1038,8 @@ static const struct FormChange sRillaboomFormChangeTable[] =
 #if P_FAMILY_SCORBUNNY
 static const struct FormChange sCinderaceFormChangeTable[] =
 {
-#if P_GIGANTAMAX_FORMS
-    {FORM_CHANGE_BATTLE_GIGANTAMAX, SPECIES_CINDERACE_GMAX},
+#if P_MEGA_EVOLUTIONS
+    {FORM_CHANGE_BATTLE_MEGA_EVOLUTION_ITEM, SPECIES_CINDERACE_MEGA, ITEM_CINDERACITE},
 #endif
     {FORM_CHANGE_TERMINATOR},
 };
@@ -1058,8 +1058,8 @@ static const struct FormChange sInteleonFormChangeTable[] =
 #if P_FAMILY_ROOKIDEE
 static const struct FormChange sCorviknightFormChangeTable[] =
 {
-#if P_GIGANTAMAX_FORMS
-    {FORM_CHANGE_BATTLE_GIGANTAMAX, SPECIES_CORVIKNIGHT_GMAX},
+#if P_MEGA_EVOLUTIONS
+    {FORM_CHANGE_BATTLE_MEGA_EVOLUTION_ITEM, SPECIES_CORVIKNIGHT_MEGA, ITEM_CORVIKNIGHTITE},
 #endif
     {FORM_CHANGE_TERMINATOR},
 };
@@ -1138,16 +1138,16 @@ static const struct FormChange sCramorantFormChangeTable[] = {
 #if P_FAMILY_TOXEL
 static const struct FormChange sToxtricityAmpedFormChangeTable[] =
 {
-#if P_GIGANTAMAX_FORMS
-    {FORM_CHANGE_BATTLE_GIGANTAMAX, SPECIES_TOXTRICITY_AMPED_GMAX},
+#if P_MEGA_EVOLUTIONS
+    {FORM_CHANGE_BATTLE_MEGA_EVOLUTION_ITEM, SPECIES_TOXTRICITY_AMPED_MEGA, ITEM_TOXTRICITE},
 #endif
     {FORM_CHANGE_TERMINATOR},
 };
 
 static const struct FormChange sToxtricityLowKeyFormChangeTable[] =
 {
-#if P_GIGANTAMAX_FORMS
-    {FORM_CHANGE_BATTLE_GIGANTAMAX, SPECIES_TOXTRICITY_LOW_KEY_GMAX},
+#if P_MEGA_EVOLUTIONS
+    {FORM_CHANGE_BATTLE_MEGA_EVOLUTION_ITEM, SPECIES_TOXTRICITY_LOW_KEY_MEGA, ITEM_TOXTRICITE},
 #endif
     {FORM_CHANGE_TERMINATOR},
 };
@@ -1156,8 +1156,8 @@ static const struct FormChange sToxtricityLowKeyFormChangeTable[] =
 #if P_FAMILY_SIZZLIPEDE
 static const struct FormChange sCentiskorchFormChangeTable[] =
 {
-#if P_GIGANTAMAX_FORMS
-    {FORM_CHANGE_BATTLE_GIGANTAMAX, SPECIES_CENTISKORCH_GMAX},
+#if P_MEGA_EVOLUTIONS
+    {FORM_CHANGE_BATTLE_MEGA_EVOLUTION_ITEM, SPECIES_CENTISKORCH_MEGA, ITEM_CENTISKORCHITE},
 #endif
     {FORM_CHANGE_TERMINATOR},
 };

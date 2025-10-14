@@ -1,5 +1,5 @@
 {
-  "id": "MAP_EVER_GRANDE_CITY_HALL_OF_FAME",
+  "id": "MAP_EVER_GRANDE_SUMMIT_HALL_OF_FAME",
   "name": "EverGrandeCity_HallOfFame",
   "layout": "LAYOUT_EVER_GRANDE_CITY_HALL_OF_FAME",
   "music": "MUS_HALL_OF_FAME_ROOM",
@@ -34,7 +34,7 @@
       "x": 7,
       "y": 11,
       "elevation": 3,
-      "dest_map": "MAP_EVER_GRANDE_CITY_CHAMPIONS_ROOM",
+      "dest_map": "MAP_EVER_GRANDE_SUMMIT_CHAMPIONS_ROOM",
       "dest_warp_id": "1"
     }
   ],

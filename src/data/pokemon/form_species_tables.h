@@ -41,8 +41,8 @@ static const u16 sBlastoiseFormSpeciesIdTable[] = {
 #if P_FAMILY_CATERPIE
 static const u16 sButterfreeFormSpeciesIdTable[] = {
     SPECIES_BUTTERFREE,
-#if P_GIGANTAMAX_FORMS
-    SPECIES_BUTTERFREE_GMAX,
+#if P_MEGA_EVOLUTIONS
+    SPECIES_BUTTERFREE_MEGA,
 #endif
     FORM_SPECIES_END,
 };
@@ -1220,8 +1220,8 @@ static const u16 sYamaskFormSpeciesIdTable[] = {
 #if P_FAMILY_TRUBBISH
 static const u16 sGarbodorFormSpeciesIdTable[] = {
     SPECIES_GARBODOR,
-#if P_GIGANTAMAX_FORMS
-    SPECIES_GARBODOR_GMAX,
+#if P_MEGA_EVOLUTIONS
+    SPECIES_GARBODOR_MEGA,
 #endif
     FORM_SPECIES_END,
 };
@@ -1775,8 +1775,8 @@ static const u16 sRillaboomFormSpeciesIdTable[] = {
 #if P_FAMILY_SCORBUNNY
 static const u16 sCinderaceFormSpeciesIdTable[] = {
     SPECIES_CINDERACE,
-#if P_GIGANTAMAX_FORMS
-    SPECIES_CINDERACE_GMAX,
+#if P_MEGA_EVOLUTIONS
+    SPECIES_CINDERACE_MEGA,
 #endif
     FORM_SPECIES_END,
 };
@@ -1795,8 +1795,8 @@ static const u16 sInteleonFormSpeciesIdTable[] = {
 #if P_FAMILY_ROOKIDEE
 static const u16 sCorviknightFormSpeciesIdTable[] = {
     SPECIES_CORVIKNIGHT,
-#if P_GIGANTAMAX_FORMS
-    SPECIES_CORVIKNIGHT_GMAX,
+#if P_MEGA_EVOLUTIONS
+    SPECIES_CORVIKNIGHT_MEGA,
 #endif
     FORM_SPECIES_END,
 };
@@ -1873,11 +1873,9 @@ static const u16 sCramorantFormSpeciesIdTable[] = {
 static const u16 sToxtricityFormSpeciesIdTable[] = {
     SPECIES_TOXTRICITY_AMPED,
     SPECIES_TOXTRICITY_LOW_KEY,
-#if P_GIGANTAMAX_FORMS
-    SPECIES_TOXTRICITY_AMPED_GMAX,
-#endif
-#if P_GIGANTAMAX_FORMS
-    SPECIES_TOXTRICITY_LOW_KEY_GMAX,
+#if P_MEGA_EVOLUTIONS
+    SPECIES_TOXTRICITY_AMPED_MEGA,
+    SPECIES_TOXTRICITY_LOW_KEY_MEGA,
 #endif
     FORM_SPECIES_END,
 };
@@ -1886,8 +1884,8 @@ static const u16 sToxtricityFormSpeciesIdTable[] = {
 #if P_FAMILY_SIZZLIPEDE
 static const u16 sCentiskorchFormSpeciesIdTable[] = {
     SPECIES_CENTISKORCH,
-#if P_GIGANTAMAX_FORMS
-    SPECIES_CENTISKORCH_GMAX,
+#if P_MEGA_EVOLUTIONS
+    SPECIES_CENTISKORCH_MEGA,
 #endif
     FORM_SPECIES_END,
 };

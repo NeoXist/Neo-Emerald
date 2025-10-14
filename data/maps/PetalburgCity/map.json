@@ -1,9 +1,9 @@
 {
-  "id": "MAP_PETALBURG_CITY",
+  "id": "MAP_PETALBURG_TOWN",
   "name": "PetalburgCity",
   "layout": "LAYOUT_PETALBURG_CITY",
   "music": "MUS_PETALBURG",
-  "region_map_section": "MAPSEC_PETALBURG_CITY",
+  "region_map_section": "MAPSEC_PETALBURG_TOWN",
   "requires_flash": false,
   "weather": "WEATHER_SUNNY",
   "map_type": "MAP_TYPE_CITY",
@@ -153,42 +153,42 @@
       "x": 10,
       "y": 28,
       "elevation": 0,
-      "dest_map": "MAP_PETALBURG_CITY_HOUSE1",
+      "dest_map": "MAP_PETALBURG_TOWN_HOUSE1",
       "dest_warp_id": "0"
     },
     {
       "x": 7,
       "y": 14,
       "elevation": 0,
-      "dest_map": "MAP_PETALBURG_CITY_WALLYS_HOUSE",
+      "dest_map": "MAP_PETALBURG_TOWN_WALLYS_HOUSE",
       "dest_warp_id": "0"
     },
     {
       "x": 15,
       "y": 17,
       "elevation": 0,
-      "dest_map": "MAP_PETALBURG_CITY_GYM",
+      "dest_map": "MAP_PETALBURG_TOWN_GYM",
       "dest_warp_id": "0"
     },
     {
       "x": 20,
       "y": 25,
       "elevation": 0,
-      "dest_map": "MAP_PETALBURG_CITY_POKEMON_CENTER_1F",
+      "dest_map": "MAP_PETALBURG_TOWN_POKEMON_CENTER_1F",
       "dest_warp_id": "0"
     },
     {
       "x": 20,
       "y": 33,
       "elevation": 0,
-      "dest_map": "MAP_PETALBURG_CITY_HOUSE2",
+      "dest_map": "MAP_PETALBURG_TOWN_HOUSE2",
       "dest_warp_id": "0"
     },
     {
       "x": 25,
       "y": 22,
       "elevation": 0,
-      "dest_map": "MAP_PETALBURG_CITY_MART",
+      "dest_map": "MAP_PETALBURG_TOWN_MART",
       "dest_warp_id": "0"
     }
   ],

@@ -1,5 +1,5 @@
 {
-  "id": "MAP_FORTREE_CITY_HOUSE1",
+  "id": "MAP_FORTREE_VILLAGE_HOUSE1",
   "name": "FortreeCity_House1",
   "layout": "LAYOUT_FORTREE_CITY_HOUSE1",
   "music": "MUS_FORTREE",
@@ -59,14 +59,14 @@
       "x": 3,
       "y": 5,
       "elevation": 0,
-      "dest_map": "MAP_FORTREE_CITY",
+      "dest_map": "MAP_FORTREE_VILLAGE",
       "dest_warp_id": "1"
     },
     {
       "x": 4,
       "y": 5,
       "elevation": 0,
-      "dest_map": "MAP_FORTREE_CITY",
+      "dest_map": "MAP_FORTREE_VILLAGE",
       "dest_warp_id": "1"
     }
   ],

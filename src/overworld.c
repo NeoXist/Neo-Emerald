@@ -1100,7 +1100,7 @@ static bool16 ShouldLegendaryMusicPlayAtLocation(struct WarpData *warp)
         case MAP_NUM(MAP_LILYCOVE_CITY):
         case MAP_NUM(MAP_MOSSDEEP_ISLE):
         case MAP_NUM(MAP_SOOTOPOLIS_CITY):
-        case MAP_NUM(MAP_EVER_GRANDE_CITY):
+        case MAP_NUM(MAP_EVER_GRANDE_SUMMIT):
         case MAP_NUM(MAP_ROUTE124):
         case MAP_NUM(MAP_ROUTE125):
         case MAP_NUM(MAP_ROUTE126):

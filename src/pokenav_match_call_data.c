@@ -200,7 +200,7 @@ static const match_call_text_data_t sNormanTextScripts[] = {
 static const struct MatchCallStructTrainer sNormanMatchCallHeader =
 {
     .type = MC_TYPE_LEADER,
-    .mapSec = MAPSEC_PETALBURG_CITY,
+    .mapSec = MAPSEC_PETALBURG_TOWN,
     .flag = FLAG_ENABLE_NORMAN_MATCH_CALL,
     .rematchTableIdx = REMATCH_NORMAN,
     .desc = COMPOUND_STRING("RELIABLE ONE"),
@@ -453,7 +453,7 @@ static const match_call_text_data_t sWinonaTextScripts[] = {
 static const struct MatchCallStructTrainer sWinonaMatchCallHeader =
 {
     .type = MC_TYPE_LEADER,
-    .mapSec = MAPSEC_FORTREE_CITY,
+    .mapSec = MAPSEC_FORTREE_VILLAGE,
     .flag = FLAG_ENABLE_WINONA_MATCH_CALL,
     .rematchTableIdx = REMATCH_WINONA,
     .desc = COMPOUND_STRING("SKY TAMER"),
@@ -509,7 +509,7 @@ static const match_call_text_data_t sSidneyTextScripts[] = {
 static const struct MatchCallStructTrainer sSidneyMatchCallHeader =
 {
     .type = MC_TYPE_LEADER,
-    .mapSec = MAPSEC_EVER_GRANDE_CITY,
+    .mapSec = MAPSEC_EVER_GRANDE_SUMMIT,
     .flag = FLAG_REGISTERED_SIDNEY,
     .rematchTableIdx = REMATCH_SIDNEY,
     .desc = gText_EliteFourMatchCallDesc,
@@ -525,7 +525,7 @@ static const match_call_text_data_t sPhoebeTextScripts[] = {
 static const struct MatchCallStructTrainer sPhoebeMatchCallHeader =
 {
     .type = MC_TYPE_LEADER,
-    .mapSec = MAPSEC_EVER_GRANDE_CITY,
+    .mapSec = MAPSEC_EVER_GRANDE_SUMMIT,
     .flag = FLAG_REGISTERED_PHOEBE,
     .rematchTableIdx = REMATCH_PHOEBE,
     .desc = gText_EliteFourMatchCallDesc,
@@ -541,7 +541,7 @@ static const match_call_text_data_t sGlaciaTextScripts[] = {
 static const struct MatchCallStructTrainer sGlaciaMatchCallHeader =
 {
     .type = MC_TYPE_LEADER,
-    .mapSec = MAPSEC_EVER_GRANDE_CITY,
+    .mapSec = MAPSEC_EVER_GRANDE_SUMMIT,
     .flag = FLAG_REGISTERED_GLACIA,
     .rematchTableIdx = REMATCH_GLACIA,
     .desc = gText_EliteFourMatchCallDesc,
@@ -557,7 +557,7 @@ static const match_call_text_data_t sDrakeTextScripts[] = {
 static const struct MatchCallStructTrainer sDrakeMatchCallHeader =
 {
     .type = MC_TYPE_LEADER,
-    .mapSec = MAPSEC_EVER_GRANDE_CITY,
+    .mapSec = MAPSEC_EVER_GRANDE_SUMMIT,
     .flag = FLAG_REGISTERED_DRAKE,
     .rematchTableIdx = REMATCH_DRAKE,
     .desc = gText_EliteFourMatchCallDesc,
@@ -573,7 +573,7 @@ static const match_call_text_data_t sWallaceTextScripts[] = {
 static const struct MatchCallStructTrainer sWallaceMatchCallHeader =
 {
     .type = MC_TYPE_LEADER,
-    .mapSec = MAPSEC_EVER_GRANDE_CITY,
+    .mapSec = MAPSEC_EVER_GRANDE_SUMMIT,
     .flag = FLAG_REGISTERED_WALLACE,
     .rematchTableIdx = REMATCH_WALLACE,
     .desc = COMPOUND_STRING("CHAMPION"),

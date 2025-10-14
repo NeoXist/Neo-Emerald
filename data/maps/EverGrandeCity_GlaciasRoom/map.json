@@ -1,5 +1,5 @@
 {
-  "id": "MAP_EVER_GRANDE_CITY_GLACIAS_ROOM",
+  "id": "MAP_EVER_GRANDE_SUMMIT_GLACIAS_ROOM",
   "name": "EverGrandeCity_GlaciasRoom",
   "layout": "LAYOUT_EVER_GRANDE_CITY_GLACIAS_ROOM",
   "music": "MUS_VICTORY_ROAD",
@@ -33,14 +33,14 @@
       "x": 6,
       "y": 13,
       "elevation": 3,
-      "dest_map": "MAP_EVER_GRANDE_CITY_HALL2",
+      "dest_map": "MAP_EVER_GRANDE_SUMMIT_HALL2",
       "dest_warp_id": "1"
     },
     {
       "x": 6,
       "y": 2,
       "elevation": 0,
-      "dest_map": "MAP_EVER_GRANDE_CITY_HALL3",
+      "dest_map": "MAP_EVER_GRANDE_SUMMIT_HALL3",
       "dest_warp_id": "0"
     }
   ],

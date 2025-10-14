@@ -6398,8 +6398,8 @@ const struct SpeciesInfo gSpeciesInfoGen5[] =
         .formChangeTable = sGarbodorFormChangeTable,
     },
 
-#if P_GIGANTAMAX_FORMS
-    [SPECIES_GARBODOR_GMAX] =
+#if P_MEGA_EVOLUTIONS
+    [SPECIES_GARBODOR_MEGA] =
     {
         .baseHP        = 80,
         .baseAttack    = 95,
@@ -6428,37 +6428,37 @@ const struct SpeciesInfo gSpeciesInfoGen5[] =
         .height = 210,
         .weight = 0,
         .description = COMPOUND_STRING(
-            "It sprays toxic gas from its mouth\n"
-            "and fingers. If the gas engulfs you,\n"
-            "the toxins will seep in all the way\n"
-            "down to your bones."),
+            "Mega Evolution has greatly enhanced\n"
+            "its toxic production. Its poisonous\n"
+            "gas is now so concentrated that it\n"
+            "can melt steel structures."),
         .pokemonScale = 256,
         .pokemonOffset = 1,
         .trainerScale = 326,
         .trainerOffset = 4,
-        .frontPic = gMonFrontPic_GarbodorGmax,
+        .frontPic = gMonFrontPic_GarbodorMega,
         .frontPicSize = MON_COORDS_SIZE(64, 64),
         .frontPicYOffset = 2,
         .frontAnimFrames = sAnims_SingleFramePlaceHolder,
         //.frontAnimId = ANIM_V_SQUISH_AND_BOUNCE,
-        .backPic = gMonBackPic_GarbodorGmax,
+        .backPic = gMonBackPic_GarbodorMega,
         .backPicSize = MON_COORDS_SIZE(64, 64),
         .backPicYOffset = 2,
         //.backAnimId = BACK_ANIM_NONE,
-        .palette = gMonPalette_GarbodorGmax,
-        .shinyPalette = gMonShinyPalette_GarbodorGmax,
-        .iconSprite = gMonIcon_GarbodorGmax,
+        .palette = gMonPalette_GarbodorMega,
+        .shinyPalette = gMonShinyPalette_GarbodorMega,
+        .iconSprite = gMonIcon_GarbodorMega,
         .iconPalIndex = 0,
         .pokemonJumpType = PKMN_JUMP_TYPE_NONE,
         NO_SHADOW
         FOOTPRINT(Garbodor)
-        .isGigantamax = TRUE,
+        .isMegaEvolution = TRUE,
         .levelUpLearnset = sGarbodorLevelUpLearnset,
         .teachableLearnset = sGarbodorTeachableLearnset,
         .formSpeciesIdTable = sGarbodorFormSpeciesIdTable,
         .formChangeTable = sGarbodorFormChangeTable,
     },
-#endif //P_GIGANTAMAX_FORMS
+#endif //P_MEGA_EVOLUTIONS
 #endif //P_FAMILY_TRUBBISH
 
 #if P_FAMILY_ZORUA

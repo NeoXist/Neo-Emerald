@@ -106,7 +106,7 @@ const struct FollowerMsgInfoExtended gFollowerConditionalMessages[COND_MSG_COUNT
         .emotion = FOLLOWER_EMOTION_HAPPY,
         .conditions =
         {
-            MATCH_MAP(MAP_EVER_GRANDE_CITY),
+            MATCH_MAP(MAP_EVER_GRANDE_SUMMIT),
         },
     },
     [COND_MSG_ROUTE_112] =

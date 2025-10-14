@@ -1,5 +1,5 @@
 {
-  "id": "MAP_FORTREE_CITY_GYM",
+  "id": "MAP_FORTREE_VILLAGE_GYM",
   "name": "FortreeCity_Gym",
   "layout": "LAYOUT_FORTREE_CITY_GYM",
   "music": "MUS_GYM",
@@ -124,14 +124,14 @@
       "x": 15,
       "y": 24,
       "elevation": 0,
-      "dest_map": "MAP_FORTREE_CITY",
+      "dest_map": "MAP_FORTREE_VILLAGE",
       "dest_warp_id": "2"
     },
     {
       "x": 16,
       "y": 24,
       "elevation": 0,
-      "dest_map": "MAP_FORTREE_CITY",
+      "dest_map": "MAP_FORTREE_VILLAGE",
       "dest_warp_id": "2"
     }
   ],

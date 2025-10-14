@@ -1,5 +1,5 @@
 {
-  "id": "MAP_EVER_GRANDE_CITY_HALL5",
+  "id": "MAP_EVER_GRANDE_SUMMIT_HALL5",
   "name": "EverGrandeCity_Hall5",
   "layout": "LAYOUT_EVER_GRANDE_CITY_SHORT_HALL",
   "music": "MUS_VICTORY_ROAD",
@@ -19,28 +19,28 @@
       "x": 5,
       "y": 12,
       "elevation": 3,
-      "dest_map": "MAP_EVER_GRANDE_CITY_POKEMON_LEAGUE_1F",
+      "dest_map": "MAP_EVER_GRANDE_SUMMIT_POKEMON_LEAGUE_1F",
       "dest_warp_id": "2"
     },
     {
       "x": 5,
       "y": 2,
       "elevation": 0,
-      "dest_map": "MAP_EVER_GRANDE_CITY_SIDNEYS_ROOM",
+      "dest_map": "MAP_EVER_GRANDE_SUMMIT_SIDNEYS_ROOM",
       "dest_warp_id": "0"
     },
     {
       "x": 4,
       "y": 12,
       "elevation": 3,
-      "dest_map": "MAP_EVER_GRANDE_CITY_POKEMON_LEAGUE_1F",
+      "dest_map": "MAP_EVER_GRANDE_SUMMIT_POKEMON_LEAGUE_1F",
       "dest_warp_id": "2"
     },
     {
       "x": 6,
       "y": 12,
       "elevation": 3,
-      "dest_map": "MAP_EVER_GRANDE_CITY_POKEMON_LEAGUE_1F",
+      "dest_map": "MAP_EVER_GRANDE_SUMMIT_POKEMON_LEAGUE_1F",
       "dest_warp_id": "2"
     }
   ],

@@ -449,8 +449,8 @@ const struct SpeciesInfo gSpeciesInfoGen8[] =
         .formChangeTable = sCinderaceFormChangeTable,
     },
 
-#if P_GIGANTAMAX_FORMS
-    [SPECIES_CINDERACE_GMAX] =
+#if P_MEGA_EVOLUTIONS
+    [SPECIES_CINDERACE_MEGA] =
     {
         .baseHP        = 80,
         .baseAttack    = 116,
@@ -476,37 +476,37 @@ const struct SpeciesInfo gSpeciesInfoGen8[] =
         .height = 270,
         .weight = 0,
         .description = COMPOUND_STRING(
-            "Infused with Cinderace's fighting\n"
-            "spirit, the gigantic Pyro Ball never\n"
-            "misses its targets and completely\n"
-            "roasts opponents."),
+            "Mega Evolution has intensified its\n"
+            "fiery spirit. Its Pyro Ball attacks\n"
+            "burn with such heat they can melt\n"
+            "through steel barriers."),
         .pokemonScale = 265,
         .pokemonOffset = 2,
         .trainerScale = 262,
         .trainerOffset = 0,
-        .frontPic = gMonFrontPic_CinderaceGmax,
+        .frontPic = gMonFrontPic_CinderaceMega,
         .frontPicSize = MON_COORDS_SIZE(64, 64),
         .frontPicYOffset = 0,
         .frontAnimFrames = sAnims_SingleFramePlaceHolder,
         //.frontAnimId = ANIM_V_SQUISH_AND_BOUNCE,
-        .backPic = gMonBackPic_CinderaceGmax,
+        .backPic = gMonBackPic_CinderaceMega,
         .backPicSize = MON_COORDS_SIZE(64, 64),
         .backPicYOffset = 4,
         //.backAnimId = BACK_ANIM_NONE,
-        .palette = gMonPalette_CinderaceGmax,
-        .shinyPalette = gMonShinyPalette_CinderaceGmax,
-        .iconSprite = gMonIcon_CinderaceGmax,
+        .palette = gMonPalette_CinderaceMega,
+        .shinyPalette = gMonShinyPalette_CinderaceMega,
+        .iconSprite = gMonIcon_CinderaceMega,
         .iconPalIndex = 0,
         .pokemonJumpType = PKMN_JUMP_TYPE_NONE,
         SHADOW(-3, 13, SHADOW_SIZE_XL_BATTLE_ONLY)
         FOOTPRINT(Cinderace)
-        .isGigantamax = TRUE,
+        .isMegaEvolution = TRUE,
         .levelUpLearnset = sCinderaceLevelUpLearnset,
         .teachableLearnset = sCinderaceTeachableLearnset,
         .formSpeciesIdTable = sCinderaceFormSpeciesIdTable,
         .formChangeTable = sCinderaceFormChangeTable,
     },
-#endif //P_GIGANTAMAX_FORMS
+#endif //P_MEGA_EVOLUTIONS
 #endif //P_FAMILY_SCORBUNNY
 
 #if P_FAMILY_SOBBLE
@@ -1111,8 +1111,8 @@ const struct SpeciesInfo gSpeciesInfoGen8[] =
         .formChangeTable = sCorviknightFormChangeTable,
     },
 
-#if P_GIGANTAMAX_FORMS
-    [SPECIES_CORVIKNIGHT_GMAX] =
+#if P_MEGA_EVOLUTIONS
+    [SPECIES_CORVIKNIGHT_MEGA] =
     {
         .baseHP        = 98,
         .baseAttack    = 87,
@@ -1138,37 +1138,37 @@ const struct SpeciesInfo gSpeciesInfoGen8[] =
         .height = 140,
         .weight = 0,
         .description = COMPOUND_STRING(
-            "Imbued with Gigantamax energy, its\n"
-            "wings can whip up winds more\n"
-            "forceful than any a hurricane could\n"
-            "muster. The gusts blow everything away."),
+            "Mega Evolution has reinforced its\n"
+            "metallic armor to near-impenetrable\n"
+            "levels. Its wing beats can create\n"
+            "devastating steel-cutting gusts."),
         .pokemonScale = 256,
         .pokemonOffset = 0,
         .trainerScale = 348,
         .trainerOffset = 6,
-        .frontPic = gMonFrontPic_CorviknightGmax,
+        .frontPic = gMonFrontPic_CorviknightMega,
         .frontPicSize = MON_COORDS_SIZE(64, 64),
         .frontPicYOffset = 2,
         .frontAnimFrames = sAnims_SingleFramePlaceHolder,
         //.frontAnimId = ANIM_V_SQUISH_AND_BOUNCE,
-        .backPic = gMonBackPic_CorviknightGmax,
+        .backPic = gMonBackPic_CorviknightMega,
         .backPicSize = MON_COORDS_SIZE(64, 64),
         .backPicYOffset = 3,
         //.backAnimId = BACK_ANIM_NONE,
-        .palette = gMonPalette_CorviknightGmax,
-        .shinyPalette = gMonShinyPalette_CorviknightGmax,
-        .iconSprite = gMonIcon_CorviknightGmax,
+        .palette = gMonPalette_CorviknightMega,
+        .shinyPalette = gMonShinyPalette_CorviknightMega,
+        .iconSprite = gMonIcon_CorviknightMega,
         .iconPalIndex = 0,
         .pokemonJumpType = PKMN_JUMP_TYPE_NONE,
         SHADOW(2, 8, SHADOW_SIZE_L)
         FOOTPRINT(Corviknight)
-        .isGigantamax = TRUE,
+        .isMegaEvolution = TRUE,
         .levelUpLearnset = sCorviknightLevelUpLearnset,
         .teachableLearnset = sCorviknightTeachableLearnset,
         .formSpeciesIdTable = sCorviknightFormSpeciesIdTable,
         .formChangeTable = sCorviknightFormChangeTable,
     },
-#endif //P_GIGANTAMAX_FORMS
+#endif //P_MEGA_EVOLUTIONS
 #endif //P_FAMILY_ROOKIDEE
 
 #if P_FAMILY_BLIPBUG
@@ -3479,8 +3479,8 @@ const struct SpeciesInfo gSpeciesInfoGen8[] =
         .formChangeTable = sToxtricityAmpedFormChangeTable,
     },
 
-#if P_GIGANTAMAX_FORMS
-    [SPECIES_TOXTRICITY_AMPED_GMAX] =
+#if P_MEGA_EVOLUTIONS
+    [SPECIES_TOXTRICITY_AMPED_MEGA] =
     {
         .baseHP        = 75,
         .baseAttack    = 98,
@@ -3505,34 +3505,38 @@ const struct SpeciesInfo gSpeciesInfoGen8[] =
         .categoryName = _("Punk"),
         .height = 240,
         .weight = 0,
-        .description = gToxtricityGigantamaxPokedexText,
+        .description = COMPOUND_STRING(
+            "Mega Evolution has amplified its\n"
+            "bioelectric capabilities. Its sound\n"
+            "waves can now generate lightning\n"
+            "strikes from its fingertips."),
         .pokemonScale = 259,
         .pokemonOffset = 1,
         .trainerScale = 296,
         .trainerOffset = 1,
-        .frontPic = gMonFrontPic_ToxtricityGmax,
+        .frontPic = gMonFrontPic_ToxtricityMega,
         .frontPicSize = MON_COORDS_SIZE(64, 64),
         .frontPicYOffset = 0,
         .frontAnimFrames = sAnims_SingleFramePlaceHolder,
         //.frontAnimId = ANIM_V_SQUISH_AND_BOUNCE,
-        .backPic = gMonBackPic_ToxtricityGmax,
+        .backPic = gMonBackPic_ToxtricityMega,
         .backPicSize = MON_COORDS_SIZE(64, 64),
         .backPicYOffset = 0,
         //.backAnimId = BACK_ANIM_NONE,
-        .palette = gMonPalette_ToxtricityGmax,
-        .shinyPalette = gMonShinyPalette_ToxtricityGmax,
-        .iconSprite = gMonIcon_ToxtricityGmax,
+        .palette = gMonPalette_ToxtricityMega,
+        .shinyPalette = gMonShinyPalette_ToxtricityMega,
+        .iconSprite = gMonIcon_ToxtricityMega,
         .iconPalIndex = 0,
         .pokemonJumpType = PKMN_JUMP_TYPE_NONE,
         SHADOW(1, 10, SHADOW_SIZE_XL_BATTLE_ONLY)
         FOOTPRINT(Toxtricity)
-        .isGigantamax = TRUE,
+        .isMegaEvolution = TRUE,
         .levelUpLearnset = sToxtricityAmpedLevelUpLearnset,
         .teachableLearnset = sToxtricityAmpedTeachableLearnset,
         .formSpeciesIdTable = sToxtricityFormSpeciesIdTable,
         .formChangeTable = sToxtricityAmpedFormChangeTable,
     },
-#endif //P_GIGANTAMAX_FORMS
+#endif //P_MEGA_EVOLUTIONS
 
     [SPECIES_TOXTRICITY_LOW_KEY] =
     {
@@ -3598,8 +3602,8 @@ const struct SpeciesInfo gSpeciesInfoGen8[] =
         .formChangeTable = sToxtricityAmpedFormChangeTable,
     },
 
-#if P_GIGANTAMAX_FORMS
-    [SPECIES_TOXTRICITY_LOW_KEY_GMAX] =
+#if P_MEGA_EVOLUTIONS
+    [SPECIES_TOXTRICITY_LOW_KEY_MEGA] =
     {
         .baseHP        = 75,
         .baseAttack    = 98,
@@ -3624,34 +3628,38 @@ const struct SpeciesInfo gSpeciesInfoGen8[] =
         .categoryName = _("Punk"),
         .height = 240,
         .weight = 0,
-        .description = gToxtricityGigantamaxPokedexText,
+        .description = COMPOUND_STRING(
+            "Mega Evolution has enhanced its\n"
+            "electric production. It can discharge\n"
+            "powerful bolts through its chest\n"
+            "organ with melodic precision."),
         .pokemonScale = 259,
         .pokemonOffset = 1,
         .trainerScale = 296,
         .trainerOffset = 1,
-        .frontPic = gMonFrontPic_ToxtricityGmax,
+        .frontPic = gMonFrontPic_ToxtricityMega,
         .frontPicSize = MON_COORDS_SIZE(64, 64),
         .frontPicYOffset = 0,
         .frontAnimFrames = sAnims_SingleFramePlaceHolder,
         //.frontAnimId = ANIM_V_SQUISH_AND_BOUNCE,
-        .backPic = gMonBackPic_ToxtricityGmax,
+        .backPic = gMonBackPic_ToxtricityMega,
         .backPicSize = MON_COORDS_SIZE(64, 64),
         .backPicYOffset = 0,
         //.backAnimId = BACK_ANIM_NONE,
-        .palette = gMonPalette_ToxtricityGmax,
-        .shinyPalette = gMonShinyPalette_ToxtricityGmax,
-        .iconSprite = gMonIcon_ToxtricityGmax,
+        .palette = gMonPalette_ToxtricityMega,
+        .shinyPalette = gMonShinyPalette_ToxtricityMega,
+        .iconSprite = gMonIcon_ToxtricityMega,
         .iconPalIndex = 0,
         .pokemonJumpType = PKMN_JUMP_TYPE_NONE,
         SHADOW(1, 10, SHADOW_SIZE_XL_BATTLE_ONLY)
         FOOTPRINT(Toxtricity)
-        .isGigantamax = TRUE,
+        .isMegaEvolution = TRUE,
         .levelUpLearnset = sToxtricityLowKeyLevelUpLearnset,
         .teachableLearnset = sToxtricityLowKeyTeachableLearnset,
         .formSpeciesIdTable = sToxtricityFormSpeciesIdTable,
         .formChangeTable = sToxtricityAmpedFormChangeTable,
     },
-#endif //P_GIGANTAMAX_FORMS
+#endif //P_MEGA_EVOLUTIONS
 #endif //P_FAMILY_TOXEL
 
 #if P_FAMILY_SIZZLIPEDE
@@ -3792,8 +3800,8 @@ const struct SpeciesInfo gSpeciesInfoGen8[] =
         .formChangeTable = sCentiskorchFormChangeTable,
     },
 
-#if P_GIGANTAMAX_FORMS
-    [SPECIES_CENTISKORCH_GMAX] =
+#if P_MEGA_EVOLUTIONS
+    [SPECIES_CENTISKORCH_MEGA] =
     {
         .baseHP        = 100,
         .baseAttack    = 115,
@@ -3819,37 +3827,37 @@ const struct SpeciesInfo gSpeciesInfoGen8[] =
         .height = 750,
         .weight = 0,
         .description = COMPOUND_STRING(
-            "The heat that comes off a\n"
-            "Gigantamax Centiskorch may\n"
-            "destabilize air currents. Sometimes\n"
-            "it can even cause storms."),
+            "Mega Evolution has intensified its\n"
+            "internal furnace. The radiant heat\n"
+            "from its body can melt metal and\n"
+            "ignite anything within range."),
         .pokemonScale = 275,
         .pokemonOffset = 7,
         .trainerScale = 256,
         .trainerOffset = 0,
-        .frontPic = gMonFrontPic_CentiskorchGmax,
+        .frontPic = gMonFrontPic_CentiskorchMega,
         .frontPicSize = MON_COORDS_SIZE(64, 64),
         .frontPicYOffset = 5,
         .frontAnimFrames = sAnims_SingleFramePlaceHolder,
         //.frontAnimId = ANIM_V_SQUISH_AND_BOUNCE,
-        .backPic = gMonBackPic_CentiskorchGmax,
+        .backPic = gMonBackPic_CentiskorchMega,
         .backPicSize = MON_COORDS_SIZE(64, 64),
         .backPicYOffset = 1,
         //.backAnimId = BACK_ANIM_NONE,
-        .palette = gMonPalette_CentiskorchGmax,
-        .shinyPalette = gMonShinyPalette_CentiskorchGmax,
-        .iconSprite = gMonIcon_CentiskorchGmax,
+        .palette = gMonPalette_CentiskorchMega,
+        .shinyPalette = gMonShinyPalette_CentiskorchMega,
+        .iconSprite = gMonIcon_CentiskorchMega,
         .iconPalIndex = 0,
         .pokemonJumpType = PKMN_JUMP_TYPE_NONE,
         SHADOW(6, 9, SHADOW_SIZE_L)
         FOOTPRINT(Centiskorch)
-        .isGigantamax = TRUE,
+        .isMegaEvolution = TRUE,
         .levelUpLearnset = sCentiskorchLevelUpLearnset,
         .teachableLearnset = sCentiskorchTeachableLearnset,
         .formSpeciesIdTable = sCentiskorchFormSpeciesIdTable,
         .formChangeTable = sCentiskorchFormChangeTable,
     },
-#endif //P_GIGANTAMAX_FORMS
+#endif //P_MEGA_EVOLUTIONS
 #endif //P_FAMILY_SIZZLIPEDE
 
 #if P_FAMILY_CLOBBOPUS
