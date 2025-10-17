@@ -3882,7 +3882,7 @@ const struct SpeciesInfo gSpeciesInfoGen5[] =
         .growthRate = GROWTH_MEDIUM_SLOW,
         .eggGroups = MON_EGG_GROUPS(EGG_GROUP_BUG),
     #if P_UPDATED_ABILITIES >= GEN_6
-        .abilities = { ABILITY_NOXIOUS, ABILITY_SWARM, ABILITY_SPEED_BOOST },
+        .abilities = { ABILITY_NOXIOUS, ABILITY_POISON_HEAL, ABILITY_SPEED_BOOST },
     #else
         .abilities = { ABILITY_NOXIOUS, ABILITY_SWARM, ABILITY_QUICK_FEET },
     #endif
@@ -9477,7 +9477,7 @@ const struct SpeciesInfo gSpeciesInfoGen5[] =
         .baseAttack    = 115,
         .baseDefense   = 80,
         .baseSpeed     = 50,
-        .baseSpAttack  = 105,
+        .baseSpAttack  = 75,
         .baseSpDefense = 80,
         .types = MON_TYPES(TYPE_ELECTRIC),
         .catchRate = 30,
@@ -12054,7 +12054,7 @@ const struct SpeciesInfo gSpeciesInfoGen5[] =
         .friendship = STANDARD_FRIENDSHIP,
         .growthRate = GROWTH_SLOW,
         .eggGroups = MON_EGG_GROUPS(EGG_GROUP_BUG),
-        .abilities = { ABILITY_PROWESS, ABILITY_NONE, ABILITY_DROUGHT },
+        .abilities = { ABILITY_PROWESS, ABILITY_NONE, ABILITY_LEVITATE },
         .bodyColor = BODY_COLOR_WHITE,
         .speciesName = _("Volcarona"),
         .cryId = CRY_VOLCARONA,
