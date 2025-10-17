@@ -68,8 +68,8 @@
       "height": 40,
       "primary_tileset": "gTileset_General",
       "secondary_tileset": "gTileset_Mossdeep",
-      "border_filepath": "data/layouts/MossdeepCity/border.bin",
-      "blockdata_filepath": "data/layouts/MossdeepCity/map.bin"
+      "border_filepath": "data/layouts/MossdeepIsle/border.bin",
+      "blockdata_filepath": "data/layouts/MossdeepIsle/map.bin"
     },
     {
       "id": "LAYOUT_SOOTOPOLIS_CITY",
@@ -118,8 +118,8 @@
       "height": 30,
       "primary_tileset": "gTileset_General",
       "secondary_tileset": "gTileset_Dewford",
-      "border_filepath": "data/layouts/DewfordTown/border.bin",
-      "blockdata_filepath": "data/layouts/DewfordTown/map.bin"
+      "border_filepath": "data/layouts/DewfordIsle/border.bin",
+      "blockdata_filepath": "data/layouts/DewfordIsle/map.bin"
     },
     {
       "id": "LAYOUT_LAVARIDGE_TOWN",
@@ -158,8 +158,8 @@
       "height": 40,
       "primary_tileset": "gTileset_General",
       "secondary_tileset": "gTileset_Pacifidlog",
-      "border_filepath": "data/layouts/PacifidlogTown/border.bin",
-      "blockdata_filepath": "data/layouts/PacifidlogTown/map.bin"
+      "border_filepath": "data/layouts/PacifidlogIsle/border.bin",
+      "blockdata_filepath": "data/layouts/PacifidlogIsle/map.bin"
     },
     {
       "id": "LAYOUT_ROUTE101",
@@ -648,8 +648,8 @@
       "height": 28,
       "primary_tileset": "gTileset_Building",
       "secondary_tileset": "gTileset_DewfordGym",
-      "border_filepath": "data/layouts/DewfordTown_Gym/border.bin",
-      "blockdata_filepath": "data/layouts/DewfordTown_Gym/map.bin"
+      "border_filepath": "data/layouts/DewfordIsle_Gym/border.bin",
+      "blockdata_filepath": "data/layouts/DewfordIsle_Gym/map.bin"
     },
     {
       "id": "LAYOUT_DEWFORD_ISLE_HALL",
@@ -658,8 +658,8 @@
       "height": 9,
       "primary_tileset": "gTileset_Building",
       "secondary_tileset": "gTileset_GenericBuilding",
-      "border_filepath": "data/layouts/DewfordTown_Hall/border.bin",
-      "blockdata_filepath": "data/layouts/DewfordTown_Hall/map.bin"
+      "border_filepath": "data/layouts/DewfordIsle_Hall/border.bin",
+      "blockdata_filepath": "data/layouts/DewfordIsle_Hall/map.bin"
     },
     {
       "id": "LAYOUT_HOUSE4",
@@ -768,8 +768,8 @@
       "height": 9,
       "primary_tileset": "gTileset_Building",
       "secondary_tileset": "gTileset_GenericBuilding",
-      "border_filepath": "data/layouts/PacifidlogTown_House1/border.bin",
-      "blockdata_filepath": "data/layouts/PacifidlogTown_House1/map.bin"
+      "border_filepath": "data/layouts/PacifidlogIsle_House1/border.bin",
+      "blockdata_filepath": "data/layouts/PacifidlogIsle_House1/map.bin"
     },
     {
       "id": "LAYOUT_PACIFIDLOG_ISLE_HOUSE2",
@@ -778,8 +778,8 @@
       "height": 9,
       "primary_tileset": "gTileset_Building",
       "secondary_tileset": "gTileset_GenericBuilding",
-      "border_filepath": "data/layouts/PacifidlogTown_House2/border.bin",
-      "blockdata_filepath": "data/layouts/PacifidlogTown_House2/map.bin"
+      "border_filepath": "data/layouts/PacifidlogIsle_House2/border.bin",
+      "blockdata_filepath": "data/layouts/PacifidlogIsle_House2/map.bin"
     },
     {
       "id": "LAYOUT_PETALBURG_CITY_GYM",
@@ -1078,8 +1078,8 @@
       "height": 36,
       "primary_tileset": "gTileset_Building",
       "secondary_tileset": "gTileset_MossdeepGym",
-      "border_filepath": "data/layouts/MossdeepCity_Gym/border.bin",
-      "blockdata_filepath": "data/layouts/MossdeepCity_Gym/map.bin"
+      "border_filepath": "data/layouts/MossdeepIsle_Gym/border.bin",
+      "blockdata_filepath": "data/layouts/MossdeepIsle_Gym/map.bin"
     },
     {
       "id": "LAYOUT_SOOTOPOLIS_CITY_GYM_1F",
@@ -2748,8 +2748,8 @@
       "height": 10,
       "primary_tileset": "gTileset_General",
       "secondary_tileset": "gTileset_Facility",
-      "border_filepath": "data/layouts/MossdeepCity_SpaceCenter_1F/border.bin",
-      "blockdata_filepath": "data/layouts/MossdeepCity_SpaceCenter_1F/map.bin"
+      "border_filepath": "data/layouts/MossdeepIsle_SpaceCenter_1F/border.bin",
+      "blockdata_filepath": "data/layouts/MossdeepIsle_SpaceCenter_1F/map.bin"
     },
     {
       "id": "LAYOUT_MOSSDEEP_ISLE_SPACE_CENTER_2F",
@@ -2758,8 +2758,8 @@
       "height": 10,
       "primary_tileset": "gTileset_General",
       "secondary_tileset": "gTileset_Facility",
-      "border_filepath": "data/layouts/MossdeepCity_SpaceCenter_2F/border.bin",
-      "blockdata_filepath": "data/layouts/MossdeepCity_SpaceCenter_2F/map.bin"
+      "border_filepath": "data/layouts/MossdeepIsle_SpaceCenter_2F/border.bin",
+      "blockdata_filepath": "data/layouts/MossdeepIsle_SpaceCenter_2F/map.bin"
     },
     {
       "id": "LAYOUT_SS_TIDAL_CORRIDOR",
@@ -3048,8 +3048,8 @@
       "height": 10,
       "primary_tileset": "gTileset_Building",
       "secondary_tileset": "gTileset_MossdeepGameCorner",
-      "border_filepath": "data/layouts/MossdeepCity_GameCorner_1F/border.bin",
-      "blockdata_filepath": "data/layouts/MossdeepCity_GameCorner_1F/map.bin"
+      "border_filepath": "data/layouts/MossdeepIsle_GameCorner_1F/border.bin",
+      "blockdata_filepath": "data/layouts/MossdeepIsle_GameCorner_1F/map.bin"
     },
     {
       "id": "LAYOUT_MOSSDEEP_ISLE_GAME_CORNER_B1F",
@@ -3058,8 +3058,8 @@
       "height": 9,
       "primary_tileset": "gTileset_Building",
       "secondary_tileset": "gTileset_GenericBuilding",
-      "border_filepath": "data/layouts/MossdeepCity_GameCorner_B1F/border.bin",
-      "blockdata_filepath": "data/layouts/MossdeepCity_GameCorner_B1F/map.bin"
+      "border_filepath": "data/layouts/MossdeepIsle_GameCorner_B1F/border.bin",
+      "blockdata_filepath": "data/layouts/MossdeepIsle_GameCorner_B1F/map.bin"
     },
     {
       "id": "LAYOUT_SOOTOPOLIS_CITY_HOUSE1",
@@ -3268,8 +3268,8 @@
       "height": 8,
       "primary_tileset": "gTileset_Building",
       "secondary_tileset": "gTileset_GenericBuilding",
-      "border_filepath": "data/layouts/MossdeepCity_StevensHouse/border.bin",
-      "blockdata_filepath": "data/layouts/MossdeepCity_StevensHouse/map.bin"
+      "border_filepath": "data/layouts/MossdeepIsle_StevensHouse/border.bin",
+      "blockdata_filepath": "data/layouts/MossdeepIsle_StevensHouse/map.bin"
     },
     {
       "id": "LAYOUT_SHOAL_CAVE_LOW_TIDE_ICE_ROOM",
