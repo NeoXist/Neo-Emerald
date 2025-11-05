@@ -235,11 +235,11 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
     [SPECIES_VENUSAUR_MEGA] =
     {
         .baseHP        = 80,
-        .baseAttack    = 100,
+        .baseAttack    = 82,
         .baseDefense   = 123,
         .baseSpeed     = 80,
-        .baseSpAttack  = 132,
-        .baseSpDefense = 120,
+        .baseSpAttack  = 140,
+        .baseSpDefense = 130,
         .types = MON_TYPES(TYPE_GRASS, TYPE_POISON),
         .catchRate = 45,
         .expYield = (P_UPDATED_EXP_YIELDS >= GEN_8) ? 313 : 281,
@@ -993,10 +993,10 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
     [SPECIES_BLASTOISE_MEGA] =
     {
         .baseHP        = 84,
-        .baseAttack    = 103,
-        .baseDefense   = 120,
+        .baseAttack    = 83,
+        .baseDefense   = 130,
         .baseSpeed     = 78,
-        .baseSpAttack  = 135,
+        .baseSpAttack  = 145,
         .baseSpDefense = 115,
         .types = MON_TYPES(TYPE_WATER, TYPE_STEEL),
         .catchRate = 45,
@@ -16730,10 +16730,10 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
     {
         .baseHP        = 65,
         .baseAttack    = 155,
-        .baseDefense   = 120,
+        .baseDefense   = 125,
         .baseSpeed     = 105,
-        .baseSpAttack  = 65,
-        .baseSpDefense = 90,
+        .baseSpAttack  = 55,
+        .baseSpDefense = 95,
         .types = MON_TYPES(TYPE_BUG, TYPE_FLYING),
         .catchRate = 45,
         .expYield = 210,

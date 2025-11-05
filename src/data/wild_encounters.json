@@ -442,7 +442,7 @@
               {
                 "min_level": 3,
                 "max_level": 5,
-                "species": "SPECIES_BURMY_PLANT"
+                "species": "SPECIES_PONYTA_GALAR"
               },
               {
                 "min_level": 3,
@@ -1641,7 +1641,7 @@
               {
                 "min_level": 5,
                 "max_level": 7,
-                "species": "SPECIES_CATERPIE"
+                "species": "SPECIES_KARRABLAST"
               },
               {
                 "min_level": 5,
@@ -1661,7 +1661,7 @@
               {
                 "min_level": 5,
                 "max_level": 7,
-                "species": "SPECIES_ROOKIDEE"
+                "species": "SPECIES_CATERPIE"
               },
               {
                 "min_level": 5,
@@ -1671,7 +1671,7 @@
               {
                 "min_level": 5,
                 "max_level": 7,
-                "species": "SPECIES_KARRABLAST"
+                "species": "SPECIES_ROOKIDEE"
               },
               {
                 "min_level": 5,

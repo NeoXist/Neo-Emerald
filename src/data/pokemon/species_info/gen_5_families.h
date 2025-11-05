@@ -6402,12 +6402,12 @@ const struct SpeciesInfo gSpeciesInfoGen5[] =
     [SPECIES_GARBODOR_MEGA] =
     {
         .baseHP        = 80,
-        .baseAttack    = 95,
-        .baseDefense   = 82,
+        .baseAttack    = 155,
+        .baseDefense   = 102,
         .baseSpeed     = 75,
         .baseSpAttack  = 60,
-        .baseSpDefense = 82,
-        .types = MON_TYPES(TYPE_POISON),
+        .baseSpDefense = 142,
+        .types = MON_TYPES(TYPE_POISON, TYPE_STEEL),
         .catchRate = 60,
         .expYield = 166,
         .evYield_Attack = 2,
@@ -6418,7 +6418,7 @@ const struct SpeciesInfo gSpeciesInfoGen5[] =
         .friendship = STANDARD_FRIENDSHIP,
         .growthRate = GROWTH_MEDIUM_FAST,
         .eggGroups = MON_EGG_GROUPS(EGG_GROUP_MINERAL),
-        .abilities = { ABILITY_STENCH, ABILITY_WEAK_ARMOR, ABILITY_AFTERMATH },
+        .abilities = { ABILITY_EARTH_EATER, ABILITY_EARTH_EATER, ABILITY_EARTH_EATER },
         .bodyColor = BODY_COLOR_GREEN,
         .noFlip = TRUE,
         .speciesName = _("Garbodor"),
@@ -6428,10 +6428,10 @@ const struct SpeciesInfo gSpeciesInfoGen5[] =
         .height = 210,
         .weight = 0,
         .description = COMPOUND_STRING(
-            "Mega Evolution has greatly enhanced\n"
-            "its toxic production. Its poisonous\n"
-            "gas is now so concentrated that it\n"
-            "can melt steel structures."),
+            "Mega Evolution has drastically enhanced\n"
+            "the pressure of its toxins. It consumes\n"
+            "the earth beneath it, leaving lifeless\n"
+            "wastelands in its wake."),
         .pokemonScale = 256,
         .pokemonOffset = 1,
         .trainerScale = 326,
@@ -10189,7 +10189,7 @@ const struct SpeciesInfo gSpeciesInfoGen5[] =
 
     [SPECIES_BEARTIC] =
     {
-        .baseHP        = 100,
+        .baseHP        = 110,
         .baseAttack    = P_UPDATED_STATS >= GEN_7 ? 145 : 110,
         .baseDefense   = 80,
         .baseSpeed     = 50,

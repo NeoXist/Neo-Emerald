@@ -2090,11 +2090,11 @@ const struct SpeciesInfo gSpeciesInfoGen2[] =
     [SPECIES_AMPHAROS_MEGA] =
     {
         .baseHP        = 95,
-        .baseAttack    = 95,
-        .baseDefense   = AMPHAROS_DEFENSE + 20,
+        .baseAttack    = 75,
+        .baseDefense   = AMPHAROS_DEFENSE + 30,
         .baseSpeed     = 45,
         .baseSpAttack  = 175,
-        .baseSpDefense = 110,
+        .baseSpDefense = 120,
         .types = MON_TYPES(TYPE_ELECTRIC, TYPE_DRAGON),
         .catchRate = 45,
         .expYield = (P_UPDATED_EXP_YIELDS >= GEN_8) ? 305 : 275,

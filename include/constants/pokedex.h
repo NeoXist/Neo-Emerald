@@ -1307,6 +1307,10 @@ enum {
 
 #define HOENN_DEX_COUNT (HOENN_DEX_DEOXYS + 1)
 
+// Neo-Hoenn Regional Pokédex (Custom)
+// This is a custom regional dex with only the Pokémon included in Neo-Emerald
+#define NEO_HOENN_DEX_COUNT 495  // 494 Pokémon + 1 for NONE
+
 #define DECAGRAMS_IN_POUND             4536
 #define CM_PER_INCH                    2.54
 #define CM_PER_INCH_FACTOR             (CM_PER_INCH * 100)
@@ -1330,6 +1334,7 @@ enum {
 enum
 {
     DEX_MODE_HOENN,
+    DEX_MODE_NEO_HOENN,
     DEX_MODE_NATIONAL
 };
 
