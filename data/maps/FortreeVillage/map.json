@@ -1,6 +1,6 @@
 {
   "id": "MAP_FORTREE_VILLAGE",
-  "name": "FortreeCity",
+  "name": "FortreeVillage",
   "layout": "LAYOUT_FORTREE_CITY",
   "music": "MUS_FORTREE",
   "region_map_section": "MAPSEC_FORTREE_VILLAGE",

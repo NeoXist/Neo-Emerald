@@ -521,7 +521,7 @@ const struct SpeciesInfo gSpeciesInfoGen4[] =
         .baseSpeed     = 50,
         .baseSpAttack  = 81,
         .baseSpDefense = 76,
-        .types = MON_TYPES(TYPE_WATER),
+        .types = MON_TYPES(TYPE_WATER, TYPE_STEEL),
         .catchRate = 45,
         .expYield = (P_UPDATED_EXP_YIELDS >= GEN_5) ? 142 : 143,
         .evYield_SpAttack = 2,
@@ -846,7 +846,7 @@ const struct SpeciesInfo gSpeciesInfoGen4[] =
         .baseSpeed     = 100,
         .baseSpAttack  = 50,
         .baseSpDefense = P_UPDATED_STATS >= GEN_6 ? 60 : 50,
-        .types = MON_TYPES(TYPE_NORMAL, TYPE_FLYING),
+        .types = MON_TYPES(TYPE_FIGHTING, TYPE_FLYING),
         .catchRate = 45,
     #if P_UPDATED_EXP_YIELDS >= GEN_8
         .expYield = 243,
@@ -1807,13 +1807,13 @@ const struct SpeciesInfo gSpeciesInfoGen4[] =
 #if P_FAMILY_BURMY
     [SPECIES_BURMY_PLANT] =
     {
-        .baseHP        = 40,
+        .baseHP        = 55,
         .baseAttack    = 29,
-        .baseDefense   = 45,
+        .baseDefense   = 55,
         .baseSpeed     = 36,
-        .baseSpAttack  = 29,
-        .baseSpDefense = 45,
-        .types = MON_TYPES(TYPE_BUG),
+        .baseSpAttack  = 55,
+        .baseSpDefense = 55,
+        .types = MON_TYPES(TYPE_BUG, TYPE_GRASS),
         .catchRate = 120,
         .expYield = (P_UPDATED_EXP_YIELDS >= GEN_5) ? 45 : 61,
         .evYield_SpDefense = 1,
@@ -1876,13 +1876,13 @@ const struct SpeciesInfo gSpeciesInfoGen4[] =
 
     [SPECIES_BURMY_SANDY] =
     {
-        .baseHP        = 40,
+        .baseHP        = 55,
         .baseAttack    = 29,
-        .baseDefense   = 45,
+        .baseDefense   = 55,
         .baseSpeed     = 36,
-        .baseSpAttack  = 29,
-        .baseSpDefense = 45,
-        .types = MON_TYPES(TYPE_BUG),
+        .baseSpAttack  = 55,
+        .baseSpDefense = 55,
+        .types = MON_TYPES(TYPE_BUG, TYPE_GROUND),
         .catchRate = 120,
         .expYield = (P_UPDATED_EXP_YIELDS >= GEN_5) ? 45 : 61,
         .evYield_SpDefense = 1,
@@ -1945,13 +1945,13 @@ const struct SpeciesInfo gSpeciesInfoGen4[] =
 
     [SPECIES_BURMY_TRASH] =
     {
-        .baseHP        = 40,
-        .baseAttack    = 29,
-        .baseDefense   = 45,
+        .baseHP        = 55,
+        .baseAttack    = 55,
+        .baseDefense   = 55,
         .baseSpeed     = 36,
         .baseSpAttack  = 29,
-        .baseSpDefense = 45,
-        .types = MON_TYPES(TYPE_BUG),
+        .baseSpDefense = 55,
+        .types = MON_TYPES(TYPE_BUG, TYPE_STEEL),
         .catchRate = 120,
         .expYield = (P_UPDATED_EXP_YIELDS >= GEN_5) ? 45 : 61,
         .evYield_SpDefense = 1,

@@ -313,7 +313,7 @@
               {
                 "min_level": 3,
                 "max_level": 5,
-                "species": "SPECIES_BUNEARY"
+                "species": "SPECIES_STARLY"
               },
               {
                 "min_level": 3,
@@ -331,28 +331,28 @@
             "encounter_rate": 4,
             "mons": [
               {
-                "min_level": 5,
-                "max_level": 7,
+                "min_level": 7,
+                "max_level": 10,
                 "species": "SPECIES_WINGULL"
               },
               {
-                "min_level": 5,
-                "max_level": 7,
+                "min_level": 7,
+                "max_level": 10,
                 "species": "SPECIES_DUCKLETT"
               },
               {
-                "min_level": 5,
-                "max_level": 7,
+                "min_level": 7,
+                "max_level": 10,
                 "species": "SPECIES_PIDGEY"
               },
               {
-                "min_level": 5,
-                "max_level": 7,
+                "min_level": 7,
+                "max_level": 10,
                 "species": "SPECIES_LOTAD"
               },
               {
-                "min_level": 5,
-                "max_level": 7,
+                "min_level": 7,
+                "max_level": 10,
                 "species": "SPECIES_MURKROW"
               }
             ]
@@ -361,28 +361,28 @@
             "encounter_rate": 50,
             "mons": [
               {
-                "min_level": 7,
-                "max_level": 10,
+                "min_level": 5,
+                "max_level": 7,
                 "species": "SPECIES_FINNEON"
               },
               {
-                "min_level": 7,
-                "max_level": 10,
+                "min_level": 5,
+                "max_level": 7,
                 "species": "SPECIES_BASCULIN"
               },
               {
-                "min_level": 7,
-                "max_level": 30,
+                "min_level": 5,
+                "max_level": 7,
                 "species": "SPECIES_CLAMPERL"
               },
               {
-                "min_level": 7,
-                "max_level": 30,
+                "min_level": 5,
+                "max_level": 7,
                 "species": "SPECIES_WAILMER"
               },
               {
-                "min_level": 7,
-                "max_level": 30,
+                "min_level": 5,
+                "max_level": 7,
                 "species": "SPECIES_LUVDISC"
               }
             ]
@@ -462,7 +462,7 @@
               {
                 "min_level": 7,
                 "max_level": 10,
-                "species": "SPECIES_WINGULL"
+                "species": "SPECIES_STARLY"
               },
               {
                 "min_level": 7,
@@ -1557,7 +1557,7 @@
               {
                 "min_level": 40,
                 "max_level": 45,
-                "species": "SPECIES_PIDGEOT"
+                "species": "SPECIES_STARAPTOR"
               },
               {
                 "min_level": 40,
@@ -1572,7 +1572,7 @@
               {
                 "min_level": 40,
                 "max_level": 45,
-                "species": "SPECIES_CORVISQUIRE"
+                "species": "SPECIES_CORVIKNIGHT"
               },
               {
                 "min_level": 40,
@@ -2911,7 +2911,7 @@
               {
                 "min_level": 15,
                 "max_level": 17,
-                "species": "SPECIES_WINGULL"
+                "species": "SPECIES_STARAVIA"
               },
               {
                 "min_level": 15,
@@ -4548,7 +4548,7 @@
               {
                 "min_level": 40,
                 "max_level": 45,
-                "species": "SPECIES_CORVISQUIRE"
+                "species": "SPECIES_CORVIKNIGHT"
               },
               {
                 "min_level": 40,
@@ -8005,7 +8005,7 @@
               {
                 "min_level": 15,
                 "max_level": 17,
-                "species": "SPECIES_WINGULL"
+                "species": "SPECIES_STARAVIA"
               },
               {
                 "min_level": 15,
@@ -8218,7 +8218,7 @@
               {
                 "min_level": 40,
                 "max_level": 45,
-                "species": "SPECIES_SEALEO"
+                "species": "SPECIES_STARAPTOR"
               }
             ]
           },
@@ -8831,7 +8831,7 @@
               {
                 "min_level": 45,
                 "max_level": 48,
-                "species": "SPECIES_CORVISQUIRE"
+                "species": "SPECIES_CORVIKNIGHT"
               },
               {
                 "min_level": 45,
@@ -11041,7 +11041,7 @@
               {
                 "min_level": 3,
                 "max_level": 5,
-                "species": "SPECIES_SHROOMISH"
+                "species": "SPECIES_STARLY"
               },
               {
                 "min_level": 3,
