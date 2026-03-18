@@ -15838,25 +15838,27 @@ static void Cmd_handleballthrow(void)
             case BALL_MOON:
             {
                 // Bonus if Dark-type OR if it has a Moon Stone evolution
-                if (IS_BATTLER_OF_TYPE(gBattlerTarget, TYPE_DARK))
-                {
-                    ballMultiplier = 100000;
-                }
-                else
+                bool32 isDarkOrMoonStone = IS_BATTLER_OF_TYPE(gBattlerTarget, TYPE_DARK);
+
+                if (!isDarkOrMoonStone)
                 {
                     const struct Evolution *evolutions = GetSpeciesEvolutions(gBattleMons[gBattlerTarget].species);
-                    if (evolutions == NULL)
-                        break;
-                    for (i = 0; evolutions[i].method != EVOLUTIONS_END; i++)
+                    if (evolutions != NULL)
                     {
-                        if (evolutions[i].method == EVO_ITEM
-                            && evolutions[i].param == ITEM_MOON_STONE)
+                        for (i = 0; evolutions[i].method != EVOLUTIONS_END; i++)
                         {
-                            ballMultiplier = 100000;
-                            break;
+                            if (evolutions[i].method == EVO_ITEM
+                                && evolutions[i].param == ITEM_MOON_STONE)
+                            {
+                                isDarkOrMoonStone = TRUE;
+                                break;
+                            }
                         }
                     }
                 }
+
+                if (isDarkOrMoonStone)
+                    ballMultiplier = 100000;
             }
             break;
             case BALL_LOVE:
