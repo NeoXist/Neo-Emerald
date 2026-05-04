@@ -14,14 +14,14 @@
   "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
   "connections": [
     {
-      "map": "MAP_ROUTE116",
-      "offset": -64,
-      "direction": "up"
-    },
-    {
       "map": "MAP_ROUTE117",
       "offset": -7,
       "direction": "right"
+    },
+    {
+      "map": "MAP_RUSTURF_NOOK",
+      "offset": -14,
+      "direction": "up"
     }
   ],
   "object_events": [

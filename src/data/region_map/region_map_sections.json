@@ -1702,6 +1702,18 @@
       "y": 4,
       "width": 1,
       "height": 1
+    },
+    {
+      "id": "MAPSEC_FORTREE_CITY"
+    },
+    {
+      "id": "MAPSEC_PETALBURG_CITY"
+    },
+    {
+      "id": "MAPSEC_EVER_GRANDE_CITY"
+    },
+    {
+      "id": "MAPSEC_PACIFIDLOG_TOWN"
     }
   ]
 }

@@ -22,6 +22,11 @@
       "map": "MAP_SAFARI_ZONE_SOUTHWEST",
       "offset": 0,
       "direction": "down"
+    },
+    {
+      "map": "MAP_PETALWIND_MEADOW",
+      "offset": 20,
+      "direction": "left"
     }
   ],
   "object_events": [

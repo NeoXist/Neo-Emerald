@@ -874,3 +874,14 @@ const struct Tileset gTileset_Verandurf =
     .metatileAttributes = gMetatileAttributes_Verandurf,
     .callback = NULL,
 };
+
+const struct Tileset gTileset_PetalwindMeadow =
+{
+    .isCompressed = TRUE,
+    .isSecondary = TRUE,
+    .tiles = gTilesetTiles_PetalwindMeadow,
+    .palettes = gTilesetPalettes_PetalwindMeadow,
+    .metatiles = gMetatiles_PetalwindMeadow,
+    .metatileAttributes = gMetatileAttributes_PetalwindMeadow,
+    .callback = NULL,
+};

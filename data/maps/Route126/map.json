@@ -124,7 +124,7 @@
     {
       "graphics_id": "OBJ_EVENT_GFX_SWIMMER_F",
       "x": 64,
-      "y": 5,
+      "y": 6,
       "elevation": 1,
       "movement_type": "MOVEMENT_TYPE_WALK_IN_PLACE_LEFT",
       "movement_range_x": 1,
@@ -137,7 +137,7 @@
     {
       "graphics_id": "OBJ_EVENT_GFX_SWIMMER_M",
       "x": 56,
-      "y": 5,
+      "y": 6,
       "elevation": 1,
       "movement_type": "MOVEMENT_TYPE_WALK_IN_PLACE_RIGHT",
       "movement_range_x": 1,

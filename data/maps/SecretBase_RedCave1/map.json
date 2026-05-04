@@ -13,6 +13,7 @@
   "show_map_name": true,
   "battle_scene": "MAP_BATTLE_SCENE_FRONTIER",
   "connections": null,
+  "shared_scripts_map": "SecretBase",
   "object_events": [
     {
       "graphics_id": "OBJ_EVENT_GFX_VAR_F",
@@ -220,6 +221,5 @@
     }
   ],
   "coord_events": [],
-  "bg_events": [],
-  "shared_scripts_map": "SecretBase"
+  "bg_events": []
 }

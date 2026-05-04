@@ -20,7 +20,12 @@
     },
     {
       "map": "MAP_ROUTE121",
-      "offset": 76,
+      "offset": 70,
+      "direction": "right"
+    },
+    {
+      "map": "MAP_PETALWIND_MEADOW",
+      "offset": 0,
       "direction": "right"
     }
   ],

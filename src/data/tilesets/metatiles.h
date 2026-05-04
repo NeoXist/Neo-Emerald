@@ -219,3 +219,6 @@ const u16 gMetatileAttributes_NivaForest[] = INCBIN_U16("data/tilesets/secondary
 
 const u16 gMetatiles_Verandurf[] = INCBIN_U16("data/tilesets/secondary/verandurf/metatiles.bin");
 const u16 gMetatileAttributes_Verandurf[] = INCBIN_U16("data/tilesets/secondary/verandurf/metatile_attributes.bin");
+
+const u16 gMetatiles_PetalwindMeadow[] = INCBIN_U16("data/tilesets/secondary/petalwind_meadow/metatiles.bin");
+const u16 gMetatileAttributes_PetalwindMeadow[] = INCBIN_U16("data/tilesets/secondary/petalwind_meadow/metatile_attributes.bin");

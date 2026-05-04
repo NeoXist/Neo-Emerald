@@ -95,7 +95,9 @@
     "Underwater_Route105",
     "Underwater_Route125",
     "TropicalPond",
-    "NivaForest"
+    "NivaForest",
+    "RusturfNook",
+    "PetalwindMeadow"
   ],
   "gMapGroup_IndoorLittleroot": [
     "LittlerootTown_BrendansHouse_1F",
@@ -433,7 +435,8 @@
     "TerraCave_End",
     "AlteringCave",
     "MeteorFalls_StevensCave",
-    "GlacierDepths"
+    "GlacierDepths",
+    "ScoriaPass"
   ],
   "gMapGroup_IndoorDynamic": [
     "SecretBase_RedCave1",
@@ -627,6 +630,7 @@
   ],
   "gMapGroup_Scrapped": [
     "Scrapped_Routes",
-    "CustomMaps"
+    "CustomMaps",
+    "SCRAP"
   ]
 }

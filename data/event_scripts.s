@@ -1162,3 +1162,11 @@ EventScript_VsSeekerChargingDone::
 	.include "data/maps/Scrapped_Routes/scripts.inc"
 
 	.include "data/maps/NivaForest/scripts.inc"
+
+	.include "data/maps/SCRAP/scripts.inc"
+
+	.include "data/maps/RusturfNook/scripts.inc"
+
+	.include "data/maps/PetalwindMeadow/scripts.inc"
+
+	.include "data/maps/ScoriaPass/scripts.inc"

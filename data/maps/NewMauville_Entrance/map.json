@@ -16,15 +16,15 @@
   "object_events": [],
   "warp_events": [
     {
-      "x": 4,
-      "y": 6,
+      "x": 48,
+      "y": 11,
       "elevation": 3,
       "dest_map": "MAP_ROUTE110",
       "dest_warp_id": "0"
     },
     {
-      "x": 4,
-      "y": 1,
+      "x": 46,
+      "y": 5,
       "elevation": 3,
       "dest_map": "MAP_NEW_MAUVILLE_INSIDE",
       "dest_warp_id": "0"
@@ -33,8 +33,8 @@
   "coord_events": [
     {
       "type": "trigger",
-      "x": 4,
-      "y": 2,
+      "x": 46,
+      "y": 6,
       "elevation": 3,
       "var": "VAR_NEW_MAUVILLE_STATE",
       "var_value": "0",

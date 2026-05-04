@@ -19,11 +19,6 @@
       "direction": "down"
     },
     {
-      "map": "MAP_ROUTE113",
-      "offset": 0,
-      "direction": "left"
-    },
-    {
       "map": "MAP_ROUTE112",
       "offset": 20,
       "direction": "left"
@@ -101,7 +96,7 @@
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_BERRY_TREE",
-      "x": 26,
+      "x": 22,
       "y": 6,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_BERRY_TREE_GROWTH",
@@ -114,7 +109,7 @@
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_BERRY_TREE",
-      "x": 27,
+      "x": 23,
       "y": 6,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_BERRY_TREE_GROWTH",
@@ -246,8 +241,8 @@
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_GIRL_1",
-      "x": 27,
-      "y": 8,
+      "x": 23,
+      "y": 7,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_WANDER_LEFT_AND_RIGHT",
       "movement_range_x": 1,
@@ -272,7 +267,7 @@
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_BERRY_TREE",
-      "x": 22,
+      "x": 18,
       "y": 6,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_BERRY_TREE_GROWTH",
@@ -285,7 +280,7 @@
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_BERRY_TREE",
-      "x": 23,
+      "x": 19,
       "y": 6,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_BERRY_TREE_GROWTH",
@@ -380,7 +375,7 @@
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_CUTTABLE_TREE",
-      "x": 26,
+      "x": 22,
       "y": 21,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_LOOK_AROUND",
@@ -432,8 +427,8 @@
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_WOMAN_5",
-      "x": 15,
-      "y": 11,
+      "x": 29,
+      "y": 14,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_FACE_UP",
       "movement_range_x": 4,
@@ -458,7 +453,7 @@
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_BOY_1",
-      "x": 17,
+      "x": 13,
       "y": 20,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_FACE_UP",
@@ -670,8 +665,8 @@
       "dest_warp_id": "0"
     },
     {
-      "x": 30,
-      "y": 18,
+      "x": 14,
+      "y": 10,
       "elevation": 0,
       "dest_map": "MAP_ROUTE111_OLD_LADYS_REST_STOP",
       "dest_warp_id": "0"
@@ -1026,16 +1021,16 @@
     },
     {
       "type": "sign",
-      "x": 17,
-      "y": 6,
+      "x": 29,
+      "y": 9,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
       "script": "Route111_EventScript_RouteSign113"
     },
     {
       "type": "sign",
-      "x": 29,
-      "y": 19,
+      "x": 17,
+      "y": 10,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
       "script": "Route111_EventScript_OldLadysRestStopSign"
