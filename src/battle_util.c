@@ -72,6 +72,16 @@ static bool32 CanSleepDueToSleepClause(u32 battlerAtk, u32 battlerDef, enum NonV
 ARM_FUNC NOINLINE static uq4_12_t PercentToUQ4_12(u32 percent);
 ARM_FUNC NOINLINE static uq4_12_t PercentToUQ4_12_Floored(u32 percent);
 
+// Helpers used by damage calculation. These are defined later in this file, but must be declared
+// before first use to avoid implicit declarations being treated as errors.
+static inline bool32 IsBeamMove(u32 move);
+static inline bool32 IsBindingMove(u32 move);
+static inline bool32 IsRammingMove(u32 move);
+static inline bool32 IsTailMove(u32 move);
+static inline bool32 IsWingMove(u32 move);
+static inline bool32 IsKickingMove(u32 move);
+static inline bool32 IsAirMove(u32 move);
+
 extern const u8 *const gBattlescriptsForRunningByItem[];
 extern const u8 *const gBattlescriptsForUsingItem[];
 extern const u8 *const gBattlescriptsForSafariActions[];
@@ -3224,7 +3234,7 @@ u32 AbilityBattleEffects(u32 caseID, u32 battler, u32 ability, u32 special, u32 
     u32 effect = 0;
     u32 moveType = 0, move = 0;
     u32 side = 0;
-    u32 i = 0, j = 0;
+    u32 i = 0;
     u32 partner = 0;
     struct Pokemon *mon;
 
@@ -8413,7 +8423,7 @@ static inline u32 CalcMoveBasePowerAfterModifiers(struct DamageCalculationData *
            modifier = uq4_12_multiply(modifier, UQ_4_12(1.3));
         break;
     case ABILITY_SONGBIRD:
-        if (IsWingMove(move) || gBattleMoves[move].soundMove)
+        if (IsWingMove(move) || IsSoundMove(move))
            modifier = uq4_12_multiply(modifier, UQ_4_12(1.2));
         break;
     case ABILITY_STRIKER:
@@ -9377,7 +9387,7 @@ static inline bool32 IsTailMove(u32 move)
     case MOVE_POISON_TAIL:
     case MOVE_TAIL_SLAP:
     case MOVE_TAIL_GLOW:
-    case MOVE_TAIL_WIND:
+    case MOVE_TAILWIND:
     case MOVE_AQUA_TAIL:
         return TRUE;
     default:

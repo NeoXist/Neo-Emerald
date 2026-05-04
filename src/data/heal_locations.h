@@ -16,33 +16,33 @@ static const struct HealLocation sHealLocations[NUM_HEAL_LOCATIONS - 1] = {
         .x = 4,
         .y = 2,
     },
-    [HEAL_LOCATION_PETALBURG_CITY - 1] = {
-        .mapGroup = MAP_GROUP(MAP_PETALBURG_CITY),
-        .mapNum = MAP_NUM(MAP_PETALBURG_CITY),
+    [HEAL_LOCATION_PETALBURG_TOWN - 1] = {
+        .mapGroup = MAP_GROUP(MAP_PETALBURG_TOWN),
+        .mapNum = MAP_NUM(MAP_PETALBURG_TOWN),
         .x = 20,
-        .y = 17,
+        .y = 26,
     },
     [HEAL_LOCATION_SLATEPORT_CITY - 1] = {
         .mapGroup = MAP_GROUP(MAP_SLATEPORT_CITY),
         .mapNum = MAP_NUM(MAP_SLATEPORT_CITY),
-        .x = 37,
+        .x = 38,
         .y = 14,
     },
     [HEAL_LOCATION_MAUVILLE_CITY - 1] = {
         .mapGroup = MAP_GROUP(MAP_MAUVILLE_CITY),
         .mapNum = MAP_NUM(MAP_MAUVILLE_CITY),
-        .x = 22,
+        .x = 26,
         .y = 6,
     },
     [HEAL_LOCATION_RUSTBORO_CITY - 1] = {
         .mapGroup = MAP_GROUP(MAP_RUSTBORO_CITY),
         .mapNum = MAP_NUM(MAP_RUSTBORO_CITY),
-        .x = 29,
+        .x = 33,
         .y = 28,
     },
-    [HEAL_LOCATION_FORTREE_CITY - 1] = {
-        .mapGroup = MAP_GROUP(MAP_FORTREE_CITY),
-        .mapNum = MAP_NUM(MAP_FORTREE_CITY),
+    [HEAL_LOCATION_FORTREE_VILLAGE - 1] = {
+        .mapGroup = MAP_GROUP(MAP_FORTREE_VILLAGE),
+        .mapNum = MAP_NUM(MAP_FORTREE_VILLAGE),
         .x = 5,
         .y = 7,
     },
@@ -52,9 +52,9 @@ static const struct HealLocation sHealLocations[NUM_HEAL_LOCATIONS - 1] = {
         .x = 24,
         .y = 15,
     },
-    [HEAL_LOCATION_MOSSDEEP_CITY - 1] = {
-        .mapGroup = MAP_GROUP(MAP_MOSSDEEP_CITY),
-        .mapNum = MAP_NUM(MAP_MOSSDEEP_CITY),
+    [HEAL_LOCATION_MOSSDEEP_ISLE - 1] = {
+        .mapGroup = MAP_GROUP(MAP_MOSSDEEP_ISLE),
+        .mapNum = MAP_NUM(MAP_MOSSDEEP_ISLE),
         .x = 28,
         .y = 17,
     },
@@ -64,11 +64,11 @@ static const struct HealLocation sHealLocations[NUM_HEAL_LOCATIONS - 1] = {
         .x = 44,
         .y = 32,
     },
-    [HEAL_LOCATION_EVER_GRANDE_CITY - 1] = {
-        .mapGroup = MAP_GROUP(MAP_EVER_GRANDE_CITY),
-        .mapNum = MAP_NUM(MAP_EVER_GRANDE_CITY),
+    [HEAL_LOCATION_EVER_GRANDE_SUMMIT - 1] = {
+        .mapGroup = MAP_GROUP(MAP_EVER_GRANDE_SUMMIT),
+        .mapNum = MAP_NUM(MAP_EVER_GRANDE_SUMMIT),
         .x = 27,
-        .y = 49,
+        .y = 129,
     },
     [HEAL_LOCATION_LITTLEROOT_TOWN_BRENDANS_HOUSE - 1] = {
         .mapGroup = MAP_GROUP(MAP_LITTLEROOT_TOWN),
@@ -88,9 +88,9 @@ static const struct HealLocation sHealLocations[NUM_HEAL_LOCATIONS - 1] = {
         .x = 6,
         .y = 17,
     },
-    [HEAL_LOCATION_DEWFORD_TOWN - 1] = {
-        .mapGroup = MAP_GROUP(MAP_DEWFORD_TOWN),
-        .mapNum = MAP_NUM(MAP_DEWFORD_TOWN),
+    [HEAL_LOCATION_DEWFORD_ISLE - 1] = {
+        .mapGroup = MAP_GROUP(MAP_DEWFORD_ISLE),
+        .mapNum = MAP_NUM(MAP_DEWFORD_ISLE),
         .x = 2,
         .y = 11,
     },
@@ -112,15 +112,15 @@ static const struct HealLocation sHealLocations[NUM_HEAL_LOCATIONS - 1] = {
         .x = 16,
         .y = 4,
     },
-    [HEAL_LOCATION_PACIFIDLOG_TOWN - 1] = {
-        .mapGroup = MAP_GROUP(MAP_PACIFIDLOG_TOWN),
-        .mapNum = MAP_NUM(MAP_PACIFIDLOG_TOWN),
+    [HEAL_LOCATION_PACIFIDLOG_ISLE - 1] = {
+        .mapGroup = MAP_GROUP(MAP_PACIFIDLOG_ISLE),
+        .mapNum = MAP_NUM(MAP_PACIFIDLOG_ISLE),
         .x = 8,
         .y = 16,
     },
-    [HEAL_LOCATION_EVER_GRANDE_CITY_POKEMON_LEAGUE - 1] = {
-        .mapGroup = MAP_GROUP(MAP_EVER_GRANDE_CITY),
-        .mapNum = MAP_NUM(MAP_EVER_GRANDE_CITY),
+    [HEAL_LOCATION_EVER_GRANDE_SUMMIT_POKEMON_LEAGUE - 1] = {
+        .mapGroup = MAP_GROUP(MAP_EVER_GRANDE_SUMMIT),
+        .mapNum = MAP_NUM(MAP_EVER_GRANDE_SUMMIT),
         .x = 18,
         .y = 6,
     },

@@ -1555,6 +1555,8 @@ static bool32 AccuracyCalcHelper(u32 move, u32 battler)
 
     if (!effect && HasWeatherEffect())
     {
+        u32 moveType = GetBattleMoveType(move);
+
         if (MoveAlwaysHitsInRain(move) && IsBattlerWeatherAffected(battler, B_WEATHER_RAIN))
             effect = TRUE;
         else if ((gBattleWeather & (B_WEATHER_HAIL | B_WEATHER_SNOW)) && MoveAlwaysHitsInHailSnow(move))
@@ -15711,7 +15713,7 @@ static void Cmd_handleballthrow(void)
 {
     CMD_ARGS();
 
-    u16 ballMultiplier = 100;
+    u32 ballMultiplier = 100;
     s8 ballAddition = 0;
 
     if (gBattleControllerExecFlags)
