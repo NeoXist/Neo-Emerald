@@ -1,3 +1,4 @@
+EverGrandeSummit_PhoebesRoom_MapScripts::
 EverGrandeCity_PhoebesRoom_MapScripts::
 	map_script MAP_SCRIPT_ON_LOAD, EverGrandeCity_PhoebesRoom_OnLoad
 	map_script MAP_SCRIPT_ON_WARP_INTO_MAP_TABLE, EverGrandeCity_PhoebesRoom_OnWarp

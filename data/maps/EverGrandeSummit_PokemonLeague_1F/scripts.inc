@@ -1,3 +1,4 @@
+EverGrandeSummit_PokemonLeague_1F_MapScripts::
 EverGrandeCity_PokemonLeague_1F_MapScripts::
 	map_script MAP_SCRIPT_ON_TRANSITION, EverGrandeCity_PokemonLeague_1F_OnTransition
 	map_script MAP_SCRIPT_ON_RESUME, CableClub_OnResume

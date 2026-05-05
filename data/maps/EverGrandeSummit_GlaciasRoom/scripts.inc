@@ -1,3 +1,4 @@
+EverGrandeSummit_GlaciasRoom_MapScripts::
 EverGrandeCity_GlaciasRoom_MapScripts::
 	map_script MAP_SCRIPT_ON_FRAME_TABLE, EverGrandeCity_GlaciasRoom_OnFrame
 	map_script MAP_SCRIPT_ON_LOAD, EverGrandeCity_GlaciasRoom_OnLoad

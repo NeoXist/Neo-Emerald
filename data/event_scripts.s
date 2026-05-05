@@ -106,6 +106,43 @@ gStdScripts::
 	.4byte Std_MsgboxPokenav           @ MSGBOX_POKENAV
 gStdScripts_End::
 
+// Legacy map script symbol compatibility aliases.
+	.set PetalburgTown_MapScripts, PetalburgCity_MapScripts
+	.set FortreeVillage_MapScripts, FortreeCity_MapScripts
+	.set EverGrandeSummit_MapScripts, EverGrandeCity_MapScripts
+	.set PetalburgTown_WallysHouse_MapScripts, PetalburgCity_WallysHouse_MapScripts
+	.set PetalburgTown_Gym_MapScripts, PetalburgCity_Gym_MapScripts
+	.set PetalburgTown_House1_MapScripts, PetalburgCity_House1_MapScripts
+	.set PetalburgTown_House2_MapScripts, PetalburgCity_House2_MapScripts
+	.set PetalburgTown_PokemonCenter_1F_MapScripts, PetalburgCity_PokemonCenter_1F_MapScripts
+	.set PetalburgTown_PokemonCenter_2F_MapScripts, PetalburgCity_PokemonCenter_2F_MapScripts
+	.set PetalburgTown_Mart_MapScripts, PetalburgCity_Mart_MapScripts
+	.set FortreeVillage_House1_MapScripts, FortreeCity_House1_MapScripts
+	.set FortreeVillage_Gym_MapScripts, FortreeCity_Gym_MapScripts
+	.set FortreeVillage_PokemonCenter_1F_MapScripts, FortreeCity_PokemonCenter_1F_MapScripts
+	.set FortreeVillage_PokemonCenter_2F_MapScripts, FortreeCity_PokemonCenter_2F_MapScripts
+	.set FortreeVillage_Mart_MapScripts, FortreeCity_Mart_MapScripts
+	.set FortreeVillage_House2_MapScripts, FortreeCity_House2_MapScripts
+	.set FortreeVillage_House3_MapScripts, FortreeCity_House3_MapScripts
+	.set FortreeVillage_House5_MapScripts, FortreeCity_House5_MapScripts
+	.set FortreeVillage_DecorationShop_MapScripts, FortreeCity_DecorationShop_MapScripts
+	.set EverGrandeSummit_SidneysRoom_MapScripts, EverGrandeCity_SidneysRoom_MapScripts
+	.set EverGrandeSummit_PhoebesRoom_MapScripts, EverGrandeCity_PhoebesRoom_MapScripts
+	.set EverGrandeSummit_GlaciasRoom_MapScripts, EverGrandeCity_GlaciasRoom_MapScripts
+	.set EverGrandeSummit_DrakesRoom_MapScripts, EverGrandeCity_DrakesRoom_MapScripts
+	.set EverGrandeSummit_ChampionsRoom_MapScripts, EverGrandeCity_ChampionsRoom_MapScripts
+	.set EverGrandeSummit_Hall1_MapScripts, EverGrandeCity_Hall1_MapScripts
+	.set EverGrandeSummit_Hall2_MapScripts, EverGrandeCity_Hall2_MapScripts
+	.set EverGrandeSummit_Hall3_MapScripts, EverGrandeCity_Hall3_MapScripts
+	.set EverGrandeSummit_Hall4_MapScripts, EverGrandeCity_Hall4_MapScripts
+	.set EverGrandeSummit_Hall5_MapScripts, EverGrandeCity_Hall5_MapScripts
+	.set EverGrandeSummit_PokemonLeague_1F_MapScripts, EverGrandeCity_PokemonLeague_1F_MapScripts
+	.set EverGrandeSummit_HallOfFame_MapScripts, EverGrandeCity_HallOfFame_MapScripts
+	.set EverGrandeSummit_PokemonCenter_1F_MapScripts, EverGrandeCity_PokemonCenter_1F_MapScripts
+	.set EverGrandeSummit_PokemonCenter_2F_MapScripts, EverGrandeCity_PokemonCenter_2F_MapScripts
+	.set EverGrandeSummit_PokemonLeague_2F_MapScripts, EverGrandeCity_PokemonLeague_2F_MapScripts
+	.set EverGrandeCity_HallOfFame_EventScript_SetGameClearFlags, EverGrandeSummit_HallOfFame_EventScript_SetGameClearFlags
+
 	.include "data/maps/PetalburgTown/scripts.inc"
 	.include "data/maps/SlateportCity/scripts.inc"
 	.include "data/maps/MauvilleCity/scripts.inc"
@@ -580,6 +617,7 @@ gStdScripts_End::
 	.include "data/scripts/trainer_battle.inc"
 	.include "data/scripts/new_game.inc"
 	.include "data/scripts/hall_of_fame.inc"
+	.include "data/scripts/dexnav.inc"
 
 	.include "data/scripts/config.inc"
 	.include "data/scripts/debug.inc"
@@ -611,7 +649,7 @@ EventScript_AfterWhiteOutHealMsg::
 
 EventScript_AfterWhiteOutMomHeal::
 	lockall
-	applymovement LOCALID_MOM, Common_Movement_WalkInPlaceFasterDown
+	applymovement 1, Common_Movement_WalkInPlaceFasterDown
 	waitmovement 0
 	msgbox gText_HadQuiteAnExperienceTakeRest
 	call Common_EventScript_OutOfCenterPartyHeal
@@ -818,8 +856,8 @@ EventScript_HideMrBriney::
 	return
 
 RusturfTunnel_EventScript_SetRusturfTunnelOpen::
-	removeobject LOCALID_WANDAS_BF
-	removeobject LOCALID_WANDA
+	removeobject 1
+	removeobject 10
 	clearflag FLAG_HIDE_VERDANTURF_TOWN_WANDAS_HOUSE_WANDAS_BOYFRIEND
 	clearflag FLAG_HIDE_VERDANTURF_TOWN_WANDAS_HOUSE_WANDA
 	setvar VAR_RUSTURF_TUNNEL_STATE, 6

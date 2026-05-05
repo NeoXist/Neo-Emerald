@@ -1,3 +1,4 @@
+FortreeVillage_Mart_MapScripts::
 FortreeCity_Mart_MapScripts::
 	.byte 0
 

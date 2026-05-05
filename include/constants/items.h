@@ -451,12 +451,12 @@
 
 // Z-Crystals
 #define ITEM_NORMALIUM_Z 363
-#define ITEM_FIRIUM_Z 358
-#define ITEM_WATERIUM_Z 359
-#define ITEM_ELECTRIUM_Z 360
-#define ITEM_GRASSIUM_Z 361
-#define ITEM_ICIUM_Z 362
-#define ITEM_FIGHTINIUM_Z 363
+#define ITEM_FIRIUM_Z 829
+#define ITEM_WATERIUM_Z 830
+#define ITEM_ELECTRIUM_Z 831
+#define ITEM_GRASSIUM_Z 832
+#define ITEM_ICIUM_Z 833
+#define ITEM_FIGHTINIUM_Z 834
 #define ITEM_POISONIUM_Z 364
 #define ITEM_GROUNDIUM_Z 365
 #define ITEM_FLYINIUM_Z 366
@@ -917,6 +917,7 @@
 #define ITEM_SILPH_SCOPE 752
 #define ITEM_TRI_PASS 753
 #define ITEM_RAINBOW_PASS 754
+#define ITEM_RAINBOW_WING ITEM_RAINBOW_PASS
 #define ITEM_TEA 755
 #define ITEM_RUBY 756
 #define ITEM_SAPPHIRE 757
@@ -1003,7 +1004,7 @@
 // HOPO BERRY
 // LEGEND PLATE
 
-#define ITEMS_COUNT 829
+#define ITEMS_COUNT 835
 #define ITEM_FIELD_ARROW ITEMS_COUNT
 
 // A special item id associated with "Cancel"/"Exit" etc. in a list of items or decorations

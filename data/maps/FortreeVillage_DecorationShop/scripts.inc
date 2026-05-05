@@ -1,3 +1,4 @@
+FortreeVillage_DecorationShop_MapScripts::
 FortreeCity_DecorationShop_MapScripts::
 	.byte 0
 

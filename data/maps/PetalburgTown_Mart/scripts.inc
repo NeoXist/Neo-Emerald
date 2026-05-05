@@ -1,3 +1,4 @@
+PetalburgTown_Mart_MapScripts::
 PetalburgCity_Mart_MapScripts::
 	.byte 0
 

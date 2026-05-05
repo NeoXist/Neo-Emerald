@@ -1,3 +1,4 @@
+PetalburgTown_Gym_MapScripts::
 PetalburgCity_Gym_MapScripts::
 	map_script MAP_SCRIPT_ON_LOAD, PetalburgCity_Gym_OnLoad
 	map_script MAP_SCRIPT_ON_TRANSITION, PetalburgCity_Gym_OnTransition
@@ -366,6 +367,10 @@ PetalburgCity_Gym_EventScript_GiveEnigmaBerry::
 	setvar VAR_ENIGMA_BERRY_AVAILABLE, 0
 	release
 	end
+
+PetalburgCity_Gym_Text_GiveEnigmaBerry:
+	.string "I got this BERRY while I was training.\n"
+	.string "Why don't you take it?$"
 
 PetalburgCity_Gym_EventScript_NormanBattle::
 	msgbox PetalburgCity_Gym_Text_NormanIntro, MSGBOX_DEFAULT

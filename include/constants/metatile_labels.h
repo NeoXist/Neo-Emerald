@@ -139,6 +139,15 @@
 #define METATILE_Contest_FloorShadow         0x261
 #define METATILE_Contest_WallShadow          0x221
 
+// Contest Hall entrance door metatiles (used by door animation selection).
+// These IDs are the bottom metatile of the door across the various ContestHall layouts.
+#define METATILE_ContestHall_Door               0x274
+#define METATILE_ContestHallCool_Door           0x2C4
+#define METATILE_ContestHallBeauty_Door         0x284
+#define METATILE_ContestHallCute_Door           0x2B4
+#define METATILE_ContestHallSmart_Door          0x294
+#define METATILE_ContestHallTough_Door          0x2A4
+
 // gTileset_Dewford
 #define METATILE_Dewford_Door              0x225
 #define METATILE_Dewford_Door_BattleTower  0x25D
@@ -232,6 +241,18 @@
 #define METATILE_General_TallGrass_TreeLeft   0x1C6
 #define METATILE_General_TallGrass_TreeRight  0x1C7
 #define METATILE_General_TallGrass_TreeUp     0x025
+
+// Compatibility aliases for legacy secret base entrance labels.
+#define METATILE_General_SecretBase_TreeLeft   METATILE_General_Grass_TreeLeft
+#define METATILE_General_SecretBase_TreeRight  METATILE_General_Grass_TreeRight
+#define METATILE_General_SecretBase_VineLeft   METATILE_General_TallGrass_TreeLeft
+#define METATILE_General_SecretBase_VineRight  METATILE_General_TallGrass_TreeRight
+#define METATILE_General_RedCaveIndent         METATILE_General_RockWall_RockBase
+#define METATILE_General_RedCaveOpen           METATILE_General_CaveEntrance_Bottom
+#define METATILE_General_YellowCaveIndent      METATILE_General_RockWall_SandBase
+#define METATILE_General_YellowCaveOpen        METATILE_General_CaveEntrance_Bottom
+#define METATILE_General_BlueCaveIndent        METATILE_General_RockWall_GrassBase
+#define METATILE_General_BlueCaveOpen          METATILE_General_CaveEntrance_Bottom
 
 // gTileset_GenericBuilding
 #define METATILE_GenericBuilding_TableEdge               0x2F1

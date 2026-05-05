@@ -203,7 +203,7 @@ MossdeepIsle_Gym_EventScript_ClearSwitch4::
 
 MossdeepIsle_Gym_EventScript_WarpToEntrance::
 	lockall
-	warpmossdeepgym MAP_MOSSDEEP_CITY_GYM, 7, 30
+	warpmossdeepgym MAP_MOSSDEEP_ISLE_GYM, 7, 30
 	waitstate
 	releaseall
 	end

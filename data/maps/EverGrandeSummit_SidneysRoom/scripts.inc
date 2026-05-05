@@ -1,3 +1,4 @@
+EverGrandeSummit_SidneysRoom_MapScripts::
 EverGrandeCity_SidneysRoom_MapScripts::
 	map_script MAP_SCRIPT_ON_LOAD, EverGrandeCity_SidneysRoom_OnLoad
 	map_script MAP_SCRIPT_ON_WARP_INTO_MAP_TABLE, EverGrandeCity_SidneysRoom_OnWarp

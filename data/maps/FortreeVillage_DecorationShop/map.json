@@ -1,6 +1,6 @@
 {
   "id": "MAP_FORTREE_VILLAGE_DECORATION_SHOP",
-  "name": "FortreeCity_DecorationShop",
+  "name": "FortreeVillage_DecorationShop",
   "layout": "LAYOUT_FORTREE_CITY_DECORATION_SHOP",
   "music": "MUS_FORTREE",
   "region_map_section": "MAPSEC_FORTREE_CITY",

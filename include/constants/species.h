@@ -1637,8 +1637,14 @@
 #define SPECIES_URSHIFU_RAPID_STRIKE_STYLE_GMAX         SPECIES_URSHIFU_RAPID_STRIKE_GMAX
 #define SPECIES_MIMIKYU_BUSTED_TOTEM                    1523
 #define SPECIES_MIMIKYU_TOTEM_BUSTED                    SPECIES_MIMIKYU_BUSTED_TOTEM
+#define SPECIES_BRAWYENA                                1524
+#define SPECIES_EMPYRENA                                1525
+#define SPECIES_AERYLLOW                                1526
+#define SPECIES_SABLEGEM                                1527
+#define SPECIES_MAWDIA                                  1528
+#define SPECIES_FLAMECTRIC                              1529
 
-#define SPECIES_EGG                                     (SPECIES_MIMIKYU_BUSTED_TOTEM + 1)
+#define SPECIES_EGG                                     (SPECIES_FLAMECTRIC + 1)
 
 #define NUM_SPECIES SPECIES_EGG
 

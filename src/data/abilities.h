@@ -2465,13 +2465,6 @@ const struct Ability gAbilitiesInfo[ABILITIES_COUNT] =
         .aiRating = 5,
     },
        
-    [ABILITY_DIGGER] =
-    {
-        .name = _("Digger"),
-        .description = COMPOUND_STRING("Powers up Dig."),
-        .aiRating = 5,
-    },
-       
     [ABILITY_SPIRIT_POWER] =
     {
         .name = _("Spirit Power"),
@@ -2490,7 +2483,6 @@ const struct Ability gAbilitiesInfo[ABILITIES_COUNT] =
     {
         .name = _("Ram Head"),
         .description = COMPOUND_STRING("Powers up ramming moves."),
-        .aiRating = 5,   
-        
-        
+        .aiRating = 5,
+    },
 };

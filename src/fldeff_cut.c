@@ -358,7 +358,6 @@ static void SetCutGrassMetatile(s16 x, s16 y)
     switch (metatileId)
     {
     case METATILE_Fortree_LongGrass_Root:
-    case METATILE_General_LongGrass:
     case METATILE_General_TallGrass:
         MapGridSetMetatileIdAt(x, y, METATILE_General_Grass);
         break;
@@ -424,7 +423,7 @@ static void SetCutGrassMetatiles(s16 x, s16 y)
     for (i = 0; i < sCutSquareSide; i++)
     {
         s16 currentX = x + i;
-        if (MapGridGetMetatileIdAt(currentX, y) == METATILE_General_LongGrass)
+        if (MapGridGetMetatileIdAt(currentX, y) == METATILE_General_TallGrass)
         {
             switch (GetLongGrassCaseAt(currentX, y + 1))
             {
@@ -499,7 +498,7 @@ static void HandleLongGrassOnHyper(u8 caseId, s16 x, s16 y)
     }
     if (arr[1] == TRUE)
     {
-        if (MapGridGetMetatileIdAt(newX, y + 2) == METATILE_General_LongGrass)
+        if (MapGridGetMetatileIdAt(newX, y + 2) == METATILE_General_TallGrass)
         {
             switch (GetLongGrassCaseAt(newX, y + 3))
             {
@@ -529,7 +528,7 @@ static void HandleLongGrassOnHyper(u8 caseId, s16 x, s16 y)
     }
     if (arr[2] == TRUE)
     {
-        if (MapGridGetMetatileIdAt(newX, y + 3) == METATILE_General_LongGrass)
+        if (MapGridGetMetatileIdAt(newX, y + 3) == METATILE_General_TallGrass)
         {
             switch (GetLongGrassCaseAt(newX, y + 4))
             {

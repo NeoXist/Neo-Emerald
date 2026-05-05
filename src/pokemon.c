@@ -5037,6 +5037,12 @@ u16 NationalToHoennOrder(u16 nationalNum)
     return hoennNum + 1;
 }
 
+u16 NationalToNeoHoennOrder(u16 nationalNum)
+{
+    // Neo-Hoenn currently follows Hoenn ordering.
+    return NationalToHoennOrder(nationalNum);
+}
+
 u16 SpeciesToNationalPokedexNum(u16 species)
 {
     species = SanitizeSpeciesId(species);

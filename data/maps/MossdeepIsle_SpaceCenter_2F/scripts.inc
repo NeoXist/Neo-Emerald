@@ -40,7 +40,7 @@ MossdeepIsle_SpaceCenter_2F_EventScript_ThreeMagmaGrunts::
 	closemessage
 	applymovement LOCALID_PLAYER, MossdeepIsle_SpaceCenter_2F_Movement_PlayerExit
 	waitmovement 0
-	warp MAP_MOSSDEEP_CITY_SPACE_CENTER_1F, 13, 1
+	warp MAP_MOSSDEEP_ISLE_SPACE_CENTER_1F, 13, 1
 	waitstate
 	releaseall
 	end

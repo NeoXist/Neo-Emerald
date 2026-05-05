@@ -111,6 +111,10 @@
 #define VAR_FORTREE_VILLAGE_STATE                           0x405B // Unused Var
 #define VAR_LILYCOVE_CITY_STATE                          0x405C // Unused Var
 #define VAR_MOSSDEEP_ISLE_STATE                          0x405D
+
+// Legacy naming compatibility aliases.
+#define VAR_PETALBURG_CITY_STATE VAR_PETALBURG_TOWN_STATE
+#define VAR_MOSSDEEP_CITY_STATE VAR_MOSSDEEP_ISLE_STATE
 #define VAR_SOOTOPOLIS_CITY_STATE                        0x405E
 #define VAR_EVER_GRANDE_SUMMIT_STATE                       0x405F // Unused Var
 #define VAR_ROUTE101_STATE                               0x4060

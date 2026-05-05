@@ -1,3 +1,4 @@
+FortreeVillage_House1_MapScripts::
 FortreeCity_House1_MapScripts::
 	.byte 0
 

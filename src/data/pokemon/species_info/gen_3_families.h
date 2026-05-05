@@ -238,7 +238,7 @@ const struct SpeciesInfo gSpeciesInfoGen3[] =
         .friendship = STANDARD_FRIENDSHIP,
         .growthRate = GROWTH_MEDIUM_SLOW,
         .eggGroups = MON_EGG_GROUPS(EGG_GROUP_MONSTER, EGG_GROUP_DRAGON),
-        .abilities = { ABILITY_SHARPNESS, ABILITY_SHARPNESS ABILITY_SHARPNESS },
+        .abilities = { ABILITY_SHARPNESS, ABILITY_SHARPNESS, ABILITY_SHARPNESS },
         .bodyColor = BODY_COLOR_GREEN,
         .speciesName = _("Sceptile"),
         .cryId = CRY_SCEPTILE_MEGA,
@@ -1104,7 +1104,7 @@ const struct SpeciesInfo gSpeciesInfoGen3[] =
         .pokemonOffset = 9,
         .trainerScale = 256,
         .trainerOffset = 0,
-        .frontPic = gMonFrontPic_Brawyena,
+        .frontPic = gMonFrontPic_Mightyena,
         .frontPicSize = P_GBA_STYLE_SPECIES_GFX ? MON_COORDS_SIZE(64, 56) : MON_COORDS_SIZE(64, 64),
         .frontPicYOffset = P_GBA_STYLE_SPECIES_GFX ? 4 : 3,
         .frontAnimFrames = ANIM_FRAMES(
@@ -1115,28 +1115,28 @@ const struct SpeciesInfo gSpeciesInfoGen3[] =
             ANIMCMD_FRAME(0, 6),
         ),
         .frontAnimId = ANIM_V_SHAKE,
-        .backPic = gMonBackPic_Brawyena,
+        .backPic = gMonBackPic_Mightyena,
         .backPicSize = P_GBA_STYLE_SPECIES_GFX ? MON_COORDS_SIZE(64, 56) : MON_COORDS_SIZE(64, 64),
         .backPicYOffset = P_GBA_STYLE_SPECIES_GFX ? 4 : 3,
         .backAnimId = BACK_ANIM_H_SHAKE,
-        .palette = gMonPalette_Brawyena,
-        .shinyPalette = gMonShinyPalette_Brawyena,
-        .iconSprite = gMonIcon_Brawyena,
+        .palette = gMonPalette_Mightyena,
+        .shinyPalette = gMonShinyPalette_Mightyena,
+        .iconSprite = gMonIcon_Mightyena,
         .iconPalIndex = 2,
         .pokemonJumpType = PKMN_JUMP_TYPE_NONE,
         SHADOW(-2, 6, SHADOW_SIZE_L)
-        FOOTPRINT(Brawyena)
+        FOOTPRINT(Mightyena)
         OVERWORLD(
-            sPicTable_Brawyena,
+            sPicTable_Mightyena,
             SIZE_32x32,
             SHADOW_SIZE_M,
             TRACKS_FOOT,
             sAnimTable_Following,
-            gOverworldPalette_Brawyena,
-            gShinyOverworldPalette_Brawyena
+            gOverworldPalette_Mightyena,
+            gShinyOverworldPalette_Mightyena
         )
-        .levelUpLearnset = sBrawyenaLevelUpLearnset,
-        .teachableLearnset = sBrawyenaTeachableLearnset,
+        .levelUpLearnset = sMightyenaLevelUpLearnset,
+        .teachableLearnset = sMightyenaTeachableLearnset,
 
     },
 
@@ -1161,7 +1161,7 @@ const struct SpeciesInfo gSpeciesInfoGen3[] =
         .bodyColor = BODY_COLOR_GRAY,
         .speciesName = _("Empyrena"),
         .cryId = CRY_MIGHTYENA,
-        .natDexNum = NATIONAL_DEX_Empyrena,
+        .natDexNum = NATIONAL_DEX_EMPYRENA,
         .categoryName = _("Bite"),
         .height = 12,
         .weight = 420,
@@ -1176,7 +1176,7 @@ const struct SpeciesInfo gSpeciesInfoGen3[] =
         .pokemonOffset = 9,
         .trainerScale = 256,
         .trainerOffset = 0,
-        .frontPic = gMonFrontPic_Empyrena,
+        .frontPic = gMonFrontPic_Mightyena,
         .frontPicSize = P_GBA_STYLE_SPECIES_GFX ? MON_COORDS_SIZE(64, 56) : MON_COORDS_SIZE(64, 64),
         .frontPicYOffset = P_GBA_STYLE_SPECIES_GFX ? 4 : 3,
         .frontAnimFrames = ANIM_FRAMES(
@@ -1187,28 +1187,28 @@ const struct SpeciesInfo gSpeciesInfoGen3[] =
             ANIMCMD_FRAME(0, 6),
         ),
         .frontAnimId = ANIM_V_SHAKE,
-        .backPic = gMonBackPic_Empyrena,
+        .backPic = gMonBackPic_Mightyena,
         .backPicSize = P_GBA_STYLE_SPECIES_GFX ? MON_COORDS_SIZE(64, 56) : MON_COORDS_SIZE(64, 64),
         .backPicYOffset = P_GBA_STYLE_SPECIES_GFX ? 4 : 3,
         .backAnimId = BACK_ANIM_H_SHAKE,
-        .palette = gMonPalette_Empyrena,
-        .shinyPalette = gMonShinyPalette_Empyrena,
-        .iconSprite = gMonIcon_Empyrena,
+        .palette = gMonPalette_Mightyena,
+        .shinyPalette = gMonShinyPalette_Mightyena,
+        .iconSprite = gMonIcon_Mightyena,
         .iconPalIndex = 2,
         .pokemonJumpType = PKMN_JUMP_TYPE_NONE,
         SHADOW(-2, 6, SHADOW_SIZE_L)
-        FOOTPRINT(Empyrena)
+        FOOTPRINT(Mightyena)
         OVERWORLD(
-            sPicTable_Empyrena,
+            sPicTable_Mightyena,
             SIZE_32x32,
             SHADOW_SIZE_M,
             TRACKS_FOOT,
             sAnimTable_Following,
-            gOverworldPalette_Empyrena,
-            gShinyOverworldPalette_Empyrena
+            gOverworldPalette_Mightyena,
+            gShinyOverworldPalette_Mightyena
         )
-        .levelUpLearnset = sEmpyrenaLevelUpLearnset,
-        .teachableLearnset = sEmpyrenaTeachableLearnset,
+        .levelUpLearnset = sMightyenaLevelUpLearnset,
+        .teachableLearnset = sMightyenaTeachableLearnset,
 
         
     },
@@ -2021,7 +2021,7 @@ const struct SpeciesInfo gSpeciesInfoGen3[] =
         .friendship = STANDARD_FRIENDSHIP,
         .growthRate = GROWTH_MEDIUM_SLOW,
         .eggGroups = MON_EGG_GROUPS(EGG_GROUP_WATER_1, EGG_GROUP_GRASS),
-        .abilities = { ABILITY_SWIFT_SWIM, ABILITY_NATURAL CURE, ABILITY_RAIN_DISH },
+        .abilities = { ABILITY_SWIFT_SWIM, ABILITY_NATURAL_CURE, ABILITY_RAIN_DISH },
         .bodyColor = BODY_COLOR_GREEN,
         .speciesName = _("Lotad"),
         .cryId = CRY_LOTAD,
@@ -2091,7 +2091,7 @@ const struct SpeciesInfo gSpeciesInfoGen3[] =
         .friendship = STANDARD_FRIENDSHIP,
         .growthRate = GROWTH_MEDIUM_SLOW,
         .eggGroups = MON_EGG_GROUPS(EGG_GROUP_WATER_1, EGG_GROUP_GRASS),
-        .abilities = { ABILITY_SWIFT_SWIM, ABILITY_NATURAL CURE, ABILITY_RAIN_DISH },
+        .abilities = { ABILITY_SWIFT_SWIM, ABILITY_NATURAL_CURE, ABILITY_RAIN_DISH },
         .bodyColor = BODY_COLOR_GREEN,
         .speciesName = _("Lombre"),
         .cryId = CRY_LOMBRE,
@@ -2640,7 +2640,7 @@ const struct SpeciesInfo gSpeciesInfoGen3[] =
         )
         .levelUpLearnset = sSwellowLevelUpLearnset,
         .teachableLearnset = sSwellowTeachableLearnset,
-        .evolutions = EVOLUTION({EVO_ITEM, ITEM_RAINBOW_WING, _SPECIES_AERYLLOW}),
+        .evolutions = EVOLUTION({EVO_ITEM, ITEM_RAINBOW_WING, SPECIES_AERYLLOW}),
     },
 
     [SPECIES_AERYLLOW] =
@@ -2670,7 +2670,7 @@ const struct SpeciesInfo gSpeciesInfoGen3[] =
         .bodyColor = BODY_COLOR_BLUE,
         .speciesName = _("Aeryllow"),
         .cryId = CRY_SWELLOW,
-        .natDexNum = NATIONAL_DEX_Aeryllow,
+        .natDexNum = NATIONAL_DEX_AERYLLOW,
         .categoryName = _("Swallow"),
         .height = 9,
         .weight = 258,
@@ -2684,7 +2684,7 @@ const struct SpeciesInfo gSpeciesInfoGen3[] =
         .pokemonOffset = 15,
         .trainerScale = 256,
         .trainerOffset = 0,
-        .frontPic = gMonFrontPic_Aeryllow,
+        .frontPic = gMonFrontPic_Swellow,
         .frontPicSize = MON_COORDS_SIZE(64, 56),
         .frontPicYOffset = P_GBA_STYLE_SPECIES_GFX ? 6 : 5,
         .frontAnimFrames = ANIM_FRAMES(
@@ -2693,28 +2693,28 @@ const struct SpeciesInfo gSpeciesInfoGen3[] =
             ANIMCMD_FRAME(0, 11),
         ),
         .frontAnimId = ANIM_CIRCULAR_STRETCH_TWICE,
-        .backPic = gMonBackPic_Aeryllow,
+        .backPic = gMonBackPic_Swellow,
         .backPicSize = P_GBA_STYLE_SPECIES_GFX ? MON_COORDS_SIZE(64, 48) : MON_COORDS_SIZE(56, 56),
         .backPicYOffset = P_GBA_STYLE_SPECIES_GFX ? 8 : 6,
         .backAnimId = BACK_ANIM_JOLT_RIGHT,
-        .palette = gMonPalette_Aeryllow,
-        .shinyPalette = gMonShinyPalette_Aeryllow,
-        .iconSprite = gMonIcon_Aeryllow,
+        .palette = gMonPalette_Swellow,
+        .shinyPalette = gMonShinyPalette_Swellow,
+        .iconSprite = gMonIcon_Swellow,
         .iconPalIndex = 2,
         .pokemonJumpType = PKMN_JUMP_TYPE_NONE,
         SHADOW(-7, 7, SHADOW_SIZE_M)
-        FOOTPRINT(Aeryllow)
+        FOOTPRINT(Swellow)
         OVERWORLD(
-            sPicTable_Aeryllow,
+            sPicTable_Swellow,
             SIZE_32x32,
             SHADOW_SIZE_M,
             TRACKS_NONE,
             sAnimTable_Following,
-            gOverworldPalette_Aeryllow,
-            gShinyOverworldPalette_Aeryllow
+            gOverworldPalette_Swellow,
+            gShinyOverworldPalette_Swellow
         )
-        .levelUpLearnset = sAeryllowLevelUpLearnset,
-        .teachableLearnset = sAeryllowTeachableLearnset,
+        .levelUpLearnset = sSwellowLevelUpLearnset,
+        .teachableLearnset = sSwellowTeachableLearnset,
     },
 #endif //P_FAMILY_TAILLOW
 
